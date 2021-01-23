@@ -1,0 +1,89 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  Linux:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Install LilyPond
+      run: |
+        wget --no-verbose https://lilypond.org/download/binaries/linux-64/lilypond-2.22.0-1.linux-64.sh
+        sudo sh lilypond-2.22.0-1.linux-64.sh --batch
+
+    - name: Install fonts
+      run: |
+        wget --no-verbose --output-document='Playfair Display.zip' 'https://fonts.google.com/download?family=Playfair%20Display'
+        mkdir -p ~/.fonts
+        unzip -j 'Playfair Display.zip' 'static/*.ttf' -d ~/.fonts
+
+    - name: Create PDFs
+      run: |
+        lilypond kling-40-characteristic-etudes/main.ly
+        mv main.pdf 'Kling, Henri - 40 Characteristic Études for Horn.pdf'
+
+    - name: Archive PDFs
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ runner.os }} artifacts
+        path: '*.pdf'
+
+  macOS:
+    runs-on: macos-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Install LilyPond
+      run: |
+        brew install --cask mactex-no-gui
+        brew tap nwhetsell/lilypond
+        brew install lilypond
+
+    - name: Install fonts
+      run: |
+        brew tap homebrew/cask-fonts
+        brew install font-playfair-display
+
+    - name: Create PDFs
+      run: |
+        lilypond kling-40-characteristic-etudes/main.ly
+        mv main.pdf 'Kling, Henri - 40 Characteristic Études for Horn.pdf'
+
+    - name: Archive PDFs
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ runner.os }} artifacts
+        path: '*.pdf'
+
+  Windows:
+    runs-on: windows-latest
+    steps:
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: Install LilyPond
+      run: |
+        choco install lilypond --version=2.22.0 --no-progress
+        Add-Content $Env:GITHUB_PATH "${Env:ProgramFiles(x86)}\LilyPond\usr\bin" -Encoding utf8
+
+    - name: Install fonts
+      run: |
+        curl.exe --output 'Playfair Display.zip' --show-error --silent https://fonts.google.com/download?family=Playfair%20Display
+        7z e -o"$([Environment]::GetFolderPath('Fonts'))" 'Playfair Display.zip' static\*.ttf
+        New-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts' 'Playfair Display Medium' -Value PlayfairDisplay-Medium.ttf
+        New-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts' 'Playfair Display Regular' -Value PlayfairDisplay-Regular.ttf
+
+    - name: Create PDFs
+      run: |
+        lilypond kling-40-characteristic-etudes/main.ly
+        Rename-Item main.pdf 'Kling, Henri - 40 Characteristic Études for Horn.pdf'
+
+    - name: Archive PDFs
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ runner.os }} artifacts
+        path: '*.pdf'
