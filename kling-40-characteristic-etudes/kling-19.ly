@@ -13,15 +13,15 @@
   \tuplet 3/2 { d''16( \mf e d) } b8-. \tuplet 3/2 { b16( c b) } g8-. |
   \tuplet 3/2 { g16( a g) } d8-. d4-> |
   b16-. d-. g-. b-. d-. g,-. b-. d-. |
-  e16-. r b-. r \tuplet 3/2 { c16( d c) } a8-. |
+  e16-.[ r b-.] r \tuplet 3/2 { c16( d c) } a8-. |
   \tuplet 3/2 { c16( d c) } a8-. \tuplet 3/2 { a16( b a) } f-sharp8-.
   \tuplet 3/2 { f-sharp16( g f-sharp) } d8-. d4-> |
   a16-. d-. f-sharp-. a-. d-. d,-. f-sharp-. a-. |
-  d16-. r a-. r \tuplet 3/2 { b16( c b) } g8-. |
+  d16-.[ r a-.] r \tuplet 3/2 { b16( c b) } g8-. |
   \tuplet 3/2 { d'16( e d) } b8-. \tuplet 3/2 { b16( c b) } g8-. |
   \tuplet 3/2 { g16( a g) } d8-. d4-> |
   b16-. d-. g-. b-. d-. g,-. b-. d-. |
-  g16-. r f-sharp-. r \tuplet 3/2 { e16( f-sharp e) } c8-. |
+  g16-.[ r f-sharp-.] r \tuplet 3/2 { e16( f-sharp e) } c8-. |
   a16-. g-sharp-. a-. b-. c-. b-. c-. e-. |
   g-natural,!16-. f-sharp-. g-. a-. b-. a-. b-. d-. |
   d,16-. e-. f-sharp-. g-. a-. b-. c-. d-. |
@@ -58,15 +58,15 @@
   \tuplet 3/2 { d16( e d) } b8-. \tuplet 3/2 { b16( c b) } g8-. |
   \tuplet 3/2 { g16( a g) } d8-. d4-> |
   b16-. d-. g-. b-. d-. g,-. b-. d-. |
-  e16-. r b-. r \tuplet 3/2 { c16( d c) } a8-. |
+  e16-.[ r b-.] r \tuplet 3/2 { c16( d c) } a8-. |
   \tuplet 3/2 { c16( d c) } a8-. \tuplet 3/2 { a16( b a) } f-sharp8-.
   \tuplet 3/2 { f-sharp16( g f-sharp) } d8-. d4-> |
   a16-. d-. f-sharp-. a-. d-. d,-. f-sharp-. a-. |
-  d16-. r a-. r \tuplet 3/2 { b16( c b) } g8-. |
+  d16-.[ r a-.] r \tuplet 3/2 { b16( c b) } g8-. |
   \tuplet 3/2 { d'16( e d) } b8-. \tuplet 3/2 { b16( c b) } g8-. |
   \tuplet 3/2 { g16( a g) } d8-. d4-> |
   b16-. d-. g-. b-. d-. g,-. b-. d-. |
-  g16-. r f-sharp-. r \tuplet 3/2 { e16( f-sharp e) } c8-. |
+  g16-.[ r f-sharp-.] r \tuplet 3/2 { e16( f-sharp e) } c8-. |
   a16-. g-sharp-. a-. b-. c-. b-. c-. e-. |
   g-natural,!16-. f-sharp-. g-. a-. b-. a-. b-. d-. |
   d,16-. e-. f-sharp-. g-. a-. b-. c-. d-. |
