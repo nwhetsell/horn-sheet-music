@@ -177,15 +177,12 @@
       \fill-line {
         \concat {
           \override #'(font-name . "Playfair Display Medium")
-          % \abs-fontsize #10
           "Music engraved using LilyPond "
           \override #'(font-name . "Playfair Display Medium")
-          % \abs-fontsize #10
           #(lilypond-version)
         }
         \with-url "https://lilypond.org" {
           \override #'(font-name . "Playfair Display Medium")
-          % \abs-fontsize #10
           "https://lilypond.org"
         }
       }
