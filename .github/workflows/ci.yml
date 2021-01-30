@@ -79,7 +79,7 @@ jobs:
 
     - name: Create PDFs
       run: |
-        lilypond kling-40-characteristic-etudes/main.ly
+        lilypond kling-40-characteristic-etudes\main.ly
         Rename-Item main.pdf 'Kling, Henri - 40 Characteristic Études for Horn.pdf'
 
     - name: Archive PDFs
