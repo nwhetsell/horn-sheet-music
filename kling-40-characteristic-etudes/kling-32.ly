@@ -28,7 +28,7 @@
   b-flat16-. d-. f,-. b-flat-. d,-. f-. b-flat,-. d-. f-. b-flat-. d-. f-. b-flat-. f-. d-. b-flat-. f-. d-. |
   c16-. f-. a-. c-. f-. a-. c-. a-. f-. c-. a-. f-. e-. g-. b-flat-. c-. e-. g-. |
   f16( g32 f) e16-. f-. a,-. c-. f,8 r r d'4( \p e-flat8) |
-  
+
   f4.~( \< f8 g f d b-flat g) |
   f4.~ \> f8 d( \< e-flat f d' c) |
   b-flat8( \< a c e-flat g f e-flat g, a) |
