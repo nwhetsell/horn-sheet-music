@@ -59,7 +59,7 @@
   \tuplet 3/2 { g16( a g) } d8-. d4-> |
   b16-. d-. g-. b-. d-. g,-. b-. d-. |
   e16-.[ r b-.] r \tuplet 3/2 { c16( d c) } a8-. |
-  \tuplet 3/2 { c16( d c) } a8-. \tuplet 3/2 { a16( b a) } f-sharp8-.
+  \tuplet 3/2 { c16( d c) } a8-. \tuplet 3/2 { a16( b a) } f-sharp8-. |
   \tuplet 3/2 { f-sharp16( g f-sharp) } d8-. d4-> |
   a16-. d-. f-sharp-. a-. d-. d,-. f-sharp-. a-. |
   d16-.[ r a-.] r \tuplet 3/2 { b16( c b) } g8-. |
