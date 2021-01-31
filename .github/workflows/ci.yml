@@ -23,7 +23,9 @@ jobs:
     - name: Create PDFs
       run: |
         lilypond kling-40-characteristic-etudes/main.ly
-        mv main.pdf 'Kling, Henri - 40 Characteristic Études for Horn.pdf'
+        mv main.pdf 'Kling - 40 Characteristic Études for Horn.pdf'
+        lilypond saint-saens-opus-94-morceau-de-concert/horn.ly
+        mv horn.pdf 'Saint-Saëns - Op. 94 - Morceau de Concert.pdf'
 
     - name: Archive PDFs
       uses: actions/upload-artifact@v2
@@ -51,7 +53,9 @@ jobs:
     - name: Create PDFs
       run: |
         lilypond kling-40-characteristic-etudes/main.ly
-        mv main.pdf 'Kling, Henri - 40 Characteristic Études for Horn.pdf'
+        mv main.pdf 'Kling - 40 Characteristic Études for Horn.pdf'
+        lilypond saint-saens-opus-94-morceau-de-concert/horn.ly
+        mv horn.pdf 'Saint-Saëns - Op. 94 - Morceau de Concert.pdf'
 
     - name: Archive PDFs
       uses: actions/upload-artifact@v2
@@ -80,7 +84,9 @@ jobs:
     - name: Create PDFs
       run: |
         lilypond kling-40-characteristic-etudes\main.ly
-        Rename-Item main.pdf 'Kling, Henri - 40 Characteristic Études for Horn.pdf'
+        Rename-Item main.pdf 'Kling - 40 Characteristic Études for Horn.pdf'
+        lilypond saint-saens-opus-94-morceau-de-concert\horn.ly
+        Rename-Item  horn.pdf 'Saint-Saens - Op. 94 - Morceau de Concert.pdf'
 
     - name: Archive PDFs
       uses: actions/upload-artifact@v2
