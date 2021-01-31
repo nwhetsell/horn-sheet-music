@@ -1,5 +1,13 @@
 \version "2.22.0"
 
+source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
+\header {
+  composer-last-name = "Kling"
+  composer-first-name = "Henri"
+  title = "40 Characteristic Études for Horn"
+  instrument = "Horn in F"
+}
+
 \include "../titling.ily"
 \include "settings.ily"
 
@@ -13,13 +21,6 @@
     #})
     \override TupletBracket.bracket-visibility = #'if-no-beam
   }
-}
-
-\header {
-  title = "40 Characteristic Études for Horn"
-  instrument = "Horn in F"
-  composer-first-name = "Henri"
-  composer-last-name = "Kling"
 }
 
 \book {
@@ -172,71 +173,5 @@
 
   \pageBreak
 
-  \markup {
-    \column {
-      \fill-line {
-        \concat {
-          \override #'(font-name . "Playfair Display Medium")
-          "Music engraved using LilyPond "
-          \override #'(font-name . "Playfair Display Medium")
-          #(lilypond-version)
-        }
-        \with-url "https://lilypond.org" {
-          \override #'(font-name . "Playfair Display Medium")
-          "https://lilypond.org"
-        }
-      }
-
-      \fill-line {
-        \concat {
-          \override #'(font-name . "Playfair Display Medium")
-          "Titles set in Playfair Display"
-        }
-        \with-url "https://fonts.google.com/specimen/Playfair+Display" {
-          \override #'(font-name . "Playfair Display Medium")
-          "https://fonts.google.com/specimen/Playfair+Display"
-        }
-      }
-
-      \fill-line {
-        \concat {
-          \override #'(font-name . "Playfair Display Medium")
-          "Based on a public-domain document"
-        }
-        \with-url "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)" {
-          \override #'(font-name . "Playfair Display Medium")
-          "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
-        }
-      }
-
-      \fill-line {
-        \concat {
-          \override #'(font-name . "Playfair Display Medium")
-          "Corrections and additions are welcome"
-        }
-        \with-url "https://github.com/nwhetsell/horn-sheet-music" {
-          \override #'(font-name . "Playfair Display Medium")
-          "https://github.com/nwhetsell/horn-sheet-music"
-        }
-      }
-
-      \vspace #1
-
-      \concat {
-        \override #'(font-name . "Playfair Display Medium")
-        "This work is dedicated to the public domain under the "
-        \with-url "https://creativecommons.org/publicdomain/zero/1.0/" {
-          \override #'(font-name . "Playfair Display Medium")
-          "Creative Commons CC0 Public Domain Dedication"
-        }
-        \override #'(font-name . "Playfair Display Medium")
-        "."
-      }
-
-      \vspace #1
-
-      \override #'(font-name . "Playfair Display Medium")
-      #(strftime "%Y-%m-%d" (localtime (current-time)))
-    }
-  }
+  \colophon
 }
