@@ -1,8 +1,8 @@
 \version "2.22.0"
 
-\language "english"
-
 \relative {
+  \language "english"
+
   \transposition f
 
   \tempo "Allegro scherzando"
@@ -126,7 +126,7 @@
   b8 a-sharp b |
   c-sharp8 e d-sharp) \! |
   g-sharp4( \ff \> f-sharp8) \! |
-  
+
   e8_\markup { \italic "risoluto" } e,16-. g-sharp-. b-. e-. |
   d-sharp8 f-sharp,16-. a-. b-. d-sharp-. |
   e8 g-sharp,16-. b-. e-. g-sharp-. |

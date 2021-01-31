@@ -1,8 +1,8 @@
 \version "2.22.0"
 
-\language "english"
-
 \relative {
+  \language "english"
+
   \transposition f
 
   \tempo "Moderato"

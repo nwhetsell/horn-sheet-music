@@ -2,9 +2,9 @@
 
 \include "settings.ily"
 
-\language "english"
-
 \relative {
+  \language "english"
+
   \transposition f
 
   \tempo "Andante"
