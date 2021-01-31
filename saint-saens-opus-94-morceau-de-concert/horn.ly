@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Camille)"
+source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns,_Camille)"
 \header {
   composer-last-name = "Saint-Saëns"
   composer-first-name = "Camille"
