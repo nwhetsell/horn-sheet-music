@@ -269,6 +269,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         R1\fermata \bar "||"
 
         \time 2/2
+        \set Timing.beamExceptions = \beamExceptions { \tuplet 3/2 4 { 8[ 8 8] 8[ 8 8] 8[ 8 8] 8[ 8 8] } }
         \tempo "Allegro non troppo"
         \show-bar-number
         R1*14
@@ -334,7 +335,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
             g4-. r r2 |
             r4 c,,8-. e-. g-. c-. e-. g-. |
             f4-. r r2 |
-            r4 c~( \f c8[ d16 e] f[ g a b] |
+            r4 c~( \f c8 d16 e f g a b |
             c4) g8-. e-. c-. g-. e-. c-. |
           }
 
@@ -371,17 +372,17 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         \revert Script #'avoid-slur
         g'1-^( |
         g,4) r r2 |
-        r4 \tuplet 3/2 4 { c,8[( \f e g)] c[( d) c] b[( c) b] } |
-        \tuplet 3/2 4 { a8[( b) a] g[( a) g] f[( g) f] e[( f) e] } |
-        \tuplet 3/2 4 { d8[( f-sharp) a] c[( b) a] } d2 |
-        \tuplet 3/2 4 { g,8[( b) d] f[( e) d] } g2 |
-        r4 \tuplet 3/2 4 { e,8[ g c] e[( f) e] d[( e) d] } |
-        \tuplet 3/2 4 { c8[( d) c] b[( c) b] a[( b) a] g[( a) g] } |
+        r4 \tuplet 3/2 4 { c,8( \f e g) c( d) c b( c) b } |
+        \tuplet 3/2 4 { a8( b) a g( a) g f( g) f e( f) e } |
+        \tuplet 3/2 4 { d8( f-sharp) a c( b) a } d2 |
+        \tuplet 3/2 4 { g,8( b) d f( e) d } g2 |
+        r4 \tuplet 3/2 4 { e,8 g c e( f) e d( e) d } |
+        \tuplet 3/2 4 { c8( d) c b( c) b a( b) a g( a) g } |
 
         <<
           {
-            \tuplet 3/2 4 { f-sharp8[( a) c] d[( f-sharp) a] } c2 |
-            \tuplet 3/2 4 { f,,8[( g) b] d[( f) g] } b2 |
+            \tuplet 3/2 4 { f-sharp8( a) c d( f-sharp) a } c2 |
+            \tuplet 3/2 4 { f,,8( g) b d( f) g } b2 |
           }
 
           \new Staff
@@ -394,18 +395,18 @@ show-bar-number = #(define-music-function (music) (ly:music?)
             \override StaffSymbol.thickness = #(magstep -3)
           }
           {
-            \tuplet 3/2 4 { f-sharp,8[( a) c] e[( d) c] } d2 |
-            \tuplet 3/2 4 { f8[( e) d] c[( b) a] } g2 |
+            \tuplet 3/2 4 { f-sharp,8( a) c] e( d) c } d2 |
+            \tuplet 3/2 4 { f8( e) d c( b) a } g2 |
           }
         >>
 
         \tuplet 3/2 4 {
           \show-bar-number
-          g8[( c) c] c[( b) b] b[( d) d] d[( c) c] |
-          c8[( e) e] e[( d) d] d[( f) f] f[( e) e] |
+          g8( c) c c( b) b b( d) d d( c) c |
+          c8( e) e e( d) d d( f) f f( e) e |
         }
-        e4 \tuplet 3/2 4 { e8( d) c e[( d) c] e[( d) c] } |
-        \tuplet 3/2 4 { e8[( \< d c)] e[( d c)] e[( d c)] e[( d c)] } |
+        e4 \tuplet 3/2 4 { e8( d) c e( d) c e( d) c } |
+        \tuplet 3/2 4 { e8( \< d c) e( d c) e( d c) e( d c) } |
         e4 \! r r2 |
         r2 g,4._\markup { \dynamic "ff" \italic "tutta forza" } e8 |
         c'4 r c4. g8 |
