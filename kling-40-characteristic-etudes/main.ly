@@ -171,7 +171,13 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
     >>
   }
 
-  \pageBreak
-
-  \colophon
+  \bookpart {
+    \paper {
+      bookTitleMarkup = ##f
+      scoreTitleMarkup = ##f
+      evenHeaderMarkup = ##f
+      oddHeaderMarkup = \evenHeaderMarkup
+    }
+    \colophon
+  }
 }

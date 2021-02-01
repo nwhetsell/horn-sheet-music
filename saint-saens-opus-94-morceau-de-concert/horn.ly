@@ -429,6 +429,12 @@ show-bar-number = #(define-music-function (music) (ly:music?)
   >>
 }
 
-\pageBreak
-
-\colophon
+\bookpart {
+  \paper {
+    bookTitleMarkup = ##f
+    scoreTitleMarkup = ##f
+    evenHeaderMarkup = ##f
+    oddHeaderMarkup = \evenHeaderMarkup
+  }
+  \colophon
+}

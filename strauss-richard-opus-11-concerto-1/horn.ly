@@ -717,6 +717,12 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
   >>
 }
 
-\pageBreak
-
-\colophon
+\bookpart {
+  \paper {
+    bookTitleMarkup = ##f
+    scoreTitleMarkup = ##f
+    evenHeaderMarkup = ##f
+    oddHeaderMarkup = \evenHeaderMarkup
+  }
+  \colophon
+}
