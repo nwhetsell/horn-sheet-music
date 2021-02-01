@@ -30,7 +30,10 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
     \new Voice \relative {
       \language "english"
 
+      \transposition f
+
       \key a-flat \major
+      \time 4/4
 
       \once \override Score.MetronomeMark.padding = #4
       \tempo "Andante quasi Adagio"
