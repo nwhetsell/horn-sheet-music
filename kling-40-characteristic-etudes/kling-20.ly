@@ -5,12 +5,12 @@
 
   \transposition f
 
+  \once \override Score.MetronomeMark.padding = #3
   \tempo "Andante"
 
   \key e \minor
   \time 3/8
 
-  \once \override Score.MetronomeMark.padding = #3
   \override Script #'avoid-slur = #'inside
 
   % This prevents beaming sextuplets together.
