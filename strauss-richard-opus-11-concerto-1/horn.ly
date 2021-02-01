@@ -2,11 +2,11 @@
 
 source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Richard)"
 \header {
-  title = "Horn Concerto No. 1"
-  instrument = "Horn in F"
-  composer-first-name = "Richard"
   composer-last-name = "Strauss"
+  composer-first-name = "Richard"
+  title = "Horn Concerto No. 1"
   opus = "Op. 11"
+  instrument = "Horn in F"
 }
 
 \include "../titling.ily"
