@@ -84,9 +84,9 @@ jobs:
         lilypond kling-40-characteristic-etudes\main.ly
         Rename-Item main.pdf 'Kling - 40 Characteristic Études for Horn.pdf'
         lilypond saint-saens-opus-94-morceau-de-concert\horn.ly
-        Rename-Item  horn.pdf 'Saint-Saens - Op. 94 - Morceau de Concert.pdf'
+        Rename-Item horn.pdf 'Saint-Saens - Op. 94 - Morceau de Concert.pdf'
         lilypond strauss-richard-concerto-1/horn.ly
-        Rename-Item  horn.pdf 'Strauss, Richard - Op. 11 - Horn Concerto No. 1.pdf'
+        Rename-Item horn.pdf 'Strauss, Richard - Op. 11 - Horn Concerto No. 1.pdf'
 
     - name: Archive PDFs
       uses: actions/upload-artifact@v2
