@@ -361,7 +361,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       \revert DynamicLineSpanner.staff-padding
       b-flat4 \p \breathe b-flat8->~ |
       b-flat4 \breathe b-flat8->~ |
-      b-flat4 r8\fermata \bar "||"
+      b-flat4 r8\fermata | \bar "||"
 
       \key b-flat \major
       \time 4/4
