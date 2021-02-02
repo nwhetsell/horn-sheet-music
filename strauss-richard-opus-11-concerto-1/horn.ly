@@ -34,6 +34,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       \language "english"
 
       \key b-flat \major
+      \time 4/4
 
       \once \override Score.MetronomeMark.padding = #3
       \tempo "Allegro" 4 = 112
