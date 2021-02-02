@@ -140,7 +140,24 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
       a-flat4 r r2\fermata | \bar "|."
     }
 
-    #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/horn.ily" } #})
+    #(if preserve-line-breaks? #{ \new Voice {
+      s1*6 \break
+      s1*5 \break
+      s1*4 \break
+      s1*5 \break
+      s1*4 \break
+      s1*9 \break
+      s1*3 \break
+      s1*4 \break
+      s1*5 \break
+      s1*4 \break
+      s1*11 \break
+      s1*4 \break
+      s1*3 \break
+      \repeat unfold 2 { s1*4 \break }
+      s1*3 \break
+      \repeat unfold 2 { s1*5 \break }
+    } #})
   >>
 }
 
