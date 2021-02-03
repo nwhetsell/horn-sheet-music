@@ -75,7 +75,7 @@ jobs:
 
     - name: Install LilyPond
       run: |
-        choco install lilypond --version=2.22.0 --no-progress
+        choco install lilypond --no-progress
         Add-Content $Env:GITHUB_PATH "${Env:ProgramFiles(x86)}\LilyPond\usr\bin" -Encoding utf8
 
     - name: Install fonts
