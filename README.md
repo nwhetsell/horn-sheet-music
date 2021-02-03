@@ -15,7 +15,7 @@ If you want to create PDF files yourself, you’ll need:
   [use Homebrew](https://github.com/nwhetsell/homebrew-lilypond) than to
   download an app from https://lilypond.org/macos-x.html
   * On Windows, it may be easier to
-  [use Chocolatey](https://chocolatey.org/packages/lilypond/2.22.0) than to use
+  [use Chocolatey](https://chocolatey.org/packages/lilypond) than to use
   an installer from https://lilypond.org/windows.html
 
 * The font
