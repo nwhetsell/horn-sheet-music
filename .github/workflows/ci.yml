@@ -25,6 +25,7 @@ jobs:
         lilypond --output='Glazunov - Op. 24 - Rêverie' glazunov-opus-24-reverie/horn.ly
         lilypond --output='Kling - 40 Characteristic Études for Horn' kling-40-characteristic-etudes/main.ly
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio/horn.ly
+        lilypond --output='Saint-Saëns - Op. 36 - Romance' saint-saens-opus-36-romance/horn.ly
         lilypond --output='Saint-Saëns - Op. 94 - Morceau de Concert' saint-saens-opus-94-morceau-de-concert/horn.ly
         lilypond --output='Schumann - Op. 70 - Adagio and Allegro' schumann-opus-70-adagio-and-allegro/horn.ly
         lilypond --output='Strauss, Franz - Op. 7 - Nocturno' strauss-franz-opus-7-nocturno/horn.ly
@@ -58,6 +59,7 @@ jobs:
         lilypond --output='Glazunov - Op. 24 - Rêverie' glazunov-opus-24-reverie/horn.ly
         lilypond --output='Kling - 40 Characteristic Études for Horn' kling-40-characteristic-etudes/main.ly
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio/horn.ly
+        lilypond --output='Saint-Saëns - Op. 36 - Romance' saint-saens-opus-36-romance/horn.ly
         lilypond --output='Saint-Saëns - Op. 94 - Morceau de Concert' saint-saens-opus-94-morceau-de-concert/horn.ly
         lilypond --output='Schumann - Op. 70 - Adagio and Allegro' schumann-opus-70-adagio-and-allegro/horn.ly
         lilypond --output='Strauss, Franz - Op. 7 - Nocturno' strauss-franz-opus-7-nocturno/horn.ly
@@ -92,6 +94,7 @@ jobs:
         lilypond glazunov-opus-24-reverie\horn.ly; Rename-Item horn.pdf 'Glazunov - Op. 24 - Rêverie.pdf'
         lilypond kling-40-characteristic-etudes\main.ly; Rename-Item main.pdf 'Kling - 40 Characteristic Études for Horn.pdf'
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio\horn.ly
+        lilypond saint-saens-opus-36-romance\horn.ly; Rename-Item horn.pdf 'Saint-Saëns - Op. 36 - Romance.pdf'
         lilypond saint-saens-opus-94-morceau-de-concert\horn.ly; Rename-Item horn.pdf 'Saint-Saëns - Op. 94 - Morceau de Concert.pdf'
         lilypond --output='Schumann - Op. 70 - Adagio and Allegro' schumann-opus-70-adagio-and-allegro\horn.ly
         lilypond --output='Strauss, Franz - Op. 7 - Nocturno' strauss-franz-opus-7-nocturno\horn.ly
