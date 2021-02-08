@@ -357,7 +357,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       b-flat8 \breathe b-flat,4( |
       \override DynamicLineSpanner.staff-padding = #2.5
       e-flat4) \breathe g-flat8-> \< |
-      g-flat'4-> \ff e-flat8 \> |
+      g-flat'4-> \ff e-flat8 \> | \noBreak
       \revert DynamicLineSpanner.staff-padding
       b-flat4 \p \breathe b-flat8->~ |
       b-flat4 \breathe b-flat8->~ |
