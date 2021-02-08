@@ -645,12 +645,12 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
         }
       }
       r4 f,2->_\markup { \dynamic "ff" \italic "maestoso" } e-flat8( d) |
-      c8( b-flat) b-flat4~8 \breathe d( c b-flat) |
-      b-flat8( d,) d4~8 \breathe c \dim b-flat g |
+      c8( b-flat) b-flat4~8[ \breathe d( c b-flat)] |
+      b-flat8( d,) d4~8[ \breathe c \dim b-flat g] |
       f2. e-flat4 |
       d4 \! \breathe f''2-> \f \> e-flat8( d) |
-      c8( b-flat) \! b-flat4~8 \breathe d( c b-flat) |
-      b-flat8( d,) d4~( d8 \breathe \stemUp d' c b-flat) \stemNeutral |
+      c8( b-flat) \! b-flat4~8[ \breathe d( c b-flat)] |
+      b-flat8( d,) d4~( d8[ \breathe d' c b-flat]) |
       \tuplet 3/2 4 { b-flat4 \< \tweak Y-offset #1 \breathe d,8 f b-flat d } f2~ \ff |
       f4 \breathe d2 \dim b-flat4~ |
       b-flat4 \breathe b-flat2-.^\markup{ \italic "rit." }( b-flat4-.) |
