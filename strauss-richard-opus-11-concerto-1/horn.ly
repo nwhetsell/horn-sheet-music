@@ -263,7 +263,6 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
           g8)
         }
       >> \oneVoice
-
       \breathe d'4~^\markup { \italic "calando" } |
       d8 \breathe d4~ |
       d8 \breathe b-flat4~ |
