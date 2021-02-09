@@ -55,7 +55,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         g8. c,16 e-flat4 r8 e-flat^> |
         d8-> e-flat-> f-> g-> a-flat-> c-> |
         b4-> g-> r |
-        e-flat8-. c-. a-flat'2-> |
+        e-flat8-. c-. g'2-> |
         a-flat8-. f-. c'2-> |
         \override Script #'avoid-slur = #'inside
         e-flat4->( d-> c->) |
@@ -95,7 +95,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         g8. c,16 e-flat4 r8 e-flat-> |
         d8-> e-flat-> f-> g-> a-flat-> c-> |
         b4-> g-> r |
-        e-flat8-. c-. a-flat'2-> |
+        e-flat8-. c-. g'2-> |
         a-flat8-. f-. c'2-> |
         \override Script #'avoid-slur = #'inside
         e-flat4->( d-> c->) |
