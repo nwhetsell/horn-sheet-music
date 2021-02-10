@@ -339,15 +339,11 @@ show-bar-number = #(define-music-function (music) (ly:music?)
             c4) g8-. e-. c-. g-. e-. c-. |
           }
 
-          \new Staff
-          \with {
+          \new Staff \with {
             \remove "Time_signature_engraver"
             alignAboveContext = "main"
-            fontSize = #-3
-            \override StaffSymbol.staff-space = #(magstep -3)
-            \override StaffSymbol.thickness = #(magstep -3)
-          }
-          {
+            \magnifyStaff #(magstep -3)
+          } {
             r4 d8-. d-. f-sharp-. f-sharp-. a-. a-. |
             d4-. r r2 |
             r4 c,8-. c-. e-. e-. g-. g-. |
@@ -385,16 +381,12 @@ show-bar-number = #(define-music-function (music) (ly:music?)
             \tuplet 3/2 4 { f,,8( g) b d( f) g } b2 |
           }
 
-          \new Staff
-          \with {
+          \new Staff \with {
             \remove "Clef_engraver"
             \remove "Time_signature_engraver"
             alignAboveContext = "main"
-            fontSize = #-3
-            \override StaffSymbol.staff-space = #(magstep -3)
-            \override StaffSymbol.thickness = #(magstep -3)
-          }
-          {
+            \magnifyStaff #(magstep -3)
+          } {
             \tuplet 3/2 4 { f-sharp,8( a) c] e( d) c } d2 |
             \tuplet 3/2 4 { f8( e) d c( b) a } g2 |
           }
