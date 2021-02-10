@@ -24,6 +24,7 @@ jobs:
       run: |
         lilypond --output='Glazunov - Op. 24 - Rêverie' glazunov-opus-24-reverie/horn.ly
         lilypond --output='Kling - 40 Characteristic Études for Horn' kling-40-characteristic-etudes/main.ly
+        lilypond --output='Kopprasch - Op. 6 - 60 Studies for Low Horn' kopprasch-opus-6-60-studies-for-low-horn/main.ly
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio/horn.ly
         lilypond --output='Saint-Saëns - Op. 36 - Romance' saint-saens-opus-36-romance/horn.ly
         lilypond --output='Saint-Saëns - Op. 94 - Morceau de Concert' saint-saens-opus-94-morceau-de-concert/horn.ly
@@ -58,6 +59,7 @@ jobs:
       run: |
         lilypond --output='Glazunov - Op. 24 - Rêverie' glazunov-opus-24-reverie/horn.ly
         lilypond --output='Kling - 40 Characteristic Études for Horn' kling-40-characteristic-etudes/main.ly
+        lilypond --output='Kopprasch - Op. 6 - 60 Studies for Low Horn' kopprasch-opus-6-60-studies-for-low-horn/main.ly
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio/horn.ly
         lilypond --output='Saint-Saëns - Op. 36 - Romance' saint-saens-opus-36-romance/horn.ly
         lilypond --output='Saint-Saëns - Op. 94 - Morceau de Concert' saint-saens-opus-94-morceau-de-concert/horn.ly
@@ -93,6 +95,7 @@ jobs:
       run: |
         lilypond glazunov-opus-24-reverie\horn.ly; Rename-Item horn.pdf 'Glazunov - Op. 24 - Rêverie.pdf'
         lilypond kling-40-characteristic-etudes\main.ly; Rename-Item main.pdf 'Kling - 40 Characteristic Études for Horn.pdf'
+        lilypond --output='Kopprasch - Op. 6 - 60 Studies for Low Horn' kopprasch-opus-6-60-studies-for-low-horn\main.ly
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio\horn.ly
         lilypond saint-saens-opus-36-romance\horn.ly; Rename-Item horn.pdf 'Saint-Saëns - Op. 36 - Romance.pdf'
         lilypond saint-saens-opus-94-morceau-de-concert\horn.ly; Rename-Item horn.pdf 'Saint-Saëns - Op. 94 - Morceau de Concert.pdf'
