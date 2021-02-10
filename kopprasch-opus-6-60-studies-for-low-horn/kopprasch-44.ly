@@ -89,7 +89,7 @@
   c4. \f a8 f-sharp( g-natural!16 f-sharp) d8 c |
   c8( b) b4 r g' \f |
   g2\trill( \appoggiatura { f-sharp16 g } c4.) b8 |
-  a4.\trill( \appoggiatura { g-sharp16 a } d8) b4 r8 g-sharp \p | % TODO: Is the last note actually a G sharp?
+  a4.\trill( \appoggiatura { g-sharp16 a } d8) b4 r8 g-sharp \p |
   \shape #'((0 . 0) (0 . -0.5) (0 . -1.25) (0 . -1)) Slur
   f-sharp4.\trill( \appoggiatura { e16 f-sharp } b8) g4 r8 e \f |
   g'4 e c b |
@@ -112,7 +112,7 @@
   f8 \< g, b d f g b d |
   f\prall( \> e) d\prall( c) b\prall( a) g\prall( f) |
   e4 \! r8 c \< e g c b-flat |
-  a4 \mf c-sharp\trill \appoggiatura { b16 c-sharp } d4 r8 a-flat |% TODO: Is the last note actually an A flat?
+  a4 \mf c-sharp\trill \appoggiatura { b16 c-sharp } d4 r8 a-flat |
   g4 b\trill \appoggiatura { a16 b } c-natural!4 r8 e, |
   f4 r8 a \< c-sharp( d f d) |
   c-natural!8( b d f,) e( g c e,) |
