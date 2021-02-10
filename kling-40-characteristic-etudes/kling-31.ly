@@ -58,7 +58,7 @@
   e32( \< d c-sharp d c-sharp d c-sharp d c-sharp \> d e d c-sharp d a b-flat \! g8) r
     <<
       { g8.( b-flat16) }
-      { s8 s_\markup { \override #'(baseline-skip . 2) \halign #0 \center-column { \musicglyph #"scripts.turn" \tiny \sharp } } }
+      { s8 s_\markup { \override #'(baseline-skip . 2) \halign #0 \center-column { \musicglyph #"scripts.turn" \teeny \sharp } } }
     >> |
   d32( \< c b c b c b c b \> c d c b c g-sharp a \! f8) r
     <<
