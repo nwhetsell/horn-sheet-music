@@ -25,7 +25,7 @@
   f4~( f16 e-flat c a f4.) r8 |
   b-flat4~16 a( \< b-flat d g f d b-flat a b-flat d g) |
   f4~( \> f16 e-flat c a f4.) \! r8 |
-  g16( \< b-flat d-flat e g4) b-flat,16( d-flat e g \once \stemUp b4) |
+  g16( \< b-flat d-flat e g4) b-flat,16( d-flat e g b4) |
   d-flat,16( \f e g b-flat d-flat b-flat g e d-flat b-flat g e d-flat e g b-flat) |
   f16( b-flat d f b-flat \> d f d b-flat f d b-flat a f e-flat c) |
   \clef \bass-clef-name b-flat2. \p r4 |

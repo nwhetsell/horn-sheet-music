@@ -21,6 +21,11 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
     #})
     \override TupletBracket.bracket-visibility = #'if-no-beam
   }
+  \context {
+    \Voice
+    \consists "Melody_engraver"
+    \override Stem.neutral-direction = #'()
+  }
 }
 
 \book {

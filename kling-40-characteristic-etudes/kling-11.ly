@@ -33,7 +33,7 @@
   b8->( e) e4~4 d16( c b a) |
   g-sharp8->( e') e4 a,8->( e') e4 |
   b8->( e) e4~8 d16( e f e d c) |
-  \stemUp b4-.^\markup { \italic "rit." }( a-. g-sharp-. f-.) \stemNeutral |
+  b4-.^\markup { \italic "rit." }( a-. g-sharp-. f-.) |
   e4.( g-sharp16 f e4\fermata) \tempo "a tempo" e8. e16 |
 
   a4( \< e'-. e-. e-.) |

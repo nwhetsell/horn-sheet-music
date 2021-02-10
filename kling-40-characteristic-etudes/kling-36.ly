@@ -37,7 +37,7 @@
   c4~ \> \tuplet 3/2 { c8 \! g-. e-flat-. } c4 r |
   \clef \bass-clef-name c,2-^~ \ff \tuplet 3/2 4 { c8 d-> e-flat-> f-> g-> a-flat-> } |
   b-flat4~ \tuplet 3/2 { b-flat8 g-> e-flat-> } b-flat4-> r |
-  \clef "treble" \once \stemUp b-flat''2~( \pp \tuplet 3/2 4 { b-flat8 \< a b-flat c d, g) } |
+  \clef "treble" b-flat''2~( \pp \tuplet 3/2 4 { b-flat8 \< a b-flat c d, g) } |
   e-flat4~( \> \tuplet 3/2 { e-flat8 b-flat g' } e-flat4) \! r |
   \clef \bass-clef-name a-flat,2-^~ \ff \tuplet 3/2 4 { a-flat8 g-> f-> e-flat-> d-> c-> } |
   b4~ \tuplet 3/2 { b8 c-> d-> } g,4-> r |

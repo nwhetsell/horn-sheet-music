@@ -10,7 +10,7 @@
   \key e \major
   \time 3/8
 
-  b'4.~( \p \< |
+  \once \stemUp b'4.~( \p \< |
   b8 g-sharp b |
   c-sharp8 g-sharp c-sharp) \! |
   d-sharp8( f-sharp8.-> e16) |
@@ -26,7 +26,7 @@
   c-sharp8. \< b16( \> a-sharp c-sharp) \! |
   b4.~ |
   b4 r8 |
-  b4.~( \cresc |
+  \once \stemUp b4.~( \cresc |
   b8 g-sharp b |
   c-sharp8 g-sharp c-sharp) |
   d-sharp8( f-sharp8.-> e16) |
@@ -98,7 +98,7 @@
   b16 \> a-sharp c-sharp b d-sharp16.\fermata c-sharp32) |
 
   \tempo "a tempo"
-  b4.~( \p \< |
+  \once \stemUp b4.~( \p \< |
   b8 g-sharp b |
   c-sharp8 g-sharp c-sharp) \! |
   d-sharp8( f-sharp8.-> e16) |
@@ -114,7 +114,7 @@
   c-sharp8. \< b16( \> a-sharp c-sharp) \! |
   b4.~ |
   b4 r8 |
-  b4.~( \cresc |
+  \once \stemUp b4.~( \cresc |
   b8 g-sharp b |
   c-sharp8 g-sharp c-sharp) |
   d-sharp8( f-sharp8.-> e16) |

@@ -37,7 +37,10 @@ show-bar-number = #(define-music-function (music) (ly:music?)
 \score {
   \header { piece = "I" }
   \new Staff <<
-    \new Voice \relative {
+    \new Voice \with {
+      \consists "Melody_engraver"
+      \override Stem.neutral-direction = #'()
+    } \relative {
       \language "english"
 
       \key c \major
@@ -148,12 +151,12 @@ show-bar-number = #(define-music-function (music) (ly:music?)
       a4 b a b |
       d4( c-sharp8.) e16 c-sharp2~( |
       c-sharp4 b) a-.( f-sharp-.) |
-      a4( \< g-sharp) \once \stemUp b-.( a-sharp-.) |
+      a4( \< g-sharp) b-.( a-sharp-.) |
       c-sharp4( b) f-sharp'2~ |
       f-sharp4 a2( \f c,4) |
       c-sharp4 r r2 |
       R1*5
-      r4 b4.-> \ff b,8->^\markup { \italic "a piacere" } d-> f-> |
+      r4 \once \stemDown b4.-> \ff b,8->^\markup { \italic "a piacere" } d-> f-> |
       \tuplet 3/2 4 { g-sharp8( \> d) f-. g-sharp( b) a-sharp-. } c-sharp8^\markup { \combine
         \italic "cal."
         \transparent "p" % This aligns the baselines of cal.” and “a piacere”.
@@ -187,7 +190,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
       R1
       \tuplet 3/2 2 { r4 f-sharp \p b a-sharp( g-natural!) a-sharp } |
       b1~( |
-      b4 a8.) c16 a2~( |
+      \once \stemDown b4 a8.) c16 a2~( |
       a4 g) f-sharp c |
       e2( d-sharp) |
       R1^\markup { \italic "cal." }
@@ -265,6 +268,9 @@ show-bar-number = #(define-music-function (music) (ly:music?)
 
 \score {
   \header { piece = "II — Scherzo" }
+  % TODO: This staff should use a Melody_engraver, but it’s impossible to use a
+  % Melody_engraver when a Voice includes a CueVoice; this is a bug in LilyPond:
+  % https://gitlab.com/lilypond/lilypond/-/issues/6093
   \new Staff <<
     \new Voice \relative {
       \language "english"
@@ -383,10 +389,10 @@ show-bar-number = #(define-music-function (music) (ly:music?)
       b-flat2. |
       c-sharp2. |
       e2.~( |
-      e2.~ \< \bar "||" |
+      e2.~ \< | \bar "||"
       \time 2/4
       e8_\markup { \italic "espressivo" } f f-sharp a) |
-      g4.( \> f8) \bar "||" |
+      g4.( \> f8) | \bar "||"
       \time 6/8
       f2.( |
       b-flat,2.~ |
@@ -490,7 +496,10 @@ show-bar-number = #(define-music-function (music) (ly:music?)
 \score {
   \header { piece = "III" }
   \new Staff <<
-    \new Voice \relative {
+    \new Voice \with {
+      \consists "Melody_engraver"
+      \override Stem.neutral-direction = #'()
+    } \relative {
       \language "english"
 
       \key c \major
@@ -589,7 +598,10 @@ show-bar-number = #(define-music-function (music) (ly:music?)
 \score {
   \header { piece = "IV — Finale" }
   \new Staff <<
-    \new Voice \relative {
+    \new Voice \with {
+      \consists "Melody_engraver"
+      \override Stem.neutral-direction = #'()
+    } \relative {
       \language "english"
 
       \key c \major
@@ -691,7 +703,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
       f-sharp'4.-> 8 4 f-sharp, |
       b4.-> 8 2~ |
       b2. r4 |
-      r4 \once \stemUp b \f g-natural!( f-sharp) |
+      r4 b \f g-natural!( f-sharp) |
       e4 d( c-natural!) b |
       a4 e'' c( b) |
       a4 g f-sharp r |
