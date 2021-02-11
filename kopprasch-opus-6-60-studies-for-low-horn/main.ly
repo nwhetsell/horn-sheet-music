@@ -138,6 +138,17 @@ alternates-layout = \layout {
 
   \score {
     \header {
+      piece = "16"
+      transposition = "(in E, D, C, and B♭ low)"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-16.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-16-line-breaks.ily" } #})
+    >>
+  }
+
+  \score {
+    \header {
       piece = "19"
     }
     \new Staff <<
