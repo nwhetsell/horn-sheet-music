@@ -39,7 +39,7 @@
   d4.( e16 d c8) b-. c-. d-. |
   e8. d16 c8. b16 a8. g16 f8. e16 |
   f4.( g16 f e8) d-. e-. f-. |
-  g4\trill_\markup { \italic "rit." }( \grace { f-sharp16 g } c4\trill \grace { b16 c } e4\trill \grace { d-sharp16 e } g8) r |
+  \afterGrace g4\trill_\markup { \italic "rit." }( { f-sharp16 g } \afterGrace c4\trill { b16 c } \afterGrace e4\trill { d-sharp16 e } g8) r |
   \tempo "a tempo"
   \repeat unfold 2 { c,8-. d16( c) b-flat( g) e-. c-. } |
   c'8 r f,16( a) c-. f-. a( g) f-. e-. d-. c-. b-. a-. |

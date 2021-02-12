@@ -33,7 +33,7 @@
   d'8( \f b-flat,) d'-. c( b-flat,) c'-. b-flat( b-flat,) a-flat'-. |
   g8( g,) b-flat-. e-flat-. g-. b-flat-. e-flat-. d-. c-. |
   d16->( c-sharp d f e-flat d) c->( b c e-flat d c) b-flat->( a b-flat d c a-flat) |
-  g2.\trill( \grace { f-sharp16 g } e-flat4) r8 |
+  \afterGrace g2.\trill( { f-sharp16 g } e-flat4) r8 |
   g,8. \f b-flat16-. e-flat-. g-. b-flat8. e-flat,16-. g-. b-flat-. e-flat8. \< d16( f e-flat) |
   b4.( \> c) \! c16( d32 c b16) c-. d-. e-flat-. |
 

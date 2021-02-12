@@ -40,7 +40,7 @@
   g8~( \p g32 b d f) e-flat8~( e-flat32 d c b) |
   d32( c b c f-sharp, g d e-flat) c16\noBeam e-flat-. f-. f-sharp-. |
   g8 f' \tuplet 3/2 8 { f16->( e-flat d) d->( c b) } |
-  \slurDown d4\trill( \< \grace { c16 e-flat \> d) } c8 \! \slurNeutral r |
+  \slurDown \afterGrace d4\trill( \< { c16 e-flat \> d) } c8 \! \slurNeutral r |
   a-flat'8~ \f a-flat32 g-. f-. e-flat-. d8~32 e-flat-. f-. d-. |
   g8~32 f-. e-flat-. d-. c8~32 d-. e-flat-. c-. |
   g32 \p g->( c e-flat g) g,->( c e-flat g) g,->( b d g) g,->( b d |
