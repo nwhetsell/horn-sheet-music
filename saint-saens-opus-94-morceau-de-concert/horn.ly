@@ -15,7 +15,9 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns
 \pointAndClickOff
 
 \layout {
+  \set Score.markFormatter = #format-mark-box-barnumbers
   \set Score.skipBars = ##t
+  \override Score.RehearsalMark.font-size = #0
   \context {
     \Score
     #(if preserve-line-breaks? #{
@@ -23,13 +25,6 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns
     #})
   }
 }
-
-show-bar-number = #(define-music-function (music) (ly:music?)
-#{
-  \override Score.BarNumber.break-visibility = #end-of-line-invisible
-  $music
-  \revert Score.BarNumber.break-visibility
-#})
 
 \score {
   \new StaffGroup
@@ -70,7 +65,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         e-flat8-> d-> c4-> b-> |
         c2. |
         R2.*4
-        \show-bar-number
+        \mark \default
         b-flat8 \mf c16 d e-flat8 4 8 |
         e-flat4( d2) |
         g,8 a-flat16 b-flat c8 4 8 |
@@ -104,7 +99,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
 
         R2.*11
 
-        \show-bar-number
+        \mark \default
         \tuplet 3/2 4 { g8( \tweak X-offset #-1 \p c) e-flat e-flat( d) c c( b-flat) a-flat } |
         \tuplet 3/2 { a-flat8( g) c, } e-flat4 r8 c |
         \tuplet 3/2 4 { d8( f) e-flat d( f) g a-flat( d) c } |
@@ -148,7 +143,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         }
         R2.*10
 
-        \show-bar-number
+        \mark \default
         c,16 \f e-flat g c e-flat8-> d16 c b-flat( c) b-flat a-flat |
         g16( a-flat) g e-flat c4 r8 c16 16 |
         d8 e-flat16 16 f8 g16 16 a-flat8 c16 16 |
@@ -226,7 +221,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
 
         \time 4/4
         \tempo "Adagio"
-        \show-bar-number
+        \mark \default
         r16 b-flat'( \p c b-flat a b-flat d c b-flat2) |
         r16 b-flat( \pp c b-flat a b-flat d c b-flat2) |
         \override DynamicLineSpanner.staff-padding = #2.9
@@ -245,7 +240,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         d-flat'4-> c4~8) f,16( \> g a-flat8 g16 f |
         c'8 \p b-flat4) e-flat,8( b-flat' a-flat4) e-flat8 |
         g8( b-flat, c e-flat) g4( f) |
-        \show-bar-number
+        \mark \default
         e-flat4 r r8 d'( \< e-flat f |
         \override Script #'avoid-slur = #'inside
         b,4-> c) r8 e-flat( f g |
@@ -271,7 +266,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         \time 2/2
         \set Timing.beamExceptions = \beamExceptions { \tuplet 3/2 4 { 8[ 8 8] 8[ 8 8] 8[ 8 8] 8[ 8 8] } }
         \tempo "Allegro non troppo"
-        \show-bar-number
+        \mark \default
         R1*14
 
         <<
@@ -288,25 +283,18 @@ show-bar-number = #(define-music-function (music) (ly:music?)
 
         \key c \major
         \tempo "Cantabile"
-        \clef "bass"
-        \show-bar-number
-        c,4( \p \< g' \clef "treble" c e |
-        g4 c d e |
-        f1~) \f \> |
-        f1 |
-        e4( \p c g e' |
-        e-flat1->~) |
-        e-flat4( d-flat e-flat f |
-        c2 b4) r |
-        \clef "bass" c,,4( \p \< g' \clef "treble" c e |
-        g4 c d e |
-        f1~) \f \> |
-        f1 |
-        e4( \p c g e' |
-        e-flat1->~) |
-        e-flat4( d-flat e-flat f |
-        c2 b4) r |
-        \show-bar-number
+        \mark \default
+        \repeat unfold 2 {
+          \clef "bass" c,4( \p \< g' \clef "treble" c e |
+          g4 c d e |
+          f1~) \f \> |
+          f1 |
+          e4( \p c g e' |
+          e-flat1->~) |
+          e-flat4( d-flat e-flat f |
+          c2 b4) r |
+        }
+        \mark \default
         r2 g( |
         a2 c |
         b4 f'2-> d4->~ |
@@ -393,7 +381,7 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         >>
 
         \tuplet 3/2 4 {
-          \show-bar-number
+          \mark \default
           g8( c) c c( b) b b( d) d d( c) c |
           c8( e) e e( d) d d( f) f f( e) e |
         }
