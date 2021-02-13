@@ -27,13 +27,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
   }
 }
 
-show-bar-number = #(define-music-function (music) (ly:music?)
-#{
-  \override Score.BarNumber.break-visibility = #end-of-line-invisible
-  $music
-  \revert Score.BarNumber.break-visibility
-#})
-
 \score {
   \header { piece = "I" }
   \new Staff <<
@@ -109,15 +102,15 @@ show-bar-number = #(define-music-function (music) (ly:music?)
         {
           d1 |
           d-sharp1) |
+          \override Score.BarNumber.break-visibility = #end-of-line-invisible
           \set Score.currentBarNumber = #3
-          \show-bar-number
           e2 r2 |
         } {
           \set Score.currentBarNumber = #71
-          \show-bar-number
           d2. d8. \mf e-natural!16 |
         }
       }
+      \revert Score.BarNumber.break-visibility
       d2. d'8. \f e16 |
       d4 c8. a16 c4 a8. g-sharp16 |
       b4 b2 f'8. g16 |
