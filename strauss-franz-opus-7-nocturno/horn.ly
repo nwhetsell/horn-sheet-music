@@ -46,11 +46,11 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
       b-flat2. \> e-flat,4~ \! |
       e-flat4. \parenthesize \breathe a-flat,8( \< c e-flat a-flat c) |
       c4.( \> b-flat8 a-flat4) \< \breathe a-flat |
-      g8( \mf e-flat' d c) b4( \acciaccatura { c16 b } a8 b) |
+      g8( \mf e-flat' d c) b4( \appoggiatura { c16 b } a8 b) |
       c2. r4 |
       r4 e-flat4\( \pp d-flat!8 c b-flat a( |
       c4 \< b-flat2)\) \parenthesize \breathe f'4~( \! |
-      f4 g,) a-flat8([ \acciaccatura { b-flat32 a-flat } g16 a-flat] d-flat8 c) |
+      f4 g,) a-flat8([ \appoggiatura { b-flat32 a-flat } g16 a-flat] d-flat8 c) |
       b-flat2~8 \breathe b-flat( \< \acciaccatura d c b-flat) |
       b-flat2~ \tuplet 3/2 4 { \once \tupletDown b-flat8[ \tweak Y-offset #4 \breathe a( b-flat] d c b-flat) } |
       b-flat8( \f g' d e-flat) b16( c g a-flat b, c g' f) |
@@ -79,7 +79,7 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
       c b-flat a-flat g a-flat) r f4 |
       a8. f16 e( f) a-. c-. f4.( e-flat8) |
       e-flat4( d-flat2) \breathe c4->-\markup { \right-align \italic "accel." } |
-      b-flat-> a-flat-> g-> \shape #'((0 . 0) (0 . -0.5) (0 . -0.5) (0 . 0)) Slur f8[( \acciaccatura { g32 f } e16 f)] |
+      b-flat-> a-flat-> g-> \shape #'((0 . 0) (0 . -0.5) (0 . -0.5) (0 . 0)) Slur f8[( \appoggiatura { g32 f } e16 f)] |
 
       \tempo "Tempo I"
       g2 r4 g \pp |
@@ -106,7 +106,7 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
       b-flat2. \> \breathe e-flat,4~ \! |
       e-flat4. a-flat,8( \< c e-flat a-flat c) |
       c4.( \> b-flat8 a-flat4) \! \breathe c |
-      b-flat4( \tweak minimum-length #4 \< c8[ \mf \acciaccatura { d32 c b c } d16 \< e-flat] e-flat,4) g8( f) |
+      b-flat4( \tweak minimum-length #4 \< c8[ \mf \appoggiatura { d32 c b c } d16 \< e-flat] e-flat,4) g8( f) |
       e-flat2 \> r \! |
       e4( \pp g8 \< b-flat d-flat c b c) \! |
       f2( c4) \breathe c( \mf |

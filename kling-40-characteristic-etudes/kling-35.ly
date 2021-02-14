@@ -35,5 +35,5 @@
   g16->( f a-flat g f e-flat) e-flat->( d f e-flat d c) c->( b-flat d c b-flat a-flat) a-flat->( g b-flat a-flat g f) |
   e-flat4.~4 r8 b-flat'4( \< d8 g4 \> f8) \! |
   e-flat4.~4 r8 b-flat,4( \< d8 g4 \> f8) \! |
-  \acciaccatura { g16 f } e-flat2.~4.~4 r8\fermata | \bar "|."
+  \appoggiatura { g16 f } e-flat2.~4.~4 r8\fermata | \bar "|."
 }
