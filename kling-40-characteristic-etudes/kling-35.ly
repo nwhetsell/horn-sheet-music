@@ -23,7 +23,7 @@
   f,16( \< e f a c e-flat) \! g-flat8->( f c) e-flat4( \> d8 b-flat4.) |
   b-flat16( \< a b-flat f d') b-flat-. c( b c g e-flat') c-. d( c-sharp d b-flat f') d-. e-flat!( d e-flat c g') e-flat-. \! |
   f8( b-flat a c \f \> b-flat f) \! d( f e g \> f d) \! |
-  b-flat16( f) d-. f-. b-flat-. d-. f( d) b-flat d-. f-. b-flat-. f8-> e-> e-flat-> d16\(( e-flat32 d c16 d) \> e-flat\fermata a,\) |
+  b-flat16( f) d-. f-. b-flat-. d-. f( d) b-flat d-. f-. b-flat-. f8-> e-> e-flat-> \shape #'((0 . 0.5) (0 . 0) (0 . 0) (0 . 0)) PhrasingSlur d16\(( e-flat32 d c16 d) \> e-flat\fermata a,\) |
   b-flat8~( \< \repeat unfold 4 { b-flat16 c } b-flat16 c) b-flat4.~\startTrillSpan \> b-flat4 a32\stopTrillSpan( b-flat c b-flat) |
 
   b-flat4.~( \p \< b-flat8 g b-flat) e-flat( b-flat e-flat) g( e-flat g) |

@@ -39,6 +39,7 @@
 
   \barNumberCheck #23
   \cadenzaOn
+  \shape #'((0 . -1) (0 . 0) (0 . 0) (0 . 0)) Slur
   e-flat4\fermata(
   \magnifyMusic \cadenza-magnification {
     d16^\markup { \normalsize \italic "ad lib." }[ e-flat a, b-flat f-sharp g d e-flat]) b-flat4 r8
