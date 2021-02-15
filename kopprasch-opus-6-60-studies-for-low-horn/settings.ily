@@ -2,6 +2,6 @@
 
 #(begin
   (define bass-clef-name "bass")
-  (define cadenza-magnification 2/3)
+  (define cadenza-magnification 0.75)
   (define preserve-line-breaks? #f)
 )
