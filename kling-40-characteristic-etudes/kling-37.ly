@@ -42,7 +42,11 @@
   e-flat4\fermata(
   \magnifyMusic \cadenza-magnification {
     d16^\markup { \normalsize \italic "ad lib." }[ e-flat a, b-flat f-sharp g d e-flat]) b-flat4 r8
-    b-flat'16([ c] b-flat2\trill a-natural!16[ b-flat]) c16([ d] c2\trill b16[ c]) \bar "" d16([ e-flat] d2\trill c-sharp16[ d a-natural! b-flat])
+    \override Script #'avoid-slur = #'inside
+    \stemUp b-flat'16([ c] \stemNeutral b-flat2\trill \stemUp a-natural!16[ b-flat])
+    c16([ d] \stemNeutral c2\trill \stemUp b16[ c]) \bar ""
+    d16([ e-flat] \stemNeutral d2\trill \stemUp c-sharp16[ d a-natural! b-flat]) \stemNeutral
+    \revert Script #'avoid-slur
     g'8\fermata[ f16-. d-. b-flat-. a-flat-. f-. d-. #(if (string=? bass-clef-name "bass^8") #{ \clef \bass-clef-name #}) b-flat-. a-flat-. f-.] d4\fermata
     #(if (string=? bass-clef-name "bass^8") #{ \clef "treble" #}) c'8.[( b-flat16)] e-flat8.[( d16)] g8.[( f16)] c'8.\fermata[( \> b-flat)] \!
   }
