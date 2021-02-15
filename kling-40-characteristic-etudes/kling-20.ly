@@ -37,7 +37,7 @@
     e32( g b c-> b g) a->( g e f-sharp-> e b) c->( b g a-> g d-sharp) |
     e32( f-sharp g g-sharp a a-sharp) b( c-sharp d-sharp e f-sharp g) a( b c c-sharp d d-sharp) |
   }
-  e8~( \tuplet 6/4 8 { e32 a-sharp, b f-sharp g d-sharp) e( a-sharp, b f-sharp g d-sharp) } |
+  e8~( \tuplet 6/4 8 { e32 a-sharp, b f-sharp g d-sharp) \shape #'((0 . 0) (0 . 1) (0 . 2) (0 . 0)) Slur e( a-sharp, b f-sharp g d-sharp) } |
   e8-. e'-.( e-.) |
   e,4.\fermata | \bar "|."
 }
