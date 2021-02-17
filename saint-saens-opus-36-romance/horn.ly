@@ -56,7 +56,6 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Sa%C3%ABns,_Camille)"
 
       R2.*2
 
-
       g2-.( \tweak to-barline ##f \< g4-.) |
       e'2( \! d8 c) |
       b2( c8 d) |
