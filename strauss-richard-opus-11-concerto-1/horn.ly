@@ -167,9 +167,9 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
         c4-. f8-. c-. a-. f-. \shape #'((0 . 0.5) (0 . 0.5) (0 . 0.5) (0 . 0.5)) PhrasingSlur g4\(( a8) b-flat4( c8)\) |
         a4 \breathe a8-. a( \< b-flat) c-. d-. a-. a-. a( b-flat) c-. |
       }
-      d4 \f r4 r2 \bar "||"
+      d4 \f r4 r2 | \bar "||"
       \time 2/4
-      \tuplet 3/2 4 { r8 c-. \f c-. c( d) e-. } \bar "||"
+      \tuplet 3/2 4 { r8 c-. \f c-. c( d) e-. } | \bar "||"
       \time 4/4
       \tuplet 3/2 4 {
         f4-. d8-. b-flat-. f-. d-. b-flat4 \breathe d'8-. d( e) f-. |
@@ -206,7 +206,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
           f'4\rest \tuplet 3/2 { e-flat8 a c } e-flat4 f,\rest
           d4\rest \tuplet 3/2 { e-flat,8 a c } e-flat4 d\rest
         }
-      >> \bar "||"
+      >> | \bar "||"
 
       \key e-flat #(if andante-uses-minor-key? #{ \minor #} #{ \major #})
       \time 3/8
