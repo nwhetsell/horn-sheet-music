@@ -14,17 +14,17 @@
     \column {
       \fill-line {
         \override #'(font-name . "Playfair Display Regular")
-        \abs-fontsize #24
+        \abs-fontsize #20
         \fromproperty #'header:title
         \concat {
           \override #'(font-name . "Playfair Display Medium")
-          \abs-fontsize #16
+          \abs-fontsize #14
           \fromproperty #'header:composer-first-name
           \override #'(font-name . "Playfair Display Medium")
-          \abs-fontsize #16
+          \abs-fontsize #14
           " "
           \override #'(font-name . "Playfair Display Regular")
-          \abs-fontsize #24
+          \abs-fontsize #20
           \fromproperty #'header:composer-last-name
         }
       }
@@ -41,8 +41,8 @@
   scoreTitleMarkup = \markup {
     \column {
       \fill-line {
-        \override #'(font-name . "Playfair Display Medium")
-        \abs-fontsize #16
+        \override #'(font-name . "Playfair Display Regular")
+        \abs-fontsize #20
         \fromproperty #'header:piece
       }
       \vspace #0.375

@@ -19,7 +19,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
     \column {
       \concat {
         \override #'(font-name . "Playfair Display Regular")
-        \abs-fontsize #24
+        \abs-fontsize #20
         \fromproperty #'header:piece
         \hspace #1
         \override #'(font-name . "Playfair Display Medium")
