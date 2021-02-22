@@ -66,7 +66,7 @@
 }
 
 \layout {
-  indent = 0.25\in
+  indent = 0
 }
 
 \header {
