@@ -34,7 +34,7 @@
     b8 r b16( \p a) g-. f-sharp-. g-. e( d-sharp e) c'( b) a-. g-. |
     a16-. \cresc f-sharp( e f-sharp) d'( c) b-. a-. b-. g( f-sharp g) f-natural'!( e) d-. c-. |
     b16( c) d-. e-. d-. g,( a g) c( \f d) e-. f-. e-. g,( a g) |
-    d'16( e) f-. g-. e-. g,( a g) r2\fermata |
+    d'16( e) f-. g-. f-. g,( a g) r2\fermata |
 
     <> \p \repeat unfold 2 { e16( f) g-. a-. g-. c( d c) } |
     f,16( \cresc g) a-. b-flat-. a-. c( d c) g( a) b-. c-. b-. d( e d) |
