@@ -38,6 +38,6 @@
   e16( d-sharp32 e c-sharp'16. b32 a8) r |
   e32( \< d-sharp f-sharp e g-sharp \> f-sharp d b \! a8) r |
   \clef \bass-clef-name
-  e32^\markup { \italic "dim. et rit." }( \< d-sharp f-sharp e g-sharp \> f-sharp d b \! a8) r |
+  e32^\markup { \italic "dim. e rit." }( \< d-sharp f-sharp e g-sharp \> f-sharp d b \! a8) r |
   a8-.( a-.) a4\fermata | \bar "|."
 }
