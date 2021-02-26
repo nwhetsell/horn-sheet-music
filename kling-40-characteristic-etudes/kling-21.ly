@@ -31,7 +31,7 @@
   f-sharp'32( e) e( d) d( c-sharp) c-sharp( b) b( a) a( g-sharp) e'( d) d( c-sharp) c-sharp( b) b( a) a( g-sharp!) g-sharp( f-sharp) |
   f8.( \ff d'16 c-sharp b) a-sharp8.( g-natural'!16 f-sharp e) |
   c-sharp!32->( d e d) a-sharp->( b c-sharp b) e-sharp,->( f-sharp g f-sharp) d( b) f-sharp'-. d-. b'( f-sharp) d'-. b-. f-sharp'( d) b'-. f-sharp-. |
-  e( c-sharp) c-sharp( e) e( c-sharp) c-sharp( e) e( a) e( c-sharp) d( b) b( d) d( b g-sharp') f-sharp-. e-. d-. c-sharp b-. |
+  e( c-sharp) c-sharp( e) e( c-sharp) c-sharp( e) e( a) e( c-sharp) d( b) b( d) d( b g-sharp') f-sharp-. e-. d-. c-sharp-. b-. |
   a8.( \> e16 c-sharp' b) a4 \! r8 |
   a4.~( \p \< a16 b) c-sharp-. d-. e-. f-sharp-. \! |
 
