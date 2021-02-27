@@ -1,7 +1,5 @@
 \version "2.22.0"
 
-\include "settings.ily"
-
 \relative {
   \language "english"
 
