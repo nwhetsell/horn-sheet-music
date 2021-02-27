@@ -48,7 +48,7 @@
   \clef "treble" g2~( \pp g16 \< f-sharp g a-flat a b-flat b d) |
   c4~( \> c16 g c g c4) \! r |
 
-  c,,8-. \f c'' d,,-. d''-. e-flat,,-. e-flat''-. f,,-. f''-. |
+  c,,8-. \f c''-. d,,-. d''-. e-flat,,-. e-flat''-. f,,-. f''-. |
   g4 e-flat16-. c-. g-. e-flat-. c8-. e-flat-. c'-. g'-. |
   % Override beam damping so the kneed beam does not collide with the Middle C
   % ledger line.
