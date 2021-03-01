@@ -101,9 +101,6 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
     >>
   }
 
-  % Add vertical space above the next study.
-  \markup { \vspace #0.25 }
-
   \score {
     \header { piece = "21" }
     \new Staff <<
