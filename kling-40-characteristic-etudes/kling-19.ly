@@ -43,9 +43,9 @@
   f-sharp16-. d-. f-sharp-. a-. g-. e-. g-. b-. |
   a16-. f-sharp-. a-. d-. c-sharp-. a-. c-sharp-. e-. |
   \repeat unfold 2 { d4~( d16 c-sharp e d) | }
-  \override Stem.details.beamed-lengths = #'(4)
+  \override Beam.positions = #'(-2.812 . -2.812)
   \repeat unfold 4 { d16( c-sharp e d) } |
-  \revert Stem.details.beamed-lengths
+  \revert Beam.positions
   d16( e c-natural! d b c a b |
   g16 a f-sharp g e f-sharp d e) |
   c-natural!16( d e f-sharp g f-sharp g g-sharp |
