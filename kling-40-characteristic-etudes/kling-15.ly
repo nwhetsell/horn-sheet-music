@@ -39,7 +39,7 @@
       \revert Hairpin.minimum-length
     }
   >> |
-  d,2\fermata \tempo "Tempo I" g8. \p a16 |
+  d,2\fermata \tempo "a tempo" g8. \p a16 |
 
   \tuplet 3/2 { b8( g) e'-. } d4.( g,8) |
   f-sharp16( \< a c e) d4.( \> c8) |
