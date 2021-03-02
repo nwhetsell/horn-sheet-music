@@ -54,6 +54,14 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
   }
 
   \score {
+    \header { piece = "13" }
+    \new Staff <<
+      \new Voice { \include "kling-13.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kling-13-line-breaks.ily" } #})
+    >>
+  }
+
+  \score {
     \header { piece = "14" }
     \new Staff <<
       \new Voice { \include "kling-14.ly" }
