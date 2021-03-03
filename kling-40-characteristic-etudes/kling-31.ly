@@ -82,7 +82,7 @@
   f2~( f16 \< e g b-flat e \> d b-flat e,) |
 
   f2 \p c4.. a16 |
-  f8. a16 c,4~8 f16-. \< a-. c-. f-. a-. c \! |
+  f8. a16 c,4~8 f16-. \< a-. c-. f-. a-. c-. \! |
   f16->( c a d) c->( a f b-flat) a->( f c g') f->( c a c) |
   \clef \bass-clef-name f,2 c4.. \> a16 |
   f1\fermata \pp | \bar "|."
