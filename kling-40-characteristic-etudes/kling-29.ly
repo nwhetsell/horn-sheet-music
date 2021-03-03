@@ -58,7 +58,7 @@
   g'32 c,( b c) e( c) e-. g-. c8( c-sharp) |
   d32-. c,( b c) c'-. c,( b c) b-flat'!32-. c,( b c) a'32-. c,( b c) |
   g'32-. c( b c d c g e) c( c-sharp d e f f-sharp g g-sharp) |
-  a32( f) e-. f-. g( a) b-flat b-. c( a) g-sharp-. a-. b-flat-. c-. d-. e-. |
+  a32( f) e-. f-. g( a) b-flat-. b-. c( a) g-sharp-. a-. b-flat-. c-. d-. e-. |
   f32( c) d-. e-. f-. f-sharp-. g-. g-sharp-. a4 |
   g32( d) b-flat-. g-. d-. g-. b-flat-. d-. c( e) g-. e-. c-. b-flat-. g-. e-. |
   f16-. g32-. f-. e( f) a-. c-. f8 r | \bar "|."
