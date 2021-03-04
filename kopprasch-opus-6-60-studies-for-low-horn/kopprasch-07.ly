@@ -59,7 +59,11 @@
     g,,2 \p \< c4 e |
     g4 c e2 \f |
     f,,2 a4 c |
-    f4 a d e |
+
+    f4 a c e |
+    % The 1st edition has:
+    % f4 a d e |
+
     f4 d a b |
     c2( c,4) r |
     g2 \p a4 b |
