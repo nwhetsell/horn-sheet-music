@@ -10,8 +10,7 @@
   \key e \major
   \time 4/4
 
-  \shape #'((0 . -0.25) (0 . 0) (0 . 0) (0 . -0.25)) PhrasingSlur
-  g-sharp'4.\(( \p a8) b4( e,)\) |
+  g-sharp'4.( \p a8 b4 e,) |
   c-sharp'8( \< d-sharp e \> c-sharp b2 \!) |
   a4.( b8) g-sharp4( b) |
   f-sharp4( \grace { g-sharp32 f-sharp e-sharp f-sharp } a8 g-sharp \< f-sharp4. f-sharpsharp8) \! |
