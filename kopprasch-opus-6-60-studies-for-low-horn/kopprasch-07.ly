@@ -5,12 +5,12 @@
 
   \transposition f
 
+  \tempo "Adagio"
+
   \key c \major
   \time 4/4
 
-  \tempo "Adagio"
-  \repeat volta 2
-  {
+  \repeat volta 2 {
     \override DynamicLineSpanner.staff-padding = #2.75
     c'2 \p \< e4 g \! |
     <<
@@ -50,8 +50,7 @@
     c4 \f a d \> f-sharp, |
     g2( g,4) \! r |
   }
-  \repeat volta 2
-  {
+  \repeat volta 2 {
     g2 \p \< b4 d |
     g4 b d2 \f |
     g,,2 \p \< c4 e |
