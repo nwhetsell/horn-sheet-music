@@ -23,7 +23,7 @@ jobs:
     - name: Create PDFs
       run: |
         lilypond --output='Glazunov - Op. 24 - Rêverie' glazunov-opus-24-reverie/horn.ly
-        lilypond --output='Kling - 40 Characteristic Études for Horn' --verbose kling-40-characteristic-etudes/main.ly
+        lilypond --output='Kling - 40 Characteristic Études for Horn' kling-40-characteristic-etudes/main.ly
         lilypond --output='Kopprasch - Op. 6 - 60 Studies for Low Horn' kopprasch-opus-6-60-studies-for-low-horn/main.ly
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio/horn.ly
         lilypond --output='Saint-Saëns - Op. 36 - Romance' saint-saens-opus-36-romance/horn.ly
