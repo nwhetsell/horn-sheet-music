@@ -27,7 +27,7 @@
   f4~( \> f16 e-flat c a f4.) \! r8 |
   g16( \< b-flat d-flat e g4) b-flat,16( d-flat e g b4) |
   d-flat,16( \f e g b-flat d-flat b-flat g e d-flat b-flat g e d-flat e g b-flat) |
-  f16( b-flat d f b-flat \> d f d b-flat f d b-flat a f e-flat c) |
+  f16( b-flat d f b-flat \tweak rotation #'(-7 0 0) \> d f d b-flat f d b-flat a f e-flat c) \! |
   \clef \bass-clef-name b-flat2. \p r4 |
 
   \clef "treble" d''4._\markup { \italic "dolce" }( b-flat8) g( b-flat a f-sharp) |
