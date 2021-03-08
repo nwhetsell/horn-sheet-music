@@ -35,7 +35,7 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
       (module-define! header 'piece (number->string study-number))
       (let* (
           (base-name (format #f "kling-~2,'0d" study-number))
-          (music (if preserve-line-breaks?
+          (score (scorify-music (if preserve-line-breaks?
             #{
               \new Staff <<
                 \new Voice { \include #(format #f "~a.ly" base-name) }
@@ -45,8 +45,7 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
             #{
               \include #(format #f "~a.ly" base-name)
             #}
-          ))
-          (score (scorify-music music)))
+          ))))
         (begin
           (ly:score-set-header! score header)
           (add-score score)))))
