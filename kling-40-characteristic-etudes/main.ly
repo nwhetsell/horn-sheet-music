@@ -34,16 +34,16 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
     (let ((header (make-module)))
       (module-define! header 'piece (number->string study-number))
       (let* (
-          (filename (format #f "kling-~2,'0d" study-number))
+          (base-name (format #f "kling-~2,'0d" study-number))
           (music (if preserve-line-breaks?
             #{
               \new Staff <<
-                \new Voice { \include #(format #f "~a.ly" filename) }
-                \new Voice { \include #(format #f "line-breaks/~a-line-breaks.ily" filename) }
+                \new Voice { \include #(format #f "~a.ly" base-name) }
+                \new Voice { \include #(format #f "line-breaks/~a-line-breaks.ily" base-name) }
               >>
             #}
             #{
-              \include #(format #f "~a.ly" filename)
+              \include #(format #f "~a.ly" base-name)
             #}
           ))
           (score (scorify-music music)))
