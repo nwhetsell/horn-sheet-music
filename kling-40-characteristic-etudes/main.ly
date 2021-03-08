@@ -48,7 +48,8 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
           ))))
         (begin
           (ly:score-set-header! score header)
-          (add-score score)))))
+          (add-score score))))
+  )
 
   \bookpart {
     \paper {
