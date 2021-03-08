@@ -109,7 +109,7 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Sa%C3%ABns,_Camille)"
       g2.~ |
       g8 r r4 r |
 
-      r4 r r8 r\fermata  |
+      r4 r r8 r\fermata |
 
       \tempo "a tempo"
       g8-.( \p \< c-. d-. e-. \> c-. g-.) \! |

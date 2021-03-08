@@ -675,7 +675,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       d-sharp2. r4 |
       r4 f-natural!2( f-sharp4) |
       d-sharp4 f-sharp,( d-sharp') f-sharp,( |
-      d-sharp'1~  |
+      d-sharp'1~ |
       d-sharp2.) r4 |
       \tieUp
       b'1~ \pp |

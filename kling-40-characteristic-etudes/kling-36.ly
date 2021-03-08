@@ -13,7 +13,7 @@
   \time 4/4
 
   g'4~( \p \tuplet 3/2 4 { g8 f-sharp g e-flat d e-flat c b c) } |
-  \clef \bass-clef-name g4~( \tuplet 3/2 4 { g8 f-sharp g e-flat d e-flat c b c) }  |
+  \clef \bass-clef-name g4~( \tuplet 3/2 4 { g8 f-sharp g e-flat d e-flat c b c) } |
   g2( \< a-flat4 c) \! |
   e-flat4. g8 #(if (not (string=? bass-clef-name "bass^8")) #{ \clef "treble" #}) c e-flat g #(if (string=? bass-clef-name "bass^8") #{ \clef "treble" #}) c |
 
