@@ -31,8 +31,9 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
 \book {
   #(do ((study-number 1 (1+ study-number)))
       ((> study-number 39))
+    (let ((header (make-module)))
+      (module-define! header 'piece (number->string study-number))
     (let* (
-        (header (make-module))
         (filename (format #f "kling-~2,'0d" study-number))
         (music (if preserve-line-breaks?
           #{
@@ -47,9 +48,8 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
         ))
         (score (scorify-music music)))
       (begin
-        (module-define! header 'piece (number->string study-number))
         (ly:score-set-header! score header)
-        (add-score score))))
+        (add-score score)))))
 
   \bookpart {
     \paper {
