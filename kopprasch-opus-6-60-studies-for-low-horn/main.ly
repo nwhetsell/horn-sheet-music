@@ -170,6 +170,22 @@ alternates-layout = \layout {
 
   \score {
     \header {
+      piece = "17"
+      transposition = "(in E, E♭, and D♭)"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-17.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-17-line-breaks.ily" } #})
+    >>
+  }
+  \noPageBreak
+  \score {
+    \alternates-layout
+    \include "alternates/kopprasch-17-alternates.ly"
+  }
+
+  \score {
+    \header {
       piece = "18"
       transposition = "(in E and E♭)"
     }
