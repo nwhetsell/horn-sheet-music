@@ -107,6 +107,17 @@ alternates-layout = \layout {
 
   \score {
     \header {
+      piece = "11"
+      note = "It is beter to practice this study before No. 43."
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-11.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-11-line-breaks.ily" } #})
+    >>
+  }
+
+  \score {
+    \header {
       piece = "12"
       transposition = "(in D and C)"
     }
