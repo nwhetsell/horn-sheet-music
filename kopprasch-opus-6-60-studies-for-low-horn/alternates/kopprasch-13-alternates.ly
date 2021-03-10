@@ -6,10 +6,8 @@
   \key c \major
   \time 3/4
 
-  \bar ""
-
   % Alternates from Gumpert edition
-  \mark \default
+  \bar "" \mark \default
   g8--( c-- e-- b-- c-- g--) | \bar "||"
 
   \mark \default

@@ -6,10 +6,8 @@
   \key c \major
   \time 6/8
 
-  \bar ""
-
   % Alternates from Gumpert edition
-  \mark \default
+  \bar "" \mark \default
   c''8. e16 g8 g,8. c16 e8 | \bar "||"
 
   \mark \default
