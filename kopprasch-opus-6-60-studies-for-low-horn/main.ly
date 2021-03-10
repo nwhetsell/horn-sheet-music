@@ -107,6 +107,16 @@ alternates-layout = \layout {
 
   \score {
     \header {
+      piece = "10"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-10.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-10-line-breaks.ily" } #})
+    >>
+  }
+
+  \score {
+    \header {
       piece = "11"
       note = "It is beter to practice this study before No. 43."
     }
