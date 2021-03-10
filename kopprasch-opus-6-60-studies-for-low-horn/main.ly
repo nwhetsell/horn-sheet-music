@@ -50,6 +50,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
 
 alternates-layout = \layout {
   #(layout-set-staff-size 14)
+  ragged-last = ##t
   \context {
     \Score
     \omit BarNumber
