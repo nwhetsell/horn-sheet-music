@@ -36,7 +36,16 @@
     b d f c-sharp d b |
     d8 \f f <a \tweak font-size #-2 d,> e f c-sharp |
     d8 \> a-sharp b f-sharp g f |
-    e8 \p c e \cresc g c g-sharp |
+    <<
+      \new Voice {
+        \voiceOne
+        e8 c e g c g-sharp |
+      }
+      {
+        \voiceTwo
+        e8 \p r s \cresc
+      }
+    >> \oneVoice
     a8 e f a d a-sharp |
     b8 f-sharp g b e b |
     c8 \f g-sharp a c f c-sharp |
