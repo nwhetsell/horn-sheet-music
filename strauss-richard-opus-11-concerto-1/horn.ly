@@ -289,7 +289,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
 
       R4.*4
 
-      r8 r f-sharp-> \ff \bar "||"
+      r8 r f-sharp-> \ff | \bar "||"
       \key b \major
       f-sharp'4-> d-sharp8-> |
       b8.->[ \tweak Y-offset #4 \breathe f-sharp16( d-sharp e] |
@@ -308,7 +308,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       g4-> \> e-flat8 \! |
       b-flat4 \breathe \tuplet 3/2 { g16( a-flat b-flat) } |
       c4. \dim \breathe |
-      d8( c b-flat) \bar "||"
+      d8( c b-flat) | \bar "||"
       \key e-flat #(if andante-uses-minor-key? #{ \minor #} #{ \major #})
       e-flat4.( \p |
       b-flat4) \breathe e-flat,16( f \> |
@@ -391,7 +391,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
         }
       >>
 
-      \tuplet 3/2 4 { r4 f,8^"Solo" \mf f b-flat d } \bar "||"
+      \tuplet 3/2 4 { r4 f,8^"Solo" \mf f b-flat d } | \bar "||"
       \time 6/8
       \tempo \markup {
         \concat {
@@ -521,7 +521,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       R2.*2
       r8 f,-. \< b-flat-. d4.( |
       e-flat8) f,-. c'-. e-flat-. \! r8 r8 |
-      r8 f,-. \pp f-. f-. b-flat-. d-. \bar "||"
+      r8 f,-. \pp f-. f-. b-flat-. d-. | \bar "||"
 
       \time 4/4
       \tempo \markup {
@@ -629,7 +629,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
           b-flat8 b-flat, b-flat'~8 b-flat, b-flat'
             -\tweak control-points #'((0.3 . 7.7) (0.9 . 8.2) (1.6 . 8.2) (2.2 . 7.7)) ( <> )
         }
-      >> \bar "||"
+      >> | \bar "||"
 
       \time 4/4
       \tempo \markup {
