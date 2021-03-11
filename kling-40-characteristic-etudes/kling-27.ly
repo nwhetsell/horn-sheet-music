@@ -13,11 +13,11 @@
   \partial 4 { f-sharp'4( \p } |
   b4 \< d-sharp f-sharp g-sharp) |
   f-sharp4~( \> \tuplet 3/2 { f-sharp8 d-sharp b } \! f-sharp4) \tuplet 3/2 { f-sharp8( b c-sharp } |
-  d-sharp4) \< \tuplet 3/2 { f-sharp,8( b d-sharp } c-sharp4) \> \tuplet 3/2 { f-sharp,8( b c-sharp } \! |
+  d-sharp4) \< \tuplet 3/2 { f-sharp,8( b d-sharp } c-sharp4) \> \tuplet 3/2 { f-sharp,8( a-sharp c-sharp } \! |
   b4) b'( \> f-sharp) \! f-sharp, |
   f-sharp8( \< b) b( d-sharp) d-sharp( f-sharp) f-sharp( g-sharp) |
   f-sharp4~( \> \tuplet 3/2 { f-sharp8 d-sharp b } \! f-sharp4) \tuplet 3/2 { f-sharp8( b c-sharp } |
-  d-sharp4) \< \tuplet 3/2 { f-sharp,8( b d-sharp } c-sharp4) \> \tuplet 3/2 { f-sharp,8( b c-sharp } \! |
+  d-sharp4) \< \tuplet 3/2 { f-sharp,8( b d-sharp } c-sharp4) \> \tuplet 3/2 { f-sharp,8( a-sharp c-sharp } \! |
   b2) r4 b8. \mf b16 |
   b8( \< e) e( g-sharp) g-sharp( b) a-sharp-. g-sharp-. |
   f-sharp4.( \> d-sharp8 b4) \! b8. b16 |
