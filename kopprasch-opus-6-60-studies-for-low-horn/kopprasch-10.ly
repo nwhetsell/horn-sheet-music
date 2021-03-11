@@ -41,6 +41,6 @@
     f8( \cresc d) e-. f-. g( e) f-. g-. |
     a8( f) g-. a-. b( g) a-. b-. |
     c8( \f e) d-. c-. b( g) a-. b-. |
-    c8( g) e-. c-. b( g) <a \tweak #'font-size #-2 f>-. <b \tweak #'font-size #-2 d,>-. | <c \tweak #'font-size #-2 c,>2 r |
+    c8( g) e-. c-. b( g) <a \tweak font-size #-2 f>-. <b \tweak font-size #-2 d,>-. | <c \tweak font-size #-2 c,>2 r |
   }
 }
