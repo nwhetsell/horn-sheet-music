@@ -253,7 +253,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
           e-flat16( f |
           \unHideNotes
           \stemUp
-          g16 \teeny a b-flat8) f-sharp8(|
+          g16 \teeny a b-flat8) f-sharp8( |
           g8)
         }
         {
