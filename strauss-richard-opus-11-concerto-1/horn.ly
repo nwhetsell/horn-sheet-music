@@ -244,6 +244,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       a-flat4^\markup { \italic "un poco accelerando" } \cresc \breathe a-flat16( b-flat |
       c16 d e-flat8) d8( |
       g4) \breathe
+
       <<
         \new Voice {
           \voiceOne
@@ -264,6 +265,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
         }
       >> \oneVoice
       \breathe d'4~^\markup { \italic "calando" } |
+
       d8 \breathe d4~ |
       d8 \breathe b-flat4~ |
       b-flat8 r r |
