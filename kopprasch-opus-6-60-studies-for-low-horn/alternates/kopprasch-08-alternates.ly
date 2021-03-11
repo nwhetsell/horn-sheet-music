@@ -10,16 +10,16 @@
 
   % Alternates from 1st edition
   \bar "" \mark \default
-  c'16( e) e-. g-. g( c) c-. b-. | b( a) a-. g-. g8 r | \bar "||" \noBreak
+  c'16( e) e-. g-. g( c) c-. b-. | b( a) a-. g-. g8 r | \bar "||"
 
   \mark \default
-  c,16-. e-. e( g) g-. c-. c( b) | b-. a-. a( g) g8 r | \bar "||" \noBreak
+  c,16-. e-. e( g) g-. c-. c( b) | b-. a-. a( g) g8 r | \bar "||"
 
   \mark \default
-  c,16-. e~e g-. g-. c~c b-. | \noBreak b-. a~a g-. g8 r | \bar "||" \noBreak
+  c,16-. e~e g-. g-. c~c b-. | b-. a~a g-. g8 r | \bar "||"
 
   \mark \default
-  c,16-. e~e g~g c~c b~ | \noBreak b a~a g~8 r | \bar "||"
+  c,16-. e~e g~g c~c b~ | b a~a g~8 r | \bar "||"
 
   \revert Score.NonMusicalPaperColumn.line-break-permission
 }
