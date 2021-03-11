@@ -5,6 +5,8 @@
 
   \transposition f
 
+  \tempo "Allegro"
+
   \key c \major
   \time 4/4
 
