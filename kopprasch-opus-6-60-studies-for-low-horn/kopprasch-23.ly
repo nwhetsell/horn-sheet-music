@@ -37,7 +37,7 @@
     d4 b g b d g |
     c4( g') e c g e |
     c4( c') g e c2 |
-    c4( \once \stemUp e-flat') c g e-flat c |
+    c4 \tweak details.accidental-collision #40 ( e-flat') c g e-flat c |
     a-flat4( c') a-flat e-flat c a-flat |
     g4( c') g e-flat c g |
     f-sharp4( c'') a-natural! f-sharp e-flat c |
