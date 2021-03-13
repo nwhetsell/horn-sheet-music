@@ -1,5 +1,7 @@
 \version "2.22.0"
 
+\include "../turn-markup.ily"
+
 \relative {
   \language "english"
 
@@ -42,7 +44,7 @@
   a4~( a16 f-sharp a b) g-sharp4~( g-sharp16 e g-sharp b) |
   <<
     { f-sharp4.( a16 g-sharp f-sharp4. f-sharpsharp8) }
-    { s4 s16 s_\markup { \override #'(baseline-skip . 2) \halign #0 \center-column { \musicglyph #"scripts.turn" \teeny \sharp } } }
+    { s4 s16 s_\sharp-turn-markup }
   >> |
   g-sharp4.( a8 b4 e,) |
   c-sharp'16( \< d-sharp e d-sharp f-sharp \> e d-sharp c-sharp b2) |

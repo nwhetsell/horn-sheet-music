@@ -1,5 +1,6 @@
 \version "2.22.0"
 
+\include "../turn-markup.ily"
 \include "settings.ily"
 
 \relative {
@@ -52,18 +53,18 @@
   g-sharp4~( \< g-sharp8~32 a f d' \! c4)
     <<
       { a8.( c16) }
-      { s8 s^\markup { \musicglyph #"scripts.turn" } }
+      { s8 s^\turn-markup }
     >> |
 
   e32( \< d c-sharp d c-sharp d c-sharp d c-sharp \> d e d c-sharp d a b-flat \! g8) r
     <<
       { g8.( b-flat16) }
-      { s8 s_\markup { \override #'(baseline-skip . 2) \halign #0 \center-column { \musicglyph #"scripts.turn" \teeny \sharp } } }
+      { s8 s_\sharp-turn-markup }
     >> |
   d32( \< c b c b c b c b \> c d c b c g-sharp a \! f8) r
     <<
       { f8.( a16) }
-      { s8 s_\markup { \musicglyph #"scripts.turn" } }
+      { s8 s_\turn-markup }
     >> |
   c4~( \< c16 f a, d) c8( \> b-flat d, e) \! |
   f4~ f16 e32( d c b-flat a g f4) c'8. d16 |

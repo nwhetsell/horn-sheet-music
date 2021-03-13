@@ -1,5 +1,7 @@
 \version "2.22.0"
 
+\include "../turn-markup.ily"
+
 \relative {
   \language "english"
 
@@ -16,7 +18,7 @@
   b16( d) c( e) d( f) e( g) f( d) e( c) d( b) c( a) |
   <<
     { g4( b8.) a16 g8 r \afterGrace g4\trill( { f-sharp16 g) } }
-    { s8. s16^\markup { \override #'(baseline-skip . 2) \halign #0 \center-column { \musicglyph #"scripts.turn" \teeny \sharp } } }
+    { s8. s16^\sharp-turn-markup }
   >> |
   c8 r c8. d16 e4 e8. f16 |
   g2~8 c16( b) a( g) f-. e-. |
@@ -47,7 +49,7 @@
   \partial 2. {
     <<
       { c4( e8.) d16 c8 r }
-      { s8. s16^\markup { \musicglyph #"scripts.turn" } }
+      { s8. s16^\turn-markup }
     >>
   } | \bar "|."
 }
