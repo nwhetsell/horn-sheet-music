@@ -40,6 +40,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f
     #})
+    \override TupletBracket.bracket-visibility = #'if-no-beam
   }
   \context {
     \Voice
@@ -326,6 +327,16 @@ alternates-layout = \layout {
     \new Staff <<
       \new Voice { \include "kopprasch-21.ly" }
       #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-21-line-breaks.ily" } #})
+    >>
+  }
+
+  \score {
+    \header {
+      piece = "22"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-22.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-22-line-breaks.ily" } #})
     >>
   }
 
