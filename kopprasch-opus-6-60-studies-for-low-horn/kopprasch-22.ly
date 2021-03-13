@@ -1,6 +1,7 @@
 \version "2.22.0"
 
 \include "../turn-markup.ily"
+\include "settings.ily"
 
 \relative {
   \language "english"
@@ -13,7 +14,7 @@
   \time 4/4
 
   \repeat volta 2 {
-    g'4_\markup { \dynamic "p" \italic "dolce" }
+    g'4 \tweak X-offset #(if preserve-line-breaks? 0 -1.5) #(make-dynamic-script (markup #:dynamic "p" #:normal-text (#:italic "dolce")))
     <<
       { g8.( a16) }
       { s8 \once \override Staff.TextScript.outside-staff-priority = #240 s_\turn-markup }
