@@ -37,7 +37,7 @@
     g8 e c e g c |
     a8 f c f a g |
     f8 e d c b c |
-    d8 \tweak to-barline #f \< e f g a b |
+    d8 \tweak to-barline ##f \< e f g a b |
     c4 \! r8 d \f e f |
     g8 e c e f g |
     <a \tweak font-size #-2 f>8 g f e d c |

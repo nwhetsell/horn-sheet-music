@@ -25,7 +25,7 @@
     d8 \> c16 b a g f e d \< e f g a b c d |
     e8 \> d16 c b a g f e \< f g a b c d e |
     f8 \> e16 d c b a g f \< g a b c d e f |
-    g8 \> f16 e d c b a g \tweak to-barline #f \< a b c d e f <g \tweak font-size #-2 e> |
+    g8 \> f16 e d c b a g \tweak to-barline ##f \< a b c d e f <g \tweak font-size #-2 e> |
     <a \tweak font-size #-2 f>4 \! r16 g f e d c b a g f e d |
     c8 \< d16 e f g a b c8 \> b16 a g f e d |
     c8 \p b16 a g f e d c4 r |
