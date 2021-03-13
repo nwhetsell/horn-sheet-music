@@ -43,7 +43,7 @@
       }
       {
         \voiceTwo
-        e8 \p r s \cresc
+        e8 \p \tweak Y-offset #-5 r s \cresc
       }
     >> \oneVoice
     a8 e f a d a-sharp |
