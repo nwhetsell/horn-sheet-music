@@ -65,7 +65,7 @@
     b16( c d) c-. a8 g16( f-sharp e) f-sharp-. d8 |
     g16( f-sharp) g-. a-. b-. g-. c( \f b) c-. d-. e-. c-. |
     a16( g) a-. b-. c-. a-.
-      f-sharp( % The Gumpert edition has a G here.
+      f-sharp( % The Gumpert edition has g here.
       e) f-sharp-. g-. a-. f-sharp-. |
     g4 r8 r4. |
   }

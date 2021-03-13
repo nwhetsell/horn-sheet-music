@@ -61,7 +61,7 @@
     % e'8) r c'4( \p g,8) r c,4( \f |
     e'8) r g'4( \p g,8) r c,,4( \f |
     d'8) r g4( \p g,8) r c,4( \f |
-    e'8) % The 1st edition has a D here.
+    e'8) % The 1st edition has d here.
       r c'4( \p c,8) r e'4( \f |
     c,,2.\fermata)
   }

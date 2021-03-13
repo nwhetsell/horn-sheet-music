@@ -57,7 +57,7 @@
     g4 c e2 \f |
     f,,2 a4 c |
     f4 a
-      c % The 1st edition has a D here.
+      c % The 1st edition has d here.
       e |
     f4 d a b |
     c2( c,4) r |
