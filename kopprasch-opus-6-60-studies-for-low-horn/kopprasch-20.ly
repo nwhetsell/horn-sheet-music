@@ -49,8 +49,8 @@
     c,8) r b4( g'8) r g,4( \f |
     a-flat8) r a-flat'4( e-flat8) r c4( |
     e-flat8) r e-flat'4( c8) r a-flat,4( |
-    g8) r c'4( e-flat8) r g,,4( |
-    f-sharp8) r c''4( \p e-flat8) r f-sharp,,4( \f |
+    g8) r c'4 \tweak details.accidental-collision #9 ( e-flat8) r g,,4( |
+    f-sharp8) r c''4 \tweak details.accidental-collision #9 ( \p e-flat8) r f-sharp,,4( \f |
     g8) r c'4( \p e-natural,!8) r g,4( \f |
     g'8) r f'4( \p b,8) r g,4( \f |
     c8) r g'4( \p e8) r c,4( \f |
