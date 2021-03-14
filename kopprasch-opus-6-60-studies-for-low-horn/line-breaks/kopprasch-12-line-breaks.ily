@@ -7,11 +7,8 @@
     s1*2
   }
   \alternative {
-    {
-      \partial 2.. { s2.. }
-    } {
-      s1 \break
-    }
+    { s2.. }
+    { s1 \break }
   }
   \repeat volta 2 {
     s1*2 \break
@@ -19,10 +16,7 @@
     s1*2
   }
   \alternative {
-    {
-      s1
-    } {
-      \partial 2.. { s2.. } \break
-    }
+    { s1 }
+    { s2.. \break }
   }
 }

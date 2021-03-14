@@ -25,11 +25,8 @@
     d4 \f e16( d) c-sharp-. b-. a4 a16( g) f-sharp-. e-. |
   }
   \alternative {
-    {
-      \partial 2.. { d2 r4 r8 } |
-    } {
-      d2 r | \bar ".|:-||"
-    }
+    { d2 r4 r8 }
+    { d2 r | \bar ".|:-||" }
   }
   \repeat volta 2 {
     d'16( \mf c-sharp) b-natural!-. a-. b( c-sharp) d-. e-. f( e) d-. c-sharp-. d( c) b-flat-. a-. |
@@ -47,10 +44,7 @@
     g4 \f <a \tweak font-size #-2 f-sharp>16( g) f-sharp-. e-. d4 d16( c) b-. a-. |
   }
   \alternative {
-    {
-      g2 r |
-    } {
-      \partial 2.. { g2 r4 r8 } | \bar "|."
-    }
+    { g2 r | }
+    { g2 r4 r8 \bar "|." }
   }
 }
