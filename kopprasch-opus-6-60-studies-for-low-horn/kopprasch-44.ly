@@ -70,7 +70,7 @@
   \slurDown
   \afterGrace a2\trill( { g16 a) } \afterGrace b2\trill( { a16 b) } |
   \afterGrace c2\trill( { b16 c) } \afterGrace c-sharp2\trill( { b16 c-sharp) } |
-  \afterGrace d2\trill( { c-sharp16 d) } \afterGrace e4\trill^\markup { \teeny \sharp }( { d16 e) } \afterGrace f-sharp4\trill( { e16 f-sharp) } |
+  \afterGrace d2\trill( { c-sharp16 d) } \afterGrace e4\trill^\markup { \fontsize #-4 \sharp }( { d16 e) } \afterGrace f-sharp4\trill( { e16 f-sharp) } |
   \slurNeutral
   g2 r4 \bar "||" g,( \p |
 
