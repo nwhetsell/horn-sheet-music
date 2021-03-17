@@ -10,6 +10,8 @@
   \key g \major
   \time 2/4
 
+  \set Timing.beamExceptions = \beamExceptions { \tuplet 3/2 8 { 16[ 16 16] 16[ 16 16] 16[ 16 16] 16[ 16 16] } }
+
   \tuplet 3/2 { d''16( \mf e d) } b8-. \tuplet 3/2 { b16( c b) } g8-. |
   \tuplet 3/2 { g16( a g) } d8-. d4-> |
   b16-. d-. g-. b-. d-. g,-. b-. d-. |
