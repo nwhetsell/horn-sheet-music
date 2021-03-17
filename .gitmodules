@@ -1,0 +1,3 @@
+[submodule "lilypond-center-note-column"]
+	path = lilypond-center-note-column
+	url = https://github.com/nwhetsell/lilypond-center-note-column

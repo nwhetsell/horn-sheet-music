@@ -1,5 +1,7 @@
 \version "2.22.0"
 
+\include "../lilypond-center-note-column/center-note-column.ily"
+
 \relative {
   \language "english"
 
@@ -32,7 +34,9 @@
     g,8-. \f b16( d) g8
   }
   \repeat volta 2 {
+    \centerNoteColumnOn
     r8 |
+    \centerNoteColumnOff
     a,8-. \f c-sharp16( e) g8-. e16( c-sharp) |
     a8-. d16( f) a-flat,8-. d16( f) |
     g,8-. b16( d) f8-. d16( b) |

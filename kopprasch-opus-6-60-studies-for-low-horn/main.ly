@@ -382,6 +382,15 @@ alternates-layout = \layout {
       \new Voice { \include "kopprasch-26.ly" }
       #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-26-line-breaks.ily" } #})
     >>
+    % kopprasch-26.ly uses \centerNoteColumnOn, but using Melody_engraver
+    % apparently breaks this, so use default stem directions.
+    \layout {
+      \context {
+        \Voice
+        \remove "Melody_engraver"
+        \override Stem.neutral-direction = #DOWN
+      }
+    }
   }
 
   \score {
