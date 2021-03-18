@@ -456,6 +456,16 @@ alternates-layout = \layout {
 
   \score {
     \header {
+      piece = "33"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-33.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-33-line-breaks.ily" } #})
+    >>
+  }
+
+  \score {
+    \header {
       piece = "44"
     }
     \new Staff <<
