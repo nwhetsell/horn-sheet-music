@@ -65,7 +65,16 @@
   f4 \breathe r8 f-. g-. a-flat-. |
   d,8-. e-flat-. f-. b-flat,-. c-. d-. |
   e-flat4 d8 d-flat-. \> c-. c-flat-. |
-  b-flat8-. a-. a-flat-. g-. g-flat-. f-. \! |
+
+  b-flat8-. a-. a-flat-.
+    % The 1st edition has:
+    %   g f e-flat
+    % and the Gumpert edition has:
+    %   g g f
+    % Neither ends the chromatic scale that starts in the previous measure.
+    g-. g-flat-. f-.
+    \! |
+
   r8 e-. \< f-. f-sharp-. g-. a-flat-. |
   a8-. b-flat-. b-. c-. c-sharp-. d-. \! |
   e-flat-. g-. f-. e-flat-. b-flat-. g-. |
