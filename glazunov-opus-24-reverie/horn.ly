@@ -104,12 +104,12 @@ source-url = "https://imslp.org/wiki/R%C3%AAverie%2C_Op.24_(Glazunov%2C_Aleksand
       e-flat4 d-flat4.( a-flat8) |
       c2.~ \tweak to-barline ##f \> |
       c4 \! r r |
-      \override Script #'avoid-slur = #'inside
+      \override Script.avoid-slur = #'inside
       a-flat2-+( \pp b-flat4-+ |
       c4-+) f4.-+( c8-+) |
       e-flat2.-+( |
       e-flat2.\open) \< |
-      \revert Script #'avoid-slur
+      \revert Script.avoid-slur
       e-flat2.( \tweak X-offset #0 #(make-dynamic-script (markup #:dynamic "mf" #:normal-text (#:italic "morendo"))) |
       e-flat2.\fermata) | \bar "|."
     }

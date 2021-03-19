@@ -11,7 +11,7 @@
   \key e \minor
   \time 3/8
 
-  \override Script #'avoid-slur = #'inside
+  \override Script.avoid-slur = #'inside
 
   % This prevents beaming sextuplets together.
   \set Timing.beamExceptions = #'()

@@ -52,9 +52,9 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns
         b4-> g-> r |
         e-flat8-. c-. g'2-> |
         a-flat8-. f-. c'2-> |
-        \override Script #'avoid-slur = #'inside
+        \override Script.avoid-slur = #'inside
         e-flat4->( d-> c->) |
-        \revert Script #'avoid-slur
+        \revert Script.avoid-slur
         g2. |
         g8. \f c16 e-flat8. d16 c8. b-flat32 a-flat |
         g8. c,16 e-flat4 r8 e-flat-> |
@@ -92,9 +92,9 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns
         b4-> g-> r |
         e-flat8-. c-. g'2-> |
         a-flat8-. f-. c'2-> |
-        \override Script #'avoid-slur = #'inside
+        \override Script.avoid-slur = #'inside
         e-flat4->( d-> c->) |
-        \revert Script #'avoid-slur
+        \revert Script.avoid-slur
         g2. |
 
         R2.*11
@@ -242,10 +242,10 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns
         g8( b-flat, c e-flat) g4( f) |
         \mark \default
         e-flat4 r r8 d'( \< e-flat f |
-        \override Script #'avoid-slur = #'inside
+        \override Script.avoid-slur = #'inside
         b,4-> c) r8 e-flat( f g |
         c-sharp,4-> d) \! r2 |
-        \revert Script #'avoid-slur
+        \revert Script.avoid-slur
         r2 e,, |
         \clef "bass"
         f4.( \< e-flat!8) d2 |
@@ -344,16 +344,16 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns
         g,,4 r c'2~ \> |
         c8( \p a b c b d g-sharp, b) |
         a8( \< c b a b d c b) |
-        \override Script #'avoid-slur = #'inside
+        \override Script.avoid-slur = #'inside
         g'4->( \mf e-> c-> g->) |
-        \revert Script #'avoid-slur
+        \revert Script.avoid-slur
         b4( a b c) | \bar "||"
         \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
         \mark \markup { \musicglyph #"scripts.coda" }
         c2->( g4) r |
-        \override Script #'avoid-slur = #'inside
+        \override Script.avoid-slur = #'inside
         r4 g->( g-> g->) |
-        \revert Script #'avoid-slur
+        \revert Script.avoid-slur
         g'1-^( |
         g,4) r r2 |
         r4 \tuplet 3/2 4 { c,8( \f e g) c( d) c b( c) b } |

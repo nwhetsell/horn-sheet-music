@@ -71,9 +71,9 @@
 
   e-flat4~( e-flat16 d e-flat f g-> f e-flat d f-> e-flat d c) |
   b-flat4~( \tuplet 6/4 4 { b-flat16 f) b-flat-. d( b-flat) d-. f( d) f-. b-flat( f) b-flat-. d( b-flat) f-. b-flat( f) d-. }
-  \override Script #'avoid-slur = #'inside
+  \override Script.avoid-slur = #'inside
   e-natural!4~( e16 f g a b-flat c d c e-> d b-flat g) |
-  \revert Script #'avoid-slur
+  \revert Script.avoid-slur
   f4~32 g-. a-. b-flat-. c-. d-. e-. f-. f,4 c'8. d16 |
 
   e-flat4~( e-flat16 d e-flat f g-> f e-flat d f-> e-flat d c) |
