@@ -73,7 +73,7 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
 
       f,4~_\markup { \dynamic "ff" \italic "più animato e marcato" } f16 g-. a-flat-. b-flat-. c4 \breathe f~->( |
       f4. d-flat8 b-flat4) \breathe \tuplet 3/2 { g4( f8) } |
-      e8 g'4->( e8 c4)  \tuplet 3/2 { g8( a-flat b-flat) } |
+      e8 g'4->( e8 c4) \tuplet 3/2 { g8( a-flat b-flat) } |
       a-flat4~16 b-flat( b c) f,8 r f4( |
       a-flat8^\markup { \italic "risoluto" } g f e f) \breathe c( f a-flat |
       c b-flat a-flat g a-flat) r f4 |

@@ -17,7 +17,7 @@
     d8( b) c-. d-. e( d) c-. b-. |
     c8( \f a) b-. c-. d( c) b-. a-. |
     b8( d) c-. b-. a( \> c) b-. a-. |
-    g8( b) a-. g-.  f-sharp( a) g-. f-sharp-. |
+    g8( b) a-. g-. f-sharp( a) g-. f-sharp-. |
     g4 \p r g8( a) b-. g-. |
     a8( b) c-. b-. a( b) c-. a-. |
     b8( c) d-. c-. b( \cresc c) d-. b-. |

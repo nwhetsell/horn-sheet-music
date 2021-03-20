@@ -84,7 +84,7 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Sa%C3%ABns
         r8 b->( c2) |
         r8 c4 c4 d8 |
         b4 r g4~ \< |
-        g4  a-flat a~ |
+        g4 a-flat a~ |
         a4 b-flat b |
         c8.-^ \f g16 e-flat'8.-^ d16 c8.-^ b-flat32 a-flat |
         g8. c,16 e-flat4 r8 e-flat-> |
