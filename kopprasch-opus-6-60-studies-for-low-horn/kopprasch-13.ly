@@ -37,13 +37,13 @@
     d8 \f f <a \tweak font-size #-2 d,> e f c-sharp |
     d8 \> a-sharp b f-sharp g f |
     <<
-      \new Voice {
-        \voiceOne
-        e8 c e g c g-sharp |
-      }
       {
+        \voiceOne
+        e8 \p c e \cresc g c g-sharp |
+      }
+      \new Voice {
         \voiceTwo
-        e8 \p \tweak Y-offset #-5 r s \cresc
+        e8 \tweak Y-offset #-5 r
       }
     >> \oneVoice
     a8 e f a d a-sharp |
