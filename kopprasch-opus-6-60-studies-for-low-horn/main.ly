@@ -466,6 +466,17 @@ alternates-layout = \layout {
 
   \score {
     \header {
+      piece = "38"
+      transposition = "(in E and D)"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-38.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-38-line-breaks.ily" } #})
+    >>
+  }
+
+  \score {
+    \header {
       piece = "39"
       transposition = "(in E)"
     }
