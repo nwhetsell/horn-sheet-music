@@ -51,7 +51,10 @@
   g'16( c) e-flat-. g-. a-flat,( g) f-sharp-. g-. g,8 r |
   \tempo "poco rit."
   g16( \dim b) d-. g-. \tweak NoteColumn.X-offset #1 a-flat,( g) f-sharp-. g-. \clef \bass-clef-name g,8 r |
-  \tempo "rit."
+  \tempo \markup { \combine
+    "rit."
+    \transparent "p" % This aligns the baselines of “rit.” and “poco rit.”.
+  }
   \clef "treble" g'16( c) e-flat-. g-. \tweak NoteColumn.X-offset #1 a-flat,( g) f-sharp-. g-. c8 f-sharp, |
   g4 \clef \bass-clef-name g,4\fermata \! r |
 
