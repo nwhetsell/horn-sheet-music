@@ -473,6 +473,11 @@ alternates-layout = \layout {
       #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-40-line-breaks.ily" } #})
     >>
   }
+  \noPageBreak
+  \score {
+    \alternates-layout
+    \include "alternates/kopprasch-40-alternates.ly"
+  }
 
   \score {
     \header {
