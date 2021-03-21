@@ -467,6 +467,7 @@ alternates-layout = \layout {
   \score {
     \header {
       piece = "36"
+      transposition = "(in D and C)"
     }
     \new Staff <<
       \new Voice { \include "kopprasch-36.ly" }
