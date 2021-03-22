@@ -48,12 +48,12 @@
 
     g-sharp16-.( \< e-. f-sharp-. g-sharp-. a-. b-. c-. d-.) e4 \f
     <<
-      \new Voice {
+      {
         \voiceOne
         \mergeDifferentlyDottedOn
-        d8. e16 |
+        d8. e16
       }
-      {
+      \new Voice {
         \voiceTwo
         \slurUp
         \afterGrace d4\startTrillSpan { c16\stopTrillSpan( d) }
