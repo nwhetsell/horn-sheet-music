@@ -8,6 +8,8 @@
   \transposition f
 
   \tempo "Allegro"
+
+  \key c \major
   \time 4/4
 
   \partial 4 c''4( \p |
