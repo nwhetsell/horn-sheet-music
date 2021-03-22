@@ -17,7 +17,13 @@
     g'4 \tweak X-offset #(if preserve-line-breaks? 0 -1.5) #(make-dynamic-script (markup #:dynamic "p" #:normal-text (#:italic "dolce")))
     <<
       { g8.( a16) }
-      { s8 \once \override Staff.TextScript.outside-staff-priority = #240 s_\turn-markup }
+      {
+        s8
+        % This must be less than priority of DynamicLineSpanner objects:
+        % http://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
+        \once \override Staff.TextScript.outside-staff-priority = #240
+        s_\turn-markup
+      }
     >>
     b8.( c32 b) a8( g) \breathe |
 
@@ -31,7 +37,13 @@
 
     <<
       { a8.( \mf b16) c-sharp8.( \< d16) }
-      { s8 \once \override Staff.TextScript.outside-staff-priority = #240 s_\sharp-turn-markup s s^\turn-markup }
+      {
+        s8
+        % This must be less than priority of DynamicLineSpanner objects:
+        % http://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
+        \once \override Staff.TextScript.outside-staff-priority = #240
+        s_\sharp-turn-markup
+        s s^\turn-markup }
     >>
     e16( f-sharp g e d c-sharp b c-sharp) |
 

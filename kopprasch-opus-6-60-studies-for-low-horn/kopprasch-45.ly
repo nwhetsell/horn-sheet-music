@@ -16,6 +16,8 @@
   \partial 4 { e'8-. \f g-. } | \bar "||"
   \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
   \once \override Score.RehearsalMark.font-size = #0
+  % This must be less than priority of MetronomeMark objects:
+  % http://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
   \once \override Score.RehearsalMark.outside-staff-priority = #900
   \mark \markup { \musicglyph #"scripts.segno" }
   \stemUp b8( a-sharp) b-. \stemNeutral c-. b( a) g-. f-sharp-. |

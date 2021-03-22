@@ -35,7 +35,13 @@
   g4~( g16 d b-flat' a g4) r |
   <<
     { a8. \< b-flat16 c8. d16 e-flat( \> d f e-flat d c \! b-flat a) }
-    { s8 \once \override Staff.TextScript.outside-staff-priority = #240 s_\turn-markup s8 s^\turn-markup }
+    {
+      s8
+      % This must be less than priority of DynamicLineSpanner objects:
+      % http://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
+      \once \override Staff.TextScript.outside-staff-priority = #240
+      s_\turn-markup s8 s^\turn-markup
+    }
   >> |
   g4~( \tuplet 6/4 { g16 d') c-. b-flat-. a-. g-. } f-sharp4 r |
   d'4.( b-flat8) \< g( b-flat a e-flat') |
