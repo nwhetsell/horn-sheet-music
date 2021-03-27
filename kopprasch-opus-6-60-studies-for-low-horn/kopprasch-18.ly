@@ -11,8 +11,8 @@
   \time 2/4
 
   \repeat volta 2 {
-    \partial 8 { g'8 \f } |
-    \stemDown c16_\markup { \italic "sempre staccato" } g e' g, g' g, e' g, |
+    \partial 8 { g'8_\markup { \dynamic "f" \italic "sempre staccato" } } |
+    \stemDown c16 g e' g, g' g, e' g, |
     f'16 g, d' g, e' g, c g |
     d'16 g, b g c g e' g, |
     b16 g d' g, f' g, r8 |
