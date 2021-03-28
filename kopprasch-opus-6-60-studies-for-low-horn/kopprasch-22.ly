@@ -42,7 +42,7 @@
         % This must be less than priority of DynamicLineSpanner objects:
         % http://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
         \once \override Staff.TextScript.outside-staff-priority = #240
-        s_\sharp-turn-markup
+        s_#(turn-with-accidentals (markup #:null) (markup #:sharp))
         s s^\turn-markup }
     >>
     e16( f-sharp g e d c-sharp b c-sharp) |
@@ -54,7 +54,7 @@
     d4 \mf
     <<
      { d8.( e16) }
-     { s8 s^\sharp-turn-markup }
+     { s8 s^#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
     >>
     f8-.( d-. b-. a-.) \breathe |
 

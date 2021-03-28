@@ -18,7 +18,7 @@
   b16( d) c( e) d( f) e( g) f( d) e( c) d( b) c( a) |
   <<
     { g4( b8.) a16 g8 r \afterGrace g4\trill( { f-sharp16 g) } }
-    { s8. s16^\sharp-turn-markup }
+    { s8. s16^#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
   >> |
   c8 r c8. d16 e4 e8. f16 |
   g2~8 c16( b) a( g) f-. e-. |

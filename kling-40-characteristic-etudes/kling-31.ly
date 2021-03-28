@@ -59,7 +59,7 @@
   e32( \< d c-sharp d c-sharp d c-sharp d c-sharp \> d e d c-sharp d a b-flat \! g8) r
     <<
       { g8.( b-flat16) }
-      { s8 s_\sharp-turn-markup }
+      { s8 s_#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
     >> |
   d32( \< c b c b c b c b \> c d c b c g-sharp a \! f8) r
     <<

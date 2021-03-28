@@ -44,7 +44,7 @@
   a4~( a16 f-sharp a b) g-sharp4~( g-sharp16 e g-sharp b) |
   <<
     { f-sharp4.( a16 g-sharp f-sharp4. f-sharpsharp8) }
-    { s4 s16 s_\sharp-turn-markup }
+    { s4 s16 s_#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
   >> |
   g-sharp4.( a8 b4 e,) |
   c-sharp'16( \< d-sharp e d-sharp f-sharp \> e d-sharp c-sharp b2) |
