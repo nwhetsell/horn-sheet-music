@@ -650,6 +650,17 @@ alternates-layout = \layout {
     >>
   }
 
+  \score {
+    \header {
+      piece = "50"
+      transposition = "(in E, E♭, and D)"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-50.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-50-line-breaks.ily" } #})
+    >>
+  }
+
   \bookpart {
     \paper {
       bookTitleMarkup = ##f
