@@ -639,6 +639,17 @@ alternates-layout = \layout {
     >>
   }
 
+  \score {
+    \header {
+      piece = "49"
+      transposition = "(in G, A, and B♭)"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-49.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-49-line-breaks.ily" } #})
+    >>
+  }
+
   \bookpart {
     \paper {
       bookTitleMarkup = ##f
