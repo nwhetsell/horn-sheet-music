@@ -5,6 +5,7 @@
 
   \transposition f
 
+  \once \override Score.MetronomeMark.padding = #2.5
   \tempo "Moderato"
 
   \key c \major
