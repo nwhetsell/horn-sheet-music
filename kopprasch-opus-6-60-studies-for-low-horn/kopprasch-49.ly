@@ -8,7 +8,7 @@
 
   \transposition f
 
-  \tempo "Allegro moderato"
+  \tempo "Adagio"
 
   \key c \major
   \time 4/4
