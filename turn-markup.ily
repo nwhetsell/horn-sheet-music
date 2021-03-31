@@ -9,12 +9,16 @@
   (cond
     ((equal? top-markup (markup #:flat))
       (set! top-markup (markup #:fontsize -4 #:flat)))
+    ((equal? top-markup (markup #:natural))
+      (set! top-markup (markup #:fontsize -4 #:natural)))
     ((equal? top-markup (markup #:sharp))
       (set! top-markup (markup #:fontsize -4 #:sharp))))
 
   (cond
     ((equal? bottom-markup (markup #:flat))
       (set! bottom-markup (markup #:fontsize -4 #:flat)))
+    ((equal? bottom-markup (markup #:natural))
+      (set! bottom-markup (markup #:fontsize -4 #:natural)))
     ((equal? bottom-markup (markup #:sharp))
       (set! bottom-markup (markup #:fontsize -4 #:sharp))))
 

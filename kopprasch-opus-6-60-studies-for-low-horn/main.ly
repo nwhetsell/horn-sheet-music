@@ -681,6 +681,16 @@ alternates-layout = \layout {
     >>
   }
 
+  \score {
+    \header {
+      piece = "53"
+    }
+    \new Staff <<
+      \new Voice { \include "kopprasch-53.ly" }
+      #(if preserve-line-breaks? #{ \new Voice { \include "line-breaks/kopprasch-53-line-breaks.ily" } #})
+    >>
+  }
+
   \bookpart {
     \paper {
       bookTitleMarkup = ##f
