@@ -81,7 +81,7 @@
   g8( b-natural! c d) \! e-flat( b c f-sharp,) |
   g2( \> \grace { a-flat16 g } e-flat4) c \! |
   a-flat4 c g c |
-  \afterGrace f-sharp,1\trill( { \override Stem.details.beamed-lengths = #'(6) e16 f-sharp) \revert Stem.details.beamed-lengths } |
+  \afterGrace f-sharp,1\trill( { \override Stem.no-stem-extend = ##f e16 f-sharp) \revert Stem.no-stem-extend } |
   g4. f-sharp16( g) c4 \< e-flat |
   g4.( a-flat16 g) f8( e-flat) d c \breathe |
   a-flat2^>( \> g4) \! r8\fermata b #(make-dynamic-script (markup #:dynamic "p" #:normal-text (#:italic "dolce"))) \< |
