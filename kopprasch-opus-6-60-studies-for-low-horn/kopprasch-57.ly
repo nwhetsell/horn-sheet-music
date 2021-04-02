@@ -1,8 +1,5 @@
 \version "2.22.0"
 
-\include "../turn-markup.ily"
-\include "settings.ily"
-
 \relative {
   \language "english"
 
