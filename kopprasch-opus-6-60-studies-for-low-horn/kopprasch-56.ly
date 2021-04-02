@@ -55,14 +55,22 @@
   e8 r \tuplet 3/2 4 { c, \cresc e a d, f b e, g c } |
   \tuplet 3/2 4 { f,8 a d g, b e a, \tweak X-offset #-1 \f c f b, d g } |
   e8 r \tuplet 3/2 { c( \mf g) e'-. } f r \tuplet 3/2 { f( a,) d-. } |
-  c8 r \tuplet 3/2 { c( e,) a-. } g r \tuplet 3/2 4 { b( g,) d''-. } |
-  c8 r \tuplet 3/2 4 { c-. c,,( e'') f-. g,( d') b-. g,( d'') } |
+  c8 r \tuplet 3/2 { c( e,) a-. } g r \tuplet 3/2 4 { \override Slur.positions = #'(0 . 2) b( g,) d''-. } |
+
+  \override Beam.auto-knee-gap = #8
+
+  c8 r \tuplet 3/2 4 { c-. c,,( e'') f-. \revert Slur.positions g,( d') b-. \override Slur.positions = #'(0 . 2) g,( d'') } |
 
   % The 1st edition includes another measure:
   % \tuplet 3/2 4 { c8-. c,,( e'') c-. c,,( g''') f-. g,,( d'') b-. g,( d'') } |
 
   \tuplet 3/2 4 { \repeat unfold 2 { c8-. c,,( e'') b-. g,,( d''') } } |
   c8 r \tuplet 3/2 4 { c,,-. e'( e') c,,-. g''( g') c,,,-. e'( e') } |
+
+  \revert Slur.positions
+
+  \revert Beam.auto-knee-gap
+
   c4 r \tuplet 3/2 4 { c,,8 e g c e g } |
   c4 r r2 | \bar "|."
 }
