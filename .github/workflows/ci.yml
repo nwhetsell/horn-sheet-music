@@ -49,6 +49,9 @@ jobs:
       with:
         submodules: recursive
 
+    - name: Update Homebrew
+      run: brew update
+
     - name: Install LilyPond
       run: |
         brew install --cask mactex-no-gui
