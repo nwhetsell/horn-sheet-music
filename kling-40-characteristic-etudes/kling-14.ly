@@ -22,7 +22,7 @@
   f-sharp8-. a,( g-sharp a f-sharp' e a8. c-sharp,16) |
   e4.( \> f-sharp16 e d4) \! r |
 
-  \afterGrace { \once \slurDown c-natural!2\trill( \p } { b16 c) } f-sharp8( \< e d c) |
+  \afterGrace { c-natural!2\trill_( \p } { b16 c) } f-sharp8( \< e d c) |
   b4~( \> 16 c b a \! g4) \tuplet 3/2 { g8( b d) } |
   d8( f-sharp,) d'( g,) d'8( f-sharp,) g16( \< b f-sharp' e) |
   d4~( \> 16 c-sharp) \! c-. b-. a4( a-sharp) |
@@ -34,7 +34,7 @@
   e4~( 16 g c e g4) e |
   d8( g g, a) b( d c a) |
   b4~( 16 c a b g4) \< g16( b d e) |
-  f4~ \f 16 e( f e f d) b-. \once \slurDown g( a g) f-sharp!-. f-. |
+  f4~ \f 16 e( f e f d) b-. g_( a g) f-sharp!-. f-. |
   e4~( 32 c) e-. g-. c( g) c-. e-. g4 f-sharp!32( g d-sharp e b c a e') |
   d4~( 16 c-sharp) c-. b-. b( a g-sharp a) b( a c16. b32) |
   g4~( 16 d b' d, g4) r |

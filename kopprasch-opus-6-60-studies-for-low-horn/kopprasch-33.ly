@@ -16,7 +16,7 @@
   c16)[ r e'8]( \f g16)[ r e,8]( |
   f16)[ r d'8]( b16)[ r g,8]( |
   c16)[ r g''8]( e16)[ r c,,8]( |
-  f16)[ r \once \slurUp <a'' \tweak font-size #-2 c,>8] ( f16)[ r f-sharp,,8]( |
+  f16)[ r <a'' \tweak font-size #-2 c,>8]^( f16)[ r f-sharp,,8]( |
   g16)[ r f''8]( \dim d16)[ r g,,8]( |
   c16)[ r e'8]( c16) \! r\fermata \bar "||"
 

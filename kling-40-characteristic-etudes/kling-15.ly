@@ -34,7 +34,7 @@
   d16^\markup { \italic "rit." }( c-sharp \repeat unfold 3 { e d c-sharp } e) |
   \revert Beam.positions
   <<
-    { \afterGrace { \once \slurDown d2.\trill( } { c-sharp16 d) \! } }
+    { \afterGrace { d2.\trill_( } { c-sharp16 d) \! } }
     {
       \override Hairpin.minimum-length = #3
       s2 \< s4 \>

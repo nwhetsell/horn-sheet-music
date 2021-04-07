@@ -29,7 +29,7 @@
   d4( g->~4) \tuplet 3/2 { d8-. c-. b-. } |
   a4( e'->~4) \tuplet 3/2 { c8-. b-. a-. } |
   g8 d4-> \once \stemDown b'8->~8 a-. d-. c-. |
-  \afterGrace { \once \slurDown c2\trill( \< } { b32 d \> c } b4) \! b16-. c-. c-sharp-. d-. |
+  \afterGrace { c2\trill_( \< } { b32 d \> c } b4) \! b16-. c-. c-sharp-. d-. |
   d4( g->~ \tuplet 3/2 4 { 8) f-sharp-. e-. d-. c-. b-. } |
   a4( e'->~ \tuplet 3/2 { 8) d-. c-. } \tuplet 5/4 { b16-. a-. g-. f-sharp-. e-. } |
   d4.( \< b'8) b( \> a d f-sharp,) \! |

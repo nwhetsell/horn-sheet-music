@@ -135,7 +135,7 @@
   f8 r d4\trill b\trill d\trill |
   g,4\trill d'\trill b\trill d\trill |
   f8 r d2.~\startTrillSpan |
-  \once \slurDown \afterGrace { d1( \tweak to-barline ##f \> } { c16\stopTrillSpan d) } |
+  \afterGrace { d1_( \tweak to-barline ##f \> } { c16\stopTrillSpan d) } |
   c4 \! r8 g, \< c e g c |
   e8 \> c g e c g e g |
   \partial 2. { c,2 \! r4 } | \bar "|."

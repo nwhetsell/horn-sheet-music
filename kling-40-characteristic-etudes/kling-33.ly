@@ -50,7 +50,7 @@
   d8->( c b-flat) c8->( b-flat a) g8->( f e-flat) |
   d4( f8 b-flat,4) r8 e-flat( \> d c) |
   d8( c b-flat) a( g f) \clef \bass-clef-name e-flat( d c) \! |
-  \once \slurDown b-flat4-.( r8 r4. b-flat4-.) r8 |
+  b-flat4-._( r8 r4. b-flat4-.) r8 |
   \partial 2. {
     <<
       { b-flat2.\fermata }

@@ -22,7 +22,7 @@
         <<
           {
             \voiceOne
-            g,8) \once \slurDown g'(
+            g,8) g'_(
           }
           \new Voice {
             \voiceTwo
@@ -107,7 +107,7 @@
   \tuplet 3/2 4 { c8( d c b-flat c b-flat \tupletDown a b-flat a g a g) \tupletNeutral } |
   \tuplet 3/2 4 { f-sharp8( e f-sharp g f-sharp g) } a4( f-sharp8) r |
   \tuplet 3/2 4 {
-    \once \slurDown g8( f-sharp g a g a b-flat a b-flat \once \tupletUp c b-flat c) |
+    g8_( f-sharp g a g a b-flat a b-flat \once \tupletUp c b-flat c) |
     d8( c d e-flat d c d c b-flat c b-flat a) |
     b-flat8( a b-flat \stemUp c b-flat a \stemNeutral b-flat a g a g f) | \bar "||"
   }
