@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Sa%C3%ABns,_Camille)"
+source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
 \header {
   composer-last-name = "Saint-Saëns"
   composer-first-name = "Camille"
