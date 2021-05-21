@@ -47,6 +47,7 @@
   \tuplet 3/2 { g-sharp16[ b d] } f32 g-sharp b d f8 r16 b, |
   \tuplet 3/2 8 { c16[( b) a] d-sharp[( c) a] e'[( c) a] e f-sharp g-sharp } |
   \tuplet 3/2 8 { a[ c d] d-sharp( e) c } a8 r16 \bar "||"
+  \tuplet 3/2 8 { a c d-natural! d-sharp( e) c } a8 r16 \bar "||"
 
   g16 \p |
   c32 c, e g c e, g \< c e( f64 e d32 e) f( e d c) |
