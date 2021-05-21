@@ -37,8 +37,8 @@
     { a8. \< b-flat16 c8. d16 e-flat( \> d f e-flat d c \! b-flat a) }
     {
       s8
-      % This must be less than priority of DynamicLineSpanner objects:
-      % http://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
+      % This must be less than the priority of DynamicLineSpanner objects:
+      % https://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
       \once \override Staff.TextScript.outside-staff-priority = #240
       s_\turn-markup s8 s^\turn-markup
     }
