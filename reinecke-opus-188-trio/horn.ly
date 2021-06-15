@@ -152,7 +152,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       r4 \once \stemDown b4.-> \ff b,8->^\markup { \italic "a piacere" } d-> f-> |
       \tuplet 3/2 4 { g-sharp8( \> d) f-. g-sharp( b) a-sharp-. } c-sharp8^\markup { \combine
         \italic "cal."
-        \transparent "p" % This aligns the baselines of cal.” and “a piacere”.
+        \transparent "p" % This aligns the baselines of “cal.” and “a piacere”.
       }( b) a-sharp! b |
       b4^"a tempo"( \p c-sharp) b-.( \< c-sharp-.) | % The articulations of the second B and C# in the horn part are tenuto (--), not staccato.
       e4( d-sharp) g-sharp2~( \f \> |
