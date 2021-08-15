@@ -1,5 +1,6 @@
 \version "2.22.0"
 
+\include "../subdivide-beams.ily"
 \include "../turn-markup.ily"
 
 \relative {
@@ -32,8 +33,12 @@
     |
   f16-. c( b c) e-flat( f-sharp) a-. c-. |
   e-flat4 f-sharp,, |
-  g8[ \tweak Y-offset #3 \breathe d-sharp'32( e) c-. g-.] f-sharp'( g) e-. c-. b'( c) g-. e-. |
-  d-sharp'32( e) c-. g-. f-sharp'( g) e-. c-. d-sharp( e) c-. g-. b( c) g-. e-. |
+  g8[ \tweak Y-offset #3 \breathe
+  \subdivide-beams #1/8 2,2 {
+    d-sharp'32( e) c-. g-.] f-sharp'( g) e-. c-. b'( c) g-. e-. |
+    d-sharp'32( e) c-. g-. f-sharp'( g) e-. c-. d-sharp( e) c-. g-. b( c) g-. e-. |
+  }
+
   d-natural!8[ \tweak Y-offset #3 \breathe e32( f) d-. b-.] g8 c-sharp'32( d) b-. g-. |
   c-natural!8 b32( c) g-. e-. c8 \bar "||"
 
@@ -65,14 +70,14 @@
   g16.( \p a32 f16. g32) e8 c \f |
   f4 f,16 a'( g f) |
   e8 c, b-flat''16( c32 b-flat a16 g) |
-  e32( f) a-. f-. f,16 f' a( b-flat32 a g16 f) |
-  d-sharp32( e) g-. e-. c,16 g'' b-flat16( c32 b-flat a16 g) |
+  \subdivide-beams #1/8 2,2 { e32( f) a-. f-. f,16 f' } a( b-flat32 a g16 f) |
+  \subdivide-beams #1/8 2,2 { d-sharp32( e) g-. e-. c,16 g'' } b-flat16( c32 b-flat a16 g) |
   f8[ r16 f,] \p a c f \cresc a |
   c4 \breathe e-flat, |
   d8[ r16 f] a-flat b d f |
   a-flat4 \f \breathe b,, |
-  c8[ \tweak Y-offset #3 \breathe e32( f) c-. a-.] g-sharp'( a) f-. c-. b'( c) a-. f-. |
-  c8 b'32( c) a-. f-. e'( f) c-. a-. b( c) a-. f-. |
+  c8[ \tweak Y-offset #3 \breathe e32( f) c-. a-.] \subdivide-beams #1/8 2,2 { g-sharp'( a) f-. c-. b'( c) a-. f-. } |
+  c8 b'32( c) a-. f-.\subdivide-beams #1/8 2,2 { e'( f) c-. a-. b( c) a-. f-. } |
   c8 a'32( b-flat!) g-. e-. c,8 b''32( c) b-flat-. g-. |
   f8 e32( f) c-. a-. f8-. \bar "|."
 }

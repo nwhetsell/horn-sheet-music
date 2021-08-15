@@ -1,5 +1,6 @@
 \version "2.22.0"
 
+\include "../subdivide-beams.ily"
 \include "../turn-markup.ily"
 \include "settings.ily"
 
@@ -24,9 +25,9 @@
   <<
     { b8.( c16) }
     { s8 s^\turn-markup }
-  >> d8 \tuplet 3/2 16 { r32 g,,[ \< g'] b d f } |
+  >> d8 \subdivide-beams #1/16 4,4 { \tuplet 3/2 16 { r32 g,, \< g' b d f } } |
   a8. \f f16 d b g f |
-  e16 c'32( g) e c g e c4\fermata |
+  \subdivide-beams #1/8 2,2 { e16 c'32( g) e c g e } c4\fermata |
   \acciaccatura c'8 e'8.\fp( b16) c( g-sharp a e) |
   <<
     { f8.( g16) }
@@ -35,9 +36,11 @@
   \acciaccatura d8 f'8.\fp( c-sharp16) d( a-sharp b f-sharp) |
   g8.[( \grace { a-natural!32 g f-sharp g } a16)] b16( a g f) \breathe |
   \acciaccatura e8 g'8.\fp( f16) e( d c b) |
-  a16 \< b32 c-sharp d e f g a16 \! r f-sharp,,8( \mf |
-  g32) c( b c) g-. e'( d-sharp e) c-. \cresc g'( f-sharp g) e-. c'( b c) |
-  g32-. e'( d-sharp e) c-. g'( e g) <c \tweak font-size #-2 a>8 r16 c, \f |
+  \subdivide-beams #1/8 2,2 { a16 \< b32 c-sharp d e f g } a16 \! r f-sharp,,8( \mf |
+  \subdivide-beams #1/8 2,2 {
+    g32) c( b c) g-. e'( d-sharp e) c-. \cresc g'( f-sharp g) e-. c'( b c) |
+    g32-. e'( d-sharp e) c-. g'( e g)
+  } <c \tweak font-size #-2 a>8 r16 c, \f |
   \acciaccatura e8 \afterGrace d2\trill( { c16 d) } |
   c8. g32( e) c8. g32( e) |
   c4 r | \bar "||"
@@ -72,7 +75,7 @@
   c-flat16( b-flat) b-flat b-flat b-flat8 r |
   a-flat4 \p f8 d-natural! |
   c-flat16( b-flat) b-flat b-flat b-flat8 r |
-  c,32 c'( b-natural! c) e-flat( c) e-flat-. g-. c( e-flat,) g-. c-. e-flat( g,) c-. e-flat-. |
+  \subdivide-beams #1/8 2,2 { c,32 c'( b-natural! c) e-flat( c) e-flat-. g-. c( e-flat,) g-. c-. e-flat( g,) c-. e-flat-. } |
   g16 \> f e-flat d c e-flat,( f f-sharp) |
   g16 \p g, a-flat'( g) b-natural! g, c'( e-flat) |
   f16 g,, e-flat''( c) b g, e-flat'( c) |
@@ -95,7 +98,7 @@
   \unset Timing.beamExceptions
 
   a8 \! r f-sharp,,4->( \f |
-  g32) e' c g' e c' g e' f-sharp, c' a e-flat' a, c f-sharp, a |
+  \subdivide-beams #1/8 2,2 { g32) e' c g' e c' g e' f-sharp, c' a e-flat' a, c f-sharp, a } |
   g4 a8 \afterGrace b\trill( { a16 b) } |
   c8. g32( e) c8. g32( e) |
   c4 r | \bar "|."

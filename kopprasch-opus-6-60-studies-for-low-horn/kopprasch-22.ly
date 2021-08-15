@@ -1,5 +1,6 @@
 \version "2.22.0"
 
+\include "../subdivide-beams.ily"
 \include "../turn-markup.ily"
 \include "settings.ily"
 
@@ -32,7 +33,7 @@
     g8.( \tuplet 3/2 { a32 g f-sharp) } g8( \tweak after-line-breaking ##t \tweak to-barline ##f \< a16 b) a4( a-sharp) |
     b4. \! \breathe \acciaccatura d8 c16( b) f-sharp' \> e( d-sharp) c-natural!( b) a( g) f-sharp |
     g4 \< \breathe g16( a b g) e8( g' f-sharp e) |
-    d16( \f c-sharp b a) e'( b c-sharp g') f-sharp( c-sharp d a-sharp) b( f-sharp g32 b g e) |
+    d16( \f c-sharp b a) e'( b c-sharp g') f-sharp( c-sharp d a-sharp) \subdivide-beams #1/8 2,2,2,2 { b( f-sharp g32 b g e) } |
     f-sharp8( a d a-sharp) b( \> f-sharp) g16( f-sharp g e) |
 
     <<
@@ -70,7 +71,8 @@
       }
     >> \oneVoice |
 
-    c4 \appoggiatura { d16 c } b16( c d c) b( a c b) d( c) \tuplet 3/2 { e16( c a) } |
+    c4 \appoggiatura { d16 c } b16( c d c) b( a c b)
+    \subdivide-beams #1/8 2,2,2,2 { d( c) \tuplet 3/2 { e16( c a) } } |
     g4.( \> a16 g) f-sharp4 \! r |
 
     \acciaccatura g,8 g'4_\markup { \dynamic "p" \italic "dolce" }

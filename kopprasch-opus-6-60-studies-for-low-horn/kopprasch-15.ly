@@ -1,5 +1,6 @@
 \version "2.22.0"
 
+\include "../subdivide-beams.ily"
 \include "../turn-markup.ily"
 \include "settings.ily"
 
@@ -52,7 +53,7 @@
     c8.( g32 e) c4 r8. e32( \p c) |
     g8.( b32 d) g4 r8. g32 \f( f) |
     e8.( g-sharp32 b) e4 r8 d |
-    c8.( b16) a( b c c-sharp d e f32 a, e' d) |
+    c8.( b16) a( b c c-sharp \subdivide-beams #1/8 2,2,2 { d e f32 a, e' d) } |
     <<
       { c8.( e16) }
       { s8 s^\turn-markup }

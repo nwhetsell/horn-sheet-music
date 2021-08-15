@@ -1,5 +1,6 @@
 \version "2.22.0"
 
+\include "../subdivide-beams.ily"
 \include "../turn-markup.ily"
 
 \relative {
@@ -38,31 +39,27 @@
   c16( d32 c b16 c) e( d g b,) |
   c8 \> g16 e c8 \! r16 \bar "||"
 
-  \set subdivideBeams = ##t
-  \set baseMoment = #(ly:make-moment 1/8)
-  \set beatStructure = 2,2
+  \subdivide-beams #1/8 2,2 {
+    e16^"Variation" \mf |
+    a32 e f-sharp g-sharp a g-sharp a b c( d64 c b32) c d c b a |
+    \tuplet 3/2 8 { g-sharp16 e f-sharp g-sharp a a-sharp } b8 r16 e, |
+    b'32 e,( d-sharp e) g-sharp b, e g-sharp b e, g-sharp b d( e64 d c32) b |
+    \tuplet 3/2 8 { a16 \< b c c-sharp d d-sharp } e8 r16 e \f |
+    a8.( e32 c) \tuplet 3/2 8 { a16 e d c b a } |
+    \tuplet 3/2 { g-sharp16 b d } f32 g-sharp b d f8 r16 b, |
+    \tuplet 3/2 8 { c16( b) a d-sharp( c) a] e'( c) a e f-sharp g-sharp } |
+    \tuplet 3/2 8 { a c d-natural! d-sharp( e) c } a8 r16 \bar "||"
 
-  e16^"Variation" \mf |
-  a32 e f-sharp g-sharp a g-sharp a b c( d64 c b32) c d c b a |
-  \tuplet 3/2 8 { g-sharp16 e f-sharp g-sharp a a-sharp } b8 r16 e, |
-  b'32 e,( d-sharp e) g-sharp b, e g-sharp b e, g-sharp b d( e64 d c32) b |
-  \tuplet 3/2 8 { a16 \< b c c-sharp d d-sharp } e8 r16 e \f |
-  a8.( e32 c) \tuplet 3/2 8 { a16 e d c b a } |
-  \tuplet 3/2 { g-sharp16 b d } f32 g-sharp b d f8 r16 b, |
-  \tuplet 3/2 8 { c16( b) a d-sharp( c) a] e'( c) a e f-sharp g-sharp } |
-  \tuplet 3/2 8 { a c d-natural! d-sharp( e) c } a8 r16 \bar "||"
-
-  g16 \p |
-  c32 c, e g c e, g \< c e( f64 e d32 e) f( e d c) |
-  \tuplet 3/2 8 { b16 \> d b g d b } g8 \! r16 g' |
-  d'32 g,( f-sharp g) b g \< b d f-natural!( g64 f e32 f) g( f e d) |
-  \tuplet 3/2 8 { c16 \> g' e c g e } c8 \! r16 g \f |
-  c32( g) c e g c e g b-flat g e c \afterGrace b-flat8\trill( { a16 b-flat) } |
-  a16 b-natural!32 c-sharp d e f g a e( f e) g( f a, d) |
-  c-natural!64 g a b c d e f g32( e) c g f( d) b g f-sharp( g) a b |
-  c e g c e c g e c8 r16 \bar "||"
-
-  \set subdivideBeams = ##f
+    g16 \p |
+    c32 c, e g c e, g \< c e( f64 e d32 e) f( e d c) |
+    \tuplet 3/2 8 { b16 \> d b g d b } g8 \! r16 g' |
+    d'32 g,( f-sharp g) b g \< b d f-natural!( g64 f e32 f) g( f e d) |
+    \tuplet 3/2 8 { c16 \> g' e c g e } c8 \! r16 g \f |
+    c32( g) c e g c e g b-flat g e c \afterGrace b-flat8\trill( { a16 b-flat) } |
+    a16 b-natural!32 c-sharp d e f g a e( f e) g( f a, d) |
+    c-natural!64 g a b c d e f g32( e) c g f( d) b g f-sharp( g) a b |
+    c e g c e c g e c8 r16 \bar "||"
+  }
 
   e16^"Coda"_\markup { \dynamic "p" \italic "dolce" }
   a8 e c'16( d32 c) b16 a |
@@ -74,12 +71,12 @@
     { b8.( \< c16) }
     { s8 s^\turn-markup }
   >> d8 \! r |
-  \set subdivideBeams = ##t
-  <<
-    { d16.( \mf e32) }
-    { s16 s^\turn-markup }
-  >> f32 e d c b \> a g-sharp f e d c b |
-  \set subdivideBeams = ##f
+  \subdivide-beams #1/8 2,2 {
+    <<
+      { d16.( \mf e32) }
+      { s16 s^\turn-markup }
+    >> f32 e d c b \> a g-sharp f-natural! e d c b |
+  }
   a16 \p b c d e f-sharp g-sharp a |
   e8 r e16-.( \pp d-. c-. b-.) |
   a8 r a' r |
