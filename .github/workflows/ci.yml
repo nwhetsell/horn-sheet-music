@@ -55,13 +55,10 @@ jobs:
     - name: Install LilyPond
       run: |
         brew install --cask mactex-no-gui
-        brew tap nwhetsell/lilypond
-        brew install lilypond
+        brew install nwhetsell/lilypond/lilypond
 
     - name: Install fonts
-      run: |
-        brew tap homebrew/cask-fonts
-        brew install font-playfair-display
+      run: brew install homebrew/cask-fonts/font-playfair-display
 
     - name: Create PDFs
       run: |
