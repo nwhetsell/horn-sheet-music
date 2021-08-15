@@ -53,7 +53,9 @@ jobs:
       run: brew update
 
     - name: Install LilyPond
-      run: brew install nwhetsell/lilypond/lilypond
+      run: |
+        brew install --cask mactex-no-gui
+        brew install nwhetsell/lilypond/lilypond
 
     - name: Install fonts
       run: brew install homebrew/cask-fonts/font-playfair-display
