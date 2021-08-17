@@ -1,5 +1,6 @@
 \version "2.22.0"
 
+\include "../subdivide-beams.ily"
 \include "settings.ily"
 
 \relative {
@@ -31,7 +32,7 @@
   b4.( \! a-sharp16 g-sharp f-sharp4) f-sharp |
   g-sharp8( a-sharp b c-sharp) b( \< a-sharp g-sharp a-sharp) |
   b4.( \> \grace { c-sharp32 b a-sharp b } d-sharp8 f-sharp4) \! f-sharp,16( f-sharpsharp g-sharp a-sharp |
-  b4) \tuplet 5/4 { b16( f-sharp d-sharp f-sharp b } d-sharp4) d-sharp32( c-sharp e d-sharp c-sharp b a-sharp g-sharp) |
+  b4) \tuplet 5/4 { b16( f-sharp d-sharp f-sharp b } d-sharp4) \subdivide-beams #1/8 2,2,2,2 { d-sharp32( c-sharp e d-sharp c-sharp b a-sharp g-sharp) } |
   f-sharp2( d-sharp4) f-sharp4-. |
   g-sharp4.( \grace { a-sharp32 \< g-sharp f-sharpsharp g-sharp } c-sharp8) b( a-sharp f-sharp' \! a-sharp,) |
   b4~( b16 f-sharp d-sharp' f-sharp, b4) a-sharp16_\markup { \italic "leggiero" }( b) c-sharp-. d-sharp-. |

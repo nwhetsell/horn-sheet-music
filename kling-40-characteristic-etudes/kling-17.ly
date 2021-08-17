@@ -1,5 +1,7 @@
 \version "2.22.0"
 
+\include "../subdivide-beams.ily"
+
 \relative {
   \language "english"
 
@@ -38,20 +40,20 @@
   g4.~4 d8 |
   d16( e c d b d) b( d a d g, d') |
   \acciaccatura { g,16 a } g8 f-sharp-. r r c-sharp'-. \f d-. |
-  \tuplet 3/2 8 { e-flat16->( d) d-. e->( d) d-. f->( d) d-. f-sharp->( d) d-. a'->( f-sharp) d-. c-. a-. f-sharp-. } |
+  \subdivide-beams #1/8 3,3 { \tuplet 3/2 8 { e-flat16->( d) d-. e->( d) d-. f->( d) d-. f-sharp->( d) d-. a'->( f-sharp) d-. c-. a-. f-sharp-. } } |
   g4.~4 d'8 \p |
   d16( g d c b d) b( d b a g a) |
   \acciaccatura { f-sharp32 g a } g8 f-sharp-. r r c-sharp'-. \f d-. |
-  e-flat32->( d) d-. d-. e->( d) d-. d-. f->( d) d-. d-. f-sharp->( d) d-. d-. a'->( g) f-sharp-. e-. d-. c-. b-. a-. |
+  \subdivide-beams #1/8 3,3 { e-flat32->( d) d-. d-. e->( d) d-. d-. f->( d) d-. d-. f-sharp->( d) d-. d-. a'->( g) f-sharp-. e-. d-. c-. b-. a-. } |
   g4.~4 d'8-. \mf |
 
-  \tuplet 3/2 8 { d16_\markup { \italic "leggiero" }\(( e d) c( d c) b( c b) b( c b) a( b a) g( a g)\) } |
+  \subdivide-beams #1/8 3,3 { \tuplet 3/2 8 { d16_\markup { \italic "leggiero" }\(( e d) c( d c) b( c b) b( c b) a( b a) g( a g)\) } } |
   f-sharp16-. d-. f-sharp-. a-. d-. f-sharp-. a8 r d, |
-  \tuplet 3/2 8 { d16\(( e d) c( d c) b( c b) b( c b) a( b a) d( e d)\) } |
+  \subdivide-beams #1/8 3,3 { \tuplet 3/2 8 { d16\(( e d) c( d c) b( c b) b( c b) a( b a) d( e d)\) } } |
   g,16-. d-. g-. b-. d-. g-. b8 r d, |
-  \tuplet 3/2 8 { d16\(( e d) c( d c) b( c b) b( c b) a( b a) g( a g)\) } |
+  \subdivide-beams #1/8 3,3 { \tuplet 3/2 8 { d16\(( e d) c( d c) b( c b) b( c b) a( b a) g( a g)\) } } |
   f-sharp16-. d-. f-sharp-. a-. d-. f-sharp-. a8-. r d,-. |
-  \tuplet 3/2 8 { d16\(( e d) c( d c) b( c b) b( c b) a( b a) d( e d)\) } |
+  \subdivide-beams #1/8 3,3 { \tuplet 3/2 8 { d16\(( e d) c( d c) b( c b) b( c b) a( b a) d( e d)\) } } |
   g,16-. d-. g-. b-. d-. b-. g'8-. r d-. \f |
   g16-. f-sharp-. f-. e-. e-flat-. d-. d-flat-. c-. b-. b-flat-. a-. a-flat-. |
   g8-. f-sharp16-. f-. e-. e-flat-. d8-. r d-. |
