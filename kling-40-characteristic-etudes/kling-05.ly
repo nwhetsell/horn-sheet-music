@@ -52,8 +52,10 @@
   \tuplet 6/4 { c16\sf-accent( b c e d) c-. } c8->( g16) r \tuplet 6/4 { g16\sf-accent( f-sharp g c g) g-. } g8( e16) r |
   \tuplet 6/4 { e16\sf-accent( d-sharp e g e) e-. } e8( c16) r \tuplet 6/4 { c16\sf-accent( b c e c) c-. } c8( g16) r |
   \tuplet 3/2 8 {
-    c16( b c) e( d-sharp e) g( f-sharp g) c( b c) e,( d-sharp e) g( f-sharp g) c( b c) e( d-sharp e) |
-    g,( f-sharp g) c( b c) e( d-sharp e) g( f-sharp g) c,( b c) e( d-sharp e) g( f-sharp g) c( b c) |
+    \subdivide-beams #1/8 3,3 {
+      c16( b c) e( d-sharp e) g( f-sharp g) c( b c) e,( d-sharp e) g( f-sharp g) c( b c) e( d-sharp e) |
+      g,( f-sharp g) c( b c) e( d-sharp e) g( f-sharp g) c,( b c) e( d-sharp e) g( f-sharp g) c( b c) |
+    }
   }
   c,4-. r c-. \ff r |
   c,1\fermata | \bar "|."
