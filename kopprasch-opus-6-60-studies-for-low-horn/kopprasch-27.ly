@@ -48,7 +48,7 @@
     a16-. d( c-sharp d) b-flat!-. d( c-sharp d) |
     a16( f') e-. d-. c-sharp( e) d-. c-sharp-. |
     d4 r |
-    b-flat16( d) c-natural!-. b-flat-. a( c) b-flat-. a-. |
+    b-flat16( d) c!-. b-flat-. a( c) b-flat-. a-. |
     g16( b-flat) a-. g-. f( a) g-. f-. |
     e16( \> g) f-. e-. d( f) e-. d-. \! |
     c4 r8 a'16( \p b-flat) |

@@ -685,7 +685,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       r4 b-flat8-. e-flat4-. e-flat,8-. |
       b-flat'8( \< a) b-flat-. c( f) e-flat-. \! |
       d4 \breathe d8-. d( \< c-sharp d |
-      e-flat4) \! d8-. c-natural!( \tweak to-barline ##t \> b-flat) a-. |
+      e-flat4) \! d8-. c!( \tweak to-barline ##t \> b-flat) a-. |
       b-flat8( \tweak to-barline ##t \< f) d-. f( b-flat) d-. |
       f8( \> e-flat) d-. c( b-flat) a-. \! |
       b-flat4. \breathe b-> \cresc | #(if (not preserve-line-breaks?) #{ \noBreak #})

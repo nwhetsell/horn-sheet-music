@@ -27,7 +27,7 @@
     d-sharp8( \< e) d \acciaccatura { d \> } c b a \! |
     f-sharp8 a d f-sharp( e) d |
     b8 d-sharp e g( f-sharp) e |
-    d-natural!8( a) f-sharp a( g) e |
+    d!8( a) f-sharp a( g) e |
     d8( a') f-sharp d4 r8 |
 
     d'8 \p b g-sharp e( f) d |
@@ -35,7 +35,7 @@
     c8 a f-sharp d( e-flat) c |
     b8 d f-sharp g( a) b |
     d-sharp,8 \cresc f-sharp b d-sharp( c-sharp) b |
-    e8 b g f-sharp( a) c-natural! |
+    e8 b g f-sharp( a) c! |
     b8( \f g') e \acciaccatura e \tempo "rit." d-sharp c-sharp d-sharp |
     e8 b g e4 r8\fermata |
 
@@ -47,11 +47,11 @@
     d,8 \< f-sharp a d e f-sharp |
     g8[ r f-sharp] \f e( d) c |
     b8( g') d-sharp( e) c-sharp( d) |
-    b8( \> c-natural!) a-sharp( b) f-sharp( g) |
+    b8( \> c!) a-sharp( b) f-sharp( g) |
     e8 \cresc f f-sharp g g-sharp a |
     a-sharp8 b c c-sharp d d-sharp |
     e8 \f f-sharp g d-sharp e c-sharp |
-    d-natural!8 c-sharp c b a g |
+    d!8 c-sharp c b a g |
     \afterGrace a2.\startTrillSpan { g16\stopTrillSpan( a) } |
     g4 r8 g,\p a b |
     c8 d e-flat e f f-sharp |

@@ -35,10 +35,10 @@
   c8 r c16( e-flat) g,-. b-. c( e-flat) g,-. b-. c( b-flat) a-flat-. g-. |
   a-flat8 r a-flat16( \> c) e-flat,-. g-. a-flat( c) e-flat,-. g-. a-flat( g) f-. e-. |
   f8 \! r f16( \mf a-flat) c,-. e-. f( a-flat) c,-. e-. f( e-flat) d-. c-. |
-  b-natural!16( d) g,-. b-. c( e-flat) g-. c-. b( d) g,-. b-. c( g) e-flat-. c-. |
+  b!16( d) g,-. b-. c( e-flat) g-. c-. b( d) g,-. b-. c( g) e-flat-. c-. |
   g'16-. b( d) f-sharp,-. g-. c( e-flat) f-sharp,-. g4 r |
 
-  c,16( \p e-natural!) g,-. b-. c( e) g,-. b-. c( e) g-. e-. c8 r |
+  c,16( \p e!) g,-. b-. c( e) g,-. b-. c( e) g-. e-. c8 r |
   f16( \mf a) c,-. e-. f( a) c,-. e-. f( a) c-. a-. f8 r |
   b16( \< d) g,-. b-. d( f) g,-. b-. d( f)
     g,-. b-. d8 % The 1st edition has b d g here.

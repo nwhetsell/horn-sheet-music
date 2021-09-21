@@ -13,8 +13,8 @@
   \repeat volta 2 {
     c'16( \f g) c-. e-. g( c,) e-. g-. c( g) c-. e-. |
     g16( e) c-. g-. e'( c) g-. e-. c'( g) e-. c-. |
-    f'16( d) b-. g-. f-sharp( g) b-. d-. f-natural!( d) b-. g-. |
-    f-natural!16( d) b-. g-. f-sharp( g) b-. d-. f-natural!( d) b-. g-. |
+    f'16( d) b-. g-. f-sharp( g) b-. d-. f!( d) b-. g-. |
+    f!16( d) b-. g-. f-sharp( g) b-. d-. f!( d) b-. g-. |
 
     <<
       {
@@ -29,14 +29,14 @@
     e-. g( c,) e-. g-. c( g) c-. e-. |
 
     g16( e) c-. g-. e'( c) g-. e-. c'( g) e-. c-. |
-    f'16( d) b-. g-. f-sharp( g) b-. d-. f-natural!( d) b-. g-. |
-    f-natural!16( d) b-. g-. f-sharp( g) b-. d-. f-natural!( d) b-. g-. |
+    f'16( d) b-. g-. f-sharp( g) b-. d-. f!( d) b-. g-. |
+    f!16( d) b-. g-. f-sharp( g) b-. d-. f!( d) b-. g-. |
     c8 \mf e'16-. d-. c( g) e-. c-. f'( d) b-. g-. |
     c8 e16-. d-. c( g) e-. c-. f'( d) b-. g-. |
     c16( g) e'-. d-. c-. b-. a-. g-. f-. e-. d-. c-. |
     b16-. c-. d-. e-. f-. g-. a-. b-. c-. d-. e-. f-. |
     g16( e) c-. g-. f-sharp( g) c-. e-. g( e) c-. g-. |
-    f-natural'!16( d) b-. g-. f-sharp( g) b-. d-. f-natural!( d) b-. g-. |
+    f-natural'!16( d) b-. g-. f-sharp( g) b-. d-. f!( d) b-. g-. |
     e'16( c) g-. e-. f'( d) b-. f-. e'( c) a-. f-sharp-. |
     d'16( g,) f-sharp-. g-. b( g) b-. d-. g4 |
   }
@@ -55,7 +55,7 @@
   e16-. d-. c-. d-. e-. f-. g-. a-. b-. c-. d-. e-. |
   f16( d) b-. g-. f-sharp( g) b-. d-. e( c) g-. e-. |
   f-natural'!16( d) b-. g-. f-sharp( g) b-. d-. e( c) g-. e-. |
-  d'16( a) f-natural!-. d-. c'( g) e-. c-. b'( g) f-. d-. |
+  d'16( a) f!-. d-. c'( g) e-. c-. b'( g) f-. d-. |
 
   c8[ r16 e-.] \mf g( e) c-. g-. f'( d) b-. g-. |
   e'16( c) e-. g-. c( g) e-. c-. b'( g) f-. d-. |

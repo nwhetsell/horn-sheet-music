@@ -34,7 +34,7 @@
     d( % The 1st edition has c here.
     e) d4\fermata( g,8) r |
   c16( g c) d-. e( f) d( e) c-sharp-. e-. g( f) e-. d-. c-sharp-. a-. |
-  d16( a d) e-. f( g) e( f) d( e) c-natural!( d) b( c) a( b) |
+  d16( a d) e-. f( g) e( f) d( e) c!( d) b( c) a( b) |
   g16( d) g-. a-. b( c) a( b) g-. \> b-. d( c) b-. a-. g-. f-. |
   e16( \p c) e-. f-. g( a) f( g) e4 r |
   c'16( d) b( c) a( b) g( a) f4 r |

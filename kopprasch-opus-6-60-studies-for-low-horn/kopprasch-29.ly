@@ -26,7 +26,7 @@
   b8 \! d'[ \p b g] c4 r |
   r2 r8 e[ \f \< d c-sharp] |
   d8 \! d,[ \p f-sharp g] a e'[ \f \< d c-sharp] |
-  d8 \! d,[ \p g a] b d[ \f \< c-natural! b] |
+  d8 \! d,[ \p g a] b d[ \f \< c! b] |
   a8 \! c,[ \p d e] f-sharp c'[ \f \< b a] |
   g8 \! g[ \p d b] g4 r |
   r2 r8 \clef \bass-clef-name g,[ \f \< a b] |

@@ -36,7 +36,7 @@
   b8 g e' b g' e |
   c-sharp8 e g e c-sharp a |
   d4 d, r |
-  c-natural!8 \p d f-sharp a f-sharp d |
+  c!8 \p d f-sharp a f-sharp d |
   b8 d g b g d |
   d-sharp8 \cresc b d-sharp f-sharp b d-sharp |
   e8 g e b g e |

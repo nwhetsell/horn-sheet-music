@@ -11,11 +11,11 @@
   \time 4/4
 
   e'16( \f d-sharp) e-. f-sharp-. g( f-sharp) g-. a-. b( a-sharp) b-. c-. b8 r |
-  c16( b c) e-. b( a-natural! b) e-. a,( g a) e'-. g,( f-sharp g) e'-. |
+  c16( b c) e-. b( a! b) e-. a,( g a) e'-. g,( f-sharp g) e'-. |
   a,16( b) c-. b-. a-. g-. f-sharp-. e-. d-sharp( f-sharp) b-. a-. g-. f-sharp-. e-. d-sharp-. |
   e16( d-sharp e) f-sharp-. g( f-sharp g) e-. f-sharp( b) f-sharp-. d-sharp-. b4\fermata |
   e16( \p d-sharp) e-. f-sharp-. g( f-sharp) g-. a-. b( \cresc a-sharp) b-. c-sharp-. d-sharp( b) c-sharp-. d-sharp-. |
-  e16( d-sharp) e-. f-sharp-. g( f-sharp) e-. d-. c-natural!( b) c-. d-. e( d) c-. b-. |
+  e16( d-sharp) e-. f-sharp-. g( f-sharp) e-. d-. c!( b) c-. d-. e( d) c-. b-. |
   a16( \f g) a-. b-. c( b) a-. g-. f-sharp( e) f-sharp-. g-. a( g) f-sharp-. e-. |
   d8 e16-. f-sharp-. g( f-sharp) g-. a-. b( a) b-. c-. d8 r |
   f-sharp,16( e) f-sharp-. g-. a( g) a-. b-. c( b) c-. d-. e( d) e-. f-sharp-. |
@@ -34,7 +34,7 @@
   b16( c) d-. c-. b-. a-. g-. f-sharp-. g( \> a) b-. a-. g-. f-sharp-. e-. d-. |
   c16( \p b c) e-. a( g-sharp a) b-. c( b c) d-. e8 r |
 
-  f-sharp,16( \< e f-sharp) g-. a( g-natural!) a-. b-. c( b) c-. d-. e8( e-flat) |
+  f-sharp,16( \< e f-sharp) g-. a( g!) a-. b-. c( b) c-. d-. e8( e-flat) |
   d4.( \f b8) g4 r | \bar "||"
 
   c,16(\f b) c-. d-. e( d) e-. f-. g( f-sharp) g-. a-. g8 r |

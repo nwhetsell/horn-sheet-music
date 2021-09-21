@@ -31,7 +31,7 @@
     d'4 \appoggiatura { e16 d } c-sharp16( d e d) a4 \breathe \afterGrace { \once \stemDown b4\startTrillSpan } { a16\stopTrillSpan( b) } |
     c4 \appoggiatura { d16 c } b16( c d c) e,4 \breathe \afterGrace f-sharp4\startTrillSpan { e16\stopTrillSpan( f-sharp) } |
     g8.( \tuplet 3/2 { a32 g f-sharp) } g8( \tweak after-line-breaking ##t \tweak to-barline ##f \< a16 b) a4( a-sharp) |
-    b4. \! \breathe \acciaccatura d8 c16( b) f-sharp' \> e( d-sharp) c-natural!( b) a( g) f-sharp |
+    b4. \! \breathe \acciaccatura d8 c16( b) f-sharp' \> e( d-sharp) c!( b) a( g) f-sharp |
     g4 \< \breathe g16( a b g) e8( g' f-sharp e) |
     d16( \f c-sharp b a) e'( b c-sharp g') f-sharp( c-sharp d a-sharp) \subdivide-beams #1/8 2,2,2,2 { b( f-sharp g32 b g e) } |
     f-sharp8( a d a-sharp) b( \> f-sharp) g16( f-sharp g e) |
@@ -83,7 +83,7 @@
     b8.( c32 b) a8( g) \breathe |
 
     d'4 \appoggiatura { e16 d } c-sharp16( d e d) a4 \breathe \afterGrace b4\startTrillSpan { a16\stopTrillSpan( b) } |
-    c-natural!8( e, b' a) g16( a32 g f-sharp16 g) a( \< b c d) |
+    c!8( e, b' a) g16( a32 g f-sharp16 g) a( \< b c d) |
     c8( b g' \f d-sharp) e( b) c16( e, b' a) |
 
     <<

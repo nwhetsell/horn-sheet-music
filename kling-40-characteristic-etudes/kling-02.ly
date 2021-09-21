@@ -30,7 +30,7 @@
 
   g'8-. c16( b d c e c) f-sharp,4( g8) r |
   a8-. d16( c-sharp e d f d) g-sharp,4( a8) r |
-  a16( g f-sharp g) c( b a-sharp b) e( d c-natural! b) a( g a f) |
+  a16( g f-sharp g) c( b a-sharp b) e( d c! b) a( g a f) |
   e16( c) e-. g-. f( d) f-. a-. g8 r r4 |
   g8-. a16-. b-. c-. d-. e-flat-. e-. f-sharp,4( g8) r |
   a8-. b16-. c-. c-sharp-. d-. e-. f-. g-sharp,4( a8) r |
@@ -50,7 +50,7 @@
   a8-. b16-. c-. d-. e-. f-. g-. a8-. r a,-. r |
   g8-. a16-. b-. c-. d-. e-. f-. g8-. r g,-. r |
   f'16-. g-. a8-. d,16-. e-. f8-. b,16-. c-. d8-. f,16-. g-. a-flat8-. |
-  g8-. a-natural!16-. b-. c-. d-. e-. f-. g8-. r g,-. r |
+  g8-. a!16-. b-. c-. d-. e-. f-. g8-. r g,-. r |
   a8-. b16-. c-. d-. e-. f-. g-. a8-. r a,-. r |
   g8-. a16-. b-. c-. d-. e-. f-. g8-. r g-. r |
   c,4 r r2 |
@@ -67,7 +67,7 @@
   \repeat unfold 2 { a-flat,16( g) b-. d-. f( d) b-. g-. } |
   e'16-. c,-. d-. e-. f-. g-. a-. b-. c( b) d( c) e( d) f( e) |
   g16( a) f( g) e( f) d( e) c( d) b-flat( c) a( b-flat) g( a) |
-  f8 c8->~8 d16-. e-. f-. g-. a-. b-natural!-. c-. d-. e-. f-. |
+  f8 c8->~8 d16-. e-. f-. g-. a-. b!-. c-. d-. e-. f-. |
   g8 g4-> g8~( g16 f) e-. d-. c-. b-. a-. g-. |
   c4 r r2 | \bar "|."
 }

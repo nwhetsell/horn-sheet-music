@@ -20,7 +20,7 @@
     c8) \cresc r g4->( d'8) r g,4->( |
     e'8) r g,4-> \tweak details.accidental-collision #5 ( f-sharp'8) r g,4->( \f |
     g'2\fermata) r4 g4->( |
-    f-natural!8) r g4->( e8) r g4->( |
+    f!8) r g4->( e8) r g4->( |
     d8) r g4->( c,8) r g'4->( |
     b,8) r g'4->( a,8) r g'4->( |
     g,2\fermata) r4 c4->( \p |
@@ -44,7 +44,7 @@
     f''2\fermata) r4 e4( \p |
 
     g-sharp,8) r e4( a8) r f'4( |
-    b,,8) r g-natural!4( c8) r <a'' \tweak font-size #-2 e>4( |
+    b,,8) r g!4( c8) r <a'' \tweak font-size #-2 e>4( |
     f-sharp,8) r e-flat4( c'8) r a4( |
     c,8) r b4( g'8) r g,4( \f |
     a-flat8) r a-flat'4( e-flat8) r c4( |

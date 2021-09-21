@@ -15,7 +15,7 @@
 
   \partial 8 { a'16( \tweak X-offset #0 #(make-dynamic-script (markup #:dynamic "p" #:normal-text (#:italic "dolce"))) \< b-flat) } | |
   c8 d16 e g16( f e d) |
-  c-sharp8~( \> c-sharp32 d) b-flat g e8[ \breathe c-natural!] \p \< |
+  c-sharp8~( \> c-sharp32 d) b-flat g e8[ \breathe c!] \p \< |
   f8 g16 a b-flat( d c b-flat) |
   c8\( \> \afterGrace { b-flat \tweak avoid-slur #'inside \trill } { a16( b-flat } a8)\) \! \breathe f16( \p \< g) |
   a8 b16 c-sharp d8 e |
@@ -27,7 +27,7 @@
   b8 g,-. f''16( g32 f e16 d) |
   b8~( b32 c) g e c16 e'( d c) |
   c-sharp8~( c-sharp32 d) b g f16( a g f) |
-  e16-. c-natural!( b c) e( g) c-. e-. |
+  e16-. c!( b c) e( g) c-. e-. |
   g4
     g, % The 1st edition has e here.
     |
@@ -39,8 +39,8 @@
     d-sharp'32( e) c-. g-. f-sharp'( g) e-. c-. d-sharp( e) c-. g-. b( c) g-. e-. |
   }
 
-  d-natural!8[ \tweak Y-offset #3 \breathe e32( f) d-. b-.] g8 c-sharp'32( d) b-. g-. |
-  c-natural!8 b32( c) g-. e-. c8 \bar "||"
+  d!8[ \tweak Y-offset #3 \breathe e32( f) d-. b-.] g8 c-sharp'32( d) b-. g-. |
+  c!8 b32( c) g-. e-. c8 \bar "||"
 
   g'16( \p a) |
   b-flat!8 \< c-sharp16 d( e \> c-sharp a g) |
@@ -58,7 +58,7 @@
   >> d-flat16( b-flat) g-. f-. |
   e8 \> a32( b-flat) g-. e-. c8 \! a'16( \p b-flat) |
   c8 \< d16 e g( f e d) |
-  c-sharp8~( \> c-sharp32 d) b-flat g e8 c-natural! |
+  c-sharp8~( \> c-sharp32 d) b-flat g e8 c! |
   f8 \< g16 a b-flat( d c b-flat) \! |
   c8\( \afterGrace { b-flat \tweak avoid-slur #'inside \trill } { a16( b-flat} a8\noBeam)\) f16( \p g) |
   a8 \< a16 b-flat

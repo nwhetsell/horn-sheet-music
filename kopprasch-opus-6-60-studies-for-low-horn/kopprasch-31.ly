@@ -26,7 +26,7 @@
   c16( d) e-. d-. c( a) f-sharp-. a-. g8 r |
   c,16( \p e) g-. c-. d( c) b-. c-. g8 r |
   f-sharp16( \< a) d-. f-sharp-. g( f-sharp) e-. f-sharp-. e( d) c-sharp-. d |
-  d16( \> c-natural!) b-. c-. b( a) g-. a-. f-sharp8 \! r |
+  d16( \> c!) b-. c-. b( a) g-. a-. f-sharp8 \! r |
   b16( \f d) e-. f-sharp-. g( b,) c-. d-. e( a,) b-. c-. |
   d16( g,) a-. b-. c( f-sharp,) g-. a-.
     g8 % The 1st edition has b here.
@@ -44,10 +44,10 @@
   b-flat16( a) g-. a-. d( c) b-. c-. a8 r |
   f16( \p a) c-. e-flat-. f( e-flat) d-. e-flat-. c8 r |
   f,16( \< b-flat) d-. f-. g( f) e-. f-. d8 \! r |
-  g,16( \f b-natural!) d-. g-. a-flat( g) f-sharp-. g-. f( e-flat) d-. e-flat-. |
+  g,16( \f b!) d-. g-. a-flat( g) f-sharp-. g-. f( e-flat) d-. e-flat-. |
   d16( c) b-. c -.b-flat( a-flat) g-. a-flat-. g( f) e-flat-. f-. |
   g4 r r |
-  g16( b-natural!) d-. g-. a-flat,( g) f-sharp-. g-. g,8 r |
+  g16( b!) d-. g-. a-flat,( g) f-sharp-. g-. g,8 r |
   g'16( c) e-flat-. g-. a-flat,( g) f-sharp-. g-. g,8 r |
   \tempo "poco rit."
   g16( \dim b) d-. g-. \tweak NoteColumn.X-offset #1 a-flat,( g) f-sharp-. g-. \clef \bass-clef-name g,8 r |

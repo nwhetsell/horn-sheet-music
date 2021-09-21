@@ -23,7 +23,7 @@
     f16 \f a d, f e g c, e |
     d16 f b, d c e g, b-flat |
     a16 c-sharp d f g, b d b |
-    c-natural!8[ \breathe r16 e,] \p f a g f |
+    c!8[ \breathe r16 e,] \p f a g f |
     e16 g f e d f e d |
     e16 c d e f a g f |
     e16 g f e d f e d |
@@ -37,7 +37,7 @@
   c8 \f |
   e-flat16 a, c f-sharp, a d, e f-sharp |
   g16 b-flat a c b-flat f-sharp g8 \breathe |
-  d-flat'16 g, b-flat e, g c, d-natural! e |
+  d-flat'16 g, b-flat e, g c, d! e |
   f16 a g b-flat a e f8 \breathe |
   e16 \p \< g f a g b-flat a c-sharp |
   d16 f e g f \f a f d |

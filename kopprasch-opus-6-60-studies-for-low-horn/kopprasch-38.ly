@@ -32,7 +32,7 @@
         a' b-flat a g) e-flat'( d c-sharp) |
     }
     d1~ \p \tweak minimum-length #8 \< |
-    \tuplet 3/2 4 { d8 \f e-flat( d c-natural! d c b-flat c b-flat \once \tupletDown a b-flat a) } |
+    \tuplet 3/2 4 { d8 \f e-flat( d c! d c b-flat c b-flat \once \tupletDown a b-flat a) } |
     \tuplet 3/2 4 { g8( f-sharp g a g a) } b-flat4( g8) r |
     \tuplet 3/2 4 { e-flat'8( f e-flat d e-flat d c d c b-flat c b-flat) } |
     \tuplet 3/2 4 { a8( g a b-flat a b-flat) } c4( a8) r |
@@ -64,7 +64,7 @@
     g2.^\markup { \italic "accel." }( g-flat4) |
     \tempo "a tempo"
     \tuplet 3/2 4 {
-      f8( \tweak X-offset #-1 \f g-natural! f e-flat f e-flat d e-flat d c d c) |
+      f8( \tweak X-offset #-1 \f g! f e-flat f e-flat d e-flat d c d c) |
       b-flat8( c b-flat d e-flat d g, a g c d c) |
       f,8( g f b-flat c b-flat a b-flat a c d c) |
     }
@@ -102,7 +102,7 @@
   a4^\markup { \italic "poco rit." }( e-flat'8) r d4( b-flat8) r |
   g4( e-flat'8) r g4( c-sharp,8) r |
   d1~^\markup { \italic "string." } \p \tweak minimum-length #8 \< |
-  \tuplet 3/2 4 { d8 \f \tempo "a tempo" e-flat( d c-natural! d c b-flat c b-flat \once \tupletDown a b-flat a) } |
+  \tuplet 3/2 4 { d8 \f \tempo "a tempo" e-flat( d c! d c b-flat c b-flat \once \tupletDown a b-flat a) } |
   \tuplet 3/2 4 { g8( f-sharp g a g a) } b-flat4( g8) r |
   \tuplet 3/2 4 { c8( d c b-flat c b-flat \tupletDown a b-flat a g a g) \tupletNeutral } |
   \tuplet 3/2 4 { f-sharp8( e f-sharp g f-sharp g) } a4( f-sharp8) r |
@@ -113,20 +113,20 @@
   }
 
   \key g \major
-  g4 r\fermata \tempo \markup { "Maggiore" \normal-text \italic "poco meno" } b-natural!_\markup { \italic "dolce" }( g8) r |
+  g4 r\fermata \tempo \markup { "Maggiore" \normal-text \italic "poco meno" } b!_\markup { \italic "dolce" }( g8) r |
   c,4( a'8) r c4( f-sharp,!8) r |
   g8( b) d,4 e( c'8) r |
   b4( g-sharp8) r \tuplet 3/2 4 { a8( \< b a) c( d c) \! } |
   e2.^\markup { \italic "accel." }( e-flat4) |
   \tempo "Tempo I"
-  \tuplet 3/2 4 { d8( \> e-natural! d c d c b c b \once \tupletDown a b a)\! } |
+  \tuplet 3/2 4 { d8( \> e! d c d c b c b \once \tupletDown a b a)\! } |
   g4 r \tuplet 3/2 4 { g8( \f f-sharp g) b( a-sharp b) } |
   \tuplet 3/2 4 { e,8( d-sharp e) g( f-sharp g) c,( b c) e( d-sharp e) } |
-  d-natural!4 \tuplet 3/2 4 { f-sharp8( \p e f-sharp) a( g a) c( b c) } |
+  d!4 \tuplet 3/2 4 { f-sharp8( \p e f-sharp) a( g a) c( b c) } |
   \tuplet 3/2 4 { b8( \cresc a g) e'( d c-sharp) d( e d) c( b a) } |
   g4 \breathe \tuplet 3/2 4 { g'8( \f f-sharp g e d-sharp e c b c) } |
-  \tuplet 3/2 4 { a8( b a c d-natural! c f-sharp, g f-sharp d' e d) } |
+  \tuplet 3/2 4 { a8( b a c d! c f-sharp, g f-sharp d' e d) } |
   g,4 \tuplet 3/2 4 { \once \tupletDown b8( a g e' d c-sharp e d c-sharp) } |
-  \tuplet 3/2 4 { d8( e d c-natural! d c b c b \once \tupletDown a b a) } |
+  \tuplet 3/2 4 { d8( e d c! d c b c b \once \tupletDown a b a) } |
   \tuplet 3/2 4 { \once \tupletDown g8( a g b c b } g4) r | \bar "|."
 }

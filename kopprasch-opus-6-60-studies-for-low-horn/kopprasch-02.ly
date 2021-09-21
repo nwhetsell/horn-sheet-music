@@ -31,7 +31,7 @@
     b4 \cresc d c e |
     d4 f-sharp e g |
     f-sharp4 \f a g2\fermata |
-    g4 \f e a f-natural! |
+    g4 \f e a f! |
     d4 b g' e |
     c4 a f' d |
     b4 \dim g e' c |

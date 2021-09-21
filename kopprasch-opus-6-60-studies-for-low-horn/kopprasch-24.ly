@@ -36,7 +36,7 @@
     a,16 e g-sharp e a e b' e, c' e, d' e, e'4 |
     c,16 \mf c' a c b-flat c g c a c f, c' g c e, c' |
     f,16c e c f c g' c, a'8 c-sharp16 a d a e' a, |
-    f'8 e16 g, d' g, c-natural! g b4 r |
+    f'8 e16 g, d' g, c! g b4 r |
     c,16 \f c' b c a c g c f, c' e, c' d, c' c, c' |
     b,16 d' c d b d a d g, d' f, d' e, d' d, d' |
     c,16 e' d e c e b e a, e' g, e' f, e' e, e' |

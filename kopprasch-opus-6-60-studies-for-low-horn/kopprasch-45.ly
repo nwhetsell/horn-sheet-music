@@ -41,7 +41,7 @@
   e8( b) g-. b-. e,4 \breathe \bar "||" g8-. \p b-. |
   d8( c-sharp) d-. e-. d( c) b-. a-. |
   g-sharp8( \< b) d-. f-. e( \> f) e-. d-. \! |
-  c8( b) c-. d-. c( b) a-. g-natural!-. |
+  c8( b) c-. d-. c( b) a-. g!-. |
   f-sharp8( \< a) c-. e-. d( e) d-. c-. |
   b8( \> c) b-. a-. g( f-sharp) e-. g-. \! |
   f-sharp8 r g-. \mf e-. d-sharp( b) e-. g-. |
@@ -51,7 +51,7 @@
   e8( g) f-sharp-. e-. f-sharp-. b,( c b) |
   e8( f-sharp) g-. a-. b( c-sharp) d-sharp-. e-. |
   b8( c-sharp) d-sharp-. e-. f-sharp( g) a-. f-sharp-. |
-  g8( e) c-natural!-. a-. g( e) b'-. b,-. |
+  g8( e) c!-. a-. g( e) b'-. b,-. |
   e8( b) g-. b-. e4 r | \bar "||"
 
   \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible

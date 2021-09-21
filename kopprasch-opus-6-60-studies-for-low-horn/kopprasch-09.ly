@@ -22,7 +22,7 @@
     d16( \p c-sharp d) d-. b( a b) b-. g8 r |
     e'16( d e) e-. c( b c) c-. g8 r |
     f'16-. \f f( e f) d-. d( c-sharp d) b-. b( a b) |
-    c-natural!16-. \> c( d c) g-. g( a g) c,8 \! r |
+    c!16-. \> c( d c) g-. g( a g) c,8 \! r |
 
     g''16-. \f g( a g) e-. e( f e) c8 r |
     a16-. \p a( b a) d-. d( e d) f8 r |

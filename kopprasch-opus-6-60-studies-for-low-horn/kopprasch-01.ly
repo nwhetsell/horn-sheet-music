@@ -23,7 +23,7 @@
     c4 \< d e f-sharp |
     g2 \f a |
     b2 \breathe r4 a \p |
-    g4 f-natural! e d |
+    g4 f! e d |
     c4 \cresc b a g |
     f2 \f e4 d |
     c2 r |
@@ -32,24 +32,24 @@
     e2 f-sharp4 g-sharp |
     a2 r |
     d,,2 \p e4 \< f-sharp |
-    g-natural!4 a b c |
+    g!4 a b c |
     d2 \f e4 f-sharp |
     g2 r |
-    f-natural!4 \f e d c |
+    f!4 \f e d c |
     b4 a g-sharp2 |
     e'4 d c b |
-    a4 g-natural! f-sharp e |
+    a4 g! f-sharp e |
     d2. e4 |
     f-sharp4 g a b |
     c4 d e f-sharp |
     g2 r |
-    d4 \p \< e f-natural! g |
+    d4 \p \< e f! g |
     <a \tweak font-size #-2 f>4 \f g f e |
     d4 \> c b a |
     g4 \p f e d |
     c4 \< b a g |
     f2 \f f-sharp |
-    g4 f-natural! e d |
+    g4 f! e d |
     c2. r4 |
   }
 }

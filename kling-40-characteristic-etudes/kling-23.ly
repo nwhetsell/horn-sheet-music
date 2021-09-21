@@ -52,7 +52,7 @@
   \once \stemDown \afterGrace b2\trill( { a-sharp16 b } f-sharp8) r \tuplet 3/2 { d'8-.( b-. d-.) } |
   g-sharp8-. g-sharp->( f-sharp) f-sharp->( e) e->( d) d-. |
   \afterGrace c-sharp2\trill( { b32 d c-sharp } b8) r \acciaccatura f-sharp'8 \tuplet 3/2 { e8-.( d-sharp-. e-.) } |
-  \tuplet 3/2 { f-sharp,8-.( e-sharp-. f-sharp-.) } \acciaccatura f-sharp'8 \tuplet 3/2 4 { e-natural!8-.( d-sharp-. e-.) g-sharp,-.( f-sharpsharp-. g-sharp-.) } \acciaccatura f-sharp'!8 \tuplet 3/2 4 { e-natural8-.( d-sharp-. e-.) } |
+  \tuplet 3/2 { f-sharp,8-.( e-sharp-. f-sharp-.) } \acciaccatura f-sharp'8 \tuplet 3/2 4 { e!8-.( d-sharp-. e-.) g-sharp,-.( f-sharpsharp-. g-sharp-.) } \acciaccatura f-sharp'!8 \tuplet 3/2 4 { e-natural8-.( d-sharp-. e-.) } |
   a,2 r4 \tuplet 3/2 { e8-.( \pp a-. c-sharp-.) } |
   e2.~( \tuplet 3/2 { e8 f-sharp g-sharp } |
   a2) r4 \tuplet 3/2 { e,8-.( \ppp a-. c-sharp-.) } |

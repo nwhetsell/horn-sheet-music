@@ -37,7 +37,7 @@
   \tuplet 3/2 4 { b'8( g) e-. c'( a) e-. } b'4 r |
   \tuplet 3/2 4 { c8( a) e-. b'( g) e-. a( f-sharp) d-sharp-. g( e) b-. } |
   \tuplet 3/2 4 { f-sharp'8( d-sharp) b-. g'( e) b-. } f-sharp'4 r |
-  \tuplet 3/2 4 { g8( \mf e) c-. a'( f-natural!) c-. g'( e) c-. c'( g) e-. } |
+  \tuplet 3/2 4 { g8( \mf e) c-. a'( f!) c-. g'( e) c-. c'( g) e-. } |
   \tuplet 3/2 4 { d'8( \< b) g-. d-sharp'( b) g-. } e'4 \! r |
   \acciaccatura e8 \f \tuplet 3/2 4 { d8 c-sharp-. d-. <a' \tweak font-size #-2 d,>( f) d-. g( e) c-. f( d) b-. } |
   \tuplet 3/2 4 { c8( g) e-. d'( b) g-. e'( c) g-. d'( b) g-. } |

@@ -48,9 +48,9 @@
   \override Beam.positions = #'(-2.812 . -2.812)
   \repeat unfold 4 { d16( c-sharp e d) } |
   \revert Beam.positions
-  d16( e c-natural! d b c a b |
+  d16( e c! d b c a b |
   g16 a f-sharp g e f-sharp d e) |
-  c-natural!16( d e f-sharp g f-sharp g g-sharp |
+  c!16( d e f-sharp g f-sharp g g-sharp |
   a8) r r4 |
   a-sharp8-. r r4 |
   b8-. r r4 |

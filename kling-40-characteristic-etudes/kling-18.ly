@@ -45,11 +45,11 @@
   e8( a, d g, c f-sharp,)\) |
   g8->( f-sharp) e-. d-sharp-. e-. g-sharp-. |
   a8->( g) f-sharp-. e-sharp-. f-sharp-. a-sharp-. |
-  b8->( \cresc a-natural!) g-. f-sharp-. g-. b-. |
+  b8->( \cresc a!) g-. f-sharp-. g-. b-. |
   c8->( b) a-. g-sharp-. a-. c-sharp-. |
-  d8->( #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text "più cresc.") c-natural!) b-. a-sharp-. b-. d-sharp-. |
-  e8->( d-natural!) c-. b-. c-. e-sharp-. |
-  f-sharp8->( e-natural!) d-. c-sharp-. d-. f-sharp-. |
+  d8->( #(make-music 'CrescendoEvent 'span-direction START 'span-type 'text 'span-text "più cresc.") c!) b-. a-sharp-. b-. d-sharp-. |
+  e8->( d!) c-. b-. c-. e-sharp-. |
+  f-sharp8->( e!) d-. c-sharp-. d-. f-sharp-. |
   g8->( f-sharp) e-. d-sharp-. e-. g-sharp-. |
   a8-. \f b-. c-. a-. f-sharp-. d-. |
   b'8-. g-. e-. c-. a'-. f-sharp-. |

@@ -27,8 +27,8 @@
   e4( c-sharp'8) a8.( g-sharp16 b a) |
   \subdivide-beams #1/8 3,3 { g-sharp32( \< a g-sharp f-sharp g-sharp a b c-sharp e d b g-sharp \! } e4) r8 |
   e4( d'8) b8.( a-sharp16 c-sharp b) |
-  \subdivide-beams #1/8 3,3 { a-natural!32( \< b a g-sharp a b c-sharp d e f-sharp g-sharp a) \! } a,8 r r |
-  g-natural!8. \mf \< a16-.( c-sharp-. e-.) a8. e16-.( c-sharp-. a-.) |
+  \subdivide-beams #1/8 3,3 { a!32( \< b a g-sharp a b c-sharp d e f-sharp g-sharp a) \! } a,8 r r |
+  g!8. \mf \< a16-.( c-sharp-. e-.) a8. e16-.( c-sharp-. a-.) |
   e'4( \f d8) \subdivide-beams #1/8 3,3 { g-sharp32( f-sharp) f-sharp( e) e( d) d( c-sharp) c-sharp( b) b( a) } |
   \subdivide-beams #1/8 3,3 { f-sharp'32( e) e( d) d( c-sharp) c-sharp( b) b( a) a( g-sharp) e'( d) d( c-sharp) c-sharp( b) b( a) a( g-sharp!) g-sharp( f-sharp) } |
   f8.( \ff d'16 c-sharp b) a-sharp8.( g-natural'!16 f-sharp e) |

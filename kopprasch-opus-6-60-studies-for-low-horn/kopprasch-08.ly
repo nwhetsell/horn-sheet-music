@@ -41,7 +41,7 @@
     e16( \> d) d( c) c8 \! r |
     c,16( \f e) e( g) g( b-flat) b-flat( g) |
     g16( f) f( a) a( c) c( a) |
-    a16( g) g( b-natural!) b( d) d( b) |
+    a16( g) g( b!) b( d) d( b) |
     c16( d) d( e) c8 r |
   }
 }

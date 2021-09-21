@@ -18,7 +18,7 @@
     e8 \< g c f-sharp, g e |
     g8 \f c e b c g |
     a8 d f d-sharp e c |
-    f,8 a d-natural! b c e, |
+    f,8 a d! b c e, |
     d8 \mf f a f-sharp \> g d-sharp |
     e8 c b4 \! r |
 
@@ -49,18 +49,18 @@
     a8 e f a d a-sharp |
     b8 f-sharp g b e b |
     c8 \f g-sharp a c f c-sharp |
-    d8 a-sharp b d g f-natural! |
-    e8 b c g-sharp a-natural! e |
-    f8 a d a-sharp b g-natural! |
+    d8 a-sharp b d g f! |
+    e8 b c g-sharp a! e |
+    f8 a d a-sharp b g! |
     c4 r r |
 
     g,8 \mf c e b c g |
     c8 e g d-sharp e c |
     e8 \< g c g-sharp a e |
     a8 \f c e b c e |
-    f8 g-natural,! b d-sharp e c-natural! |
-    f,8 a d-natural! b c e, |
-    d8 f-natural! a f-sharp g g, |
+    f8 g-natural,! b d-sharp e c! |
+    f,8 a d! b c e, |
+    d8 f! a f-sharp g g, |
     c4 \clef \bass-clef-name c, r |
   }
 }

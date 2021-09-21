@@ -30,7 +30,7 @@
   f-sharp16( e d-sharp e f-sharp g-sharp a-sharp b c-sharp d-sharp e c-sharp a-sharp f-sharp e c-sharp) |
   b16( a-sharp b d-sharp g-sharp f-sharp d-sharp f-sharp b4) r |
 
-  a-natural!16-. \p \< b-. f-sharp-. b-. a-. b-. f-sharp-. b-. a-. \> b-. f-sharp-. b-. a-. b-. f-sharp-. b-. |
+  a!16-. \p \< b-. f-sharp-. b-. a-. b-. f-sharp-. b-. a-. \> b-. f-sharp-. b-. a-. b-. f-sharp-. b-. |
   g-sharp16-. \< b-. e,-. b'-. g-sharp-. b-. e,-. b'-. g-sharp-. \> b-. e,-. b'-. g-sharp-. b-. e,-. b'-. |
   f-sharp16-. \< b-. b,-. b'-. f-sharp-. b-. b,-. b'-. f-sharp-. \> b-. b,-. b'-. f-sharp-. b-. b,-. b'-. |
   e,16-. \< b'-. b,-. b'-. g-sharp-. b-. b,-. b'-. e,-. \> b'-. b,-. b'-. g-sharp-. b-. b,-. b'-. |

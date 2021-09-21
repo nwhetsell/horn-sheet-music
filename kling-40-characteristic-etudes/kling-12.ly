@@ -35,22 +35,22 @@
     b8-. g'-. f-sharp-. e-. d-. c-. b-. a-. g-. |
     f-sharp'8-. e-. d-. c-. b-. a-. g-. f-sharp-. a-. |
     g8-. d'-. c-. b-. a-. g-. f-sharp-. e-. d-sharp-. |
-    d-natural!8-. e-. f-sharp-. g-. a-. b-. c-. a-. d-. |
+    d!8-. e-. f-sharp-. g-. a-. b-. c-. a-. d-. |
     b8-. g'-. f-sharp-. e-. d-. c-. b-. a-. g-. |
     f-sharp8-. e-. d-. c-. b-. a-. g-. f-sharp-. a-. |
   }
   \tuplet 3/2 4 { g8-. b-. d-. g-. b-. d-. } g-. r |
-  \tuplet 3/2 4 { f-natural!8-. d-. b-. g-. d-. b-. } g-. r |
+  \tuplet 3/2 4 { f!8-. d-. b-. g-. d-. b-. } g-. r |
   \tuplet 3/2 4 { e''8-. c-. g-. e-. c-. g-. } c,-. r |
   \tuplet 3/2 4 { e-flat''8-. c-. g-. e-flat-. c-. g-. } c,-. r |
   \tuplet 3/2 4 { d''8-. b-. g-. d-. b-. g-. } \clef \bass-clef-name g, r |
   \clef "treble"
   g'8-. r g'-. r \tuplet 3/2 { g,-. g-. g-. } |
   a-flat8-. r g'-. r \tuplet 3/2 { a-flat,-. a-flat-. a-flat-. } |
-  a-natural!8-. r g'-. r \tuplet 3/2 { a,-. a-. a-. } |
+  a!8-. r g'-. r \tuplet 3/2 { a,-. a-. a-. } |
   b-flat8-. r g'-. r \tuplet 3/2 { b-flat,-. b-flat-. b-flat-. } |
   \tuplet 3/2 4 {
-    b-natural!8-. b-. b-. c-. c-. c-. c-sharp-. c-sharp-. c-sharp-. |
+    b!8-. b-. b-. c-. c-. c-. c-sharp-. c-sharp-. c-sharp-. |
     d8-. d-. d-. d-sharp-. d-sharp-. d-sharp-. e-. e-. e-. |
   }
   \tuplet 3/2 4 { f8-. f-. f-. f-sharp-. f-sharp-. f-sharp-. } g-. r |

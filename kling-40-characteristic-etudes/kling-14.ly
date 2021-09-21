@@ -22,7 +22,7 @@
   f-sharp8-. a,( g-sharp a f-sharp' e a8. c-sharp,16) |
   e4.( \> f-sharp16 e d4) \! r |
 
-  \afterGrace { c-natural!2\trill_( \p } { b16 c) } f-sharp8( \< e d c) |
+  \afterGrace { c!2\trill_( \p } { b16 c) } f-sharp8( \< e d c) |
   b4~( \> 16 c b a \! g4) \tuplet 3/2 { g8( b d) } |
   d8( f-sharp,) d'( g,) d'8( f-sharp,) g16( \< b f-sharp' e) |
   d4~( \> 16 c-sharp) \! c-. b-. a4( a-sharp) |

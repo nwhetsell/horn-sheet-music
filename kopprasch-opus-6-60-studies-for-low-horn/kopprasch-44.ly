@@ -25,7 +25,7 @@
   \tuplet 3/2 4 { e8 d e d e d e \cresc d e d e d } |
   \repeat unfold 8 { e16 d } |
   \repeat unfold 7 { e16 d } c-sharp d |
-  f4.) \f d8 b( c-natural!16 b) g8( f) |
+  f4.) \f d8 b( c!16 b) g8( f) |
   f8( e) e4 r c' |
   c2\trill( \appoggiatura { b16 c } f4.) e8 |
   d4.\trill( \appoggiatura { c-sharp16 d } g8) e4 r8 c |
@@ -88,7 +88,7 @@
   \tuplet 3/2 4 { b8 a b a b a b \cresc a b a b a } |
   \repeat unfold 8 { b16 a } |
   \repeat unfold 7 { b16 a } g-sharp a) |
-  c4. \f a8 f-sharp( g-natural!16 f-sharp) d8 c |
+  c4. \f a8 f-sharp( g!16 f-sharp) d8 c |
   c8( b) b4 r g' \f |
   g2\trill( \appoggiatura { f-sharp16 g } c4.) b8 |
   a4.\trill( \appoggiatura { g-sharp16 a } d8) b4 r8 g-sharp \p |
@@ -96,7 +96,7 @@
   f-sharp4.\trill( \appoggiatura { e16 f-sharp } b8) g4 r8 e \f |
   g'4 e c b |
   a-sharp4.\trill( \appoggiatura { g-sharp16 a-sharp } c-sharp8) \> g4 f-sharp8 e |
-  d-sharp4 \< f-sharp a-natural! c-natural! |
+  d-sharp4 \< f-sharp a! c! |
 
   \barNumberCheck #67
   \cadenzaOn
@@ -115,9 +115,9 @@
   f\prall( \> e) d\prall( c) b\prall( a) g\prall( f) |
   e4 \! r8 c \< e g c b-flat |
   a4 \mf c-sharp\trill \appoggiatura { b16 c-sharp } d4 r8 a-flat |
-  g4 b\trill \appoggiatura { a16 b } c-natural!4 r8 e, |
+  g4 b\trill \appoggiatura { a16 b } c!4 r8 e, |
   f4 r8 a \< c-sharp( d f d) |
-  c-natural!8( b d f,) e( g c e,) |
+  c!8( b d f,) e( g c e,) |
   d4 \> r b \! r |
   c8. g'16 g8.\trill( f-sharp32 g) e8. g16 g8.\trill( f-sharp32 g) |
   b8. g16 g8.\trill( f-sharp32 g) \once \stemUp d'8. g,16 g8.\trill( f-sharp32 g) |

@@ -60,7 +60,7 @@
   g8 e c-sharp' a e' c-sharp |
   d8 a f' d <a' \tweak font-size #-2 a,> r |
   g8 e c-sharp e c-sharp a |
-  d8 a f a d c-natural! |
+  d8 a f a d c! |
   b-flat!8 g e c-sharp' e c-sharp |
   d4 r r |
   b-flat!8 \mf f b-flat d f d |
@@ -69,7 +69,7 @@
   b \< g b d b g |
   c8 g c e-flat g e-flat \! |
   f8 d b d b g |
-  c8 \> g e-natural! c e g |
+  c8 \> g e! c e g |
   b-flat!8 g e4 \! r |
 
   f8 \f c f a c a |

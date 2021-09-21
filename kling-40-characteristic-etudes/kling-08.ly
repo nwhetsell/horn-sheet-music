@@ -31,7 +31,7 @@
   }
   g8-. r r4 |
   \tuplet 3/2 4 {
-    f-natural!8( e) d-. d-. d-. d-. |
+    f!8( e) d-. d-. d-. d-. |
     e8( d) c-. c-. c-. c-. |
     d8( c) b-. b( a) g-. |
     f-sharp8( g) c-. e( c) e-. |

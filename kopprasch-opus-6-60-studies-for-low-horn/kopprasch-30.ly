@@ -35,7 +35,7 @@
     \tuplet 3/2 8 { c16( e) c-. a( c) a-. f-sharp( a) f-sharp-. d( f-sharp) d-. } |
     g8 \tuplet 3/2 8 { g16( b) d-. g( \f f-sharp) e-. d( c-sharp) e-. } |
     \tuplet 3/2 8 {
-      d16( e d c-natural! d c b c b \stemDown a b a) \stemNeutral |
+      d16( e d c! d c b c b \stemDown a b a) \stemNeutral |
       g16( b) a-. g( f-sharp) e-. d( e) d-. c-. b-. a-. |
     }
     g4 r | \bar "||"
@@ -52,7 +52,7 @@
     } |
     \tuplet 3/2 8 { e-flat16( d) e-flat-. g-. f-. e-flat-. d( c) d-. b-flat-. c-. d-. } |
     \tuplet 3/2 8 { e-flat16( g) e-flat-. b-flat( e-flat) b-flat-. g( b-flat) g-. } e-flat16-. r |
-    \tuplet 3/2 8 { c'16( b-natural!) c-. e-flat-. d-. c-. b( a) b-. g-. a-. b-. } |
+    \tuplet 3/2 8 { c'16( b!) c-. e-flat-. d-. c-. b( a) b-. g-. a-. b-. } |
     \tuplet 3/2 8 { c16( e-flat) c-. g( c) g-. e-flat( g) e-flat-. } c16-. r |
     \tuplet 3/2 8 { g16-. g'-. a-. b( a g) c,-. c'-. d-. e-flat( d c) } |
     g'8 \tuplet 3/2 8 { g,16( \> f-sharp) g-. a( g) a-. b( a) b-. } |

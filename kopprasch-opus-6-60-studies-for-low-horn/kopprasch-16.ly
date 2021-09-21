@@ -11,10 +11,10 @@
   \repeat volta 2 {
     <> \mf \repeat unfold 2 { e'16( f) g-. a-. g-. c( d c) } |
     \repeat unfold 2 { f,16( g) a-. b-flat-. a-. c( d c) } |
-    g16( a) b-natural!-. c-. b-. d( e d) c-. e( f e) d( c) b-. a-. |
+    g16( a) b!-. c-. b-. d( e d) c-. e( f e) d( c) b-. a-. |
     b16-. g( f-sharp g) a( b) c-. d-. g,4 r |
-    e16( \p f-natural!) g-. a-. g-. c( d c) f,( \cresc g) a-. b-flat-. a-. d( e d) |
-    g,16( a) b-natural!-. c-. b-. e( f e) a,( b) c-. d-. c-. \f f( g f) |
+    e16( \p f!) g-. a-. g-. c( d c) f,( \cresc g) a-. b-flat-. a-. d( e d) |
+    g,16( a) b!-. c-. b-. e( f e) a,( b) c-. d-. c-. \f f( g f) |
     e16( d) c-. b-. c-. a( g-sharp a) d( c) b-. a-. b-. g( f-sharp g) |
     c16( \> b) a-. g-. a-. f-sharp( e f-sharp) g8 \! r g16( \f a) b-. c-. |
     a16-. d( e d) f-sharp,-. d'( e d) g,-. d'( e d) b-. d( e d) |

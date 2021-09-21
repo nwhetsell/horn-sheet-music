@@ -30,7 +30,7 @@
   e,16-. g-sharp( b g-sharp) e'-. g-sharp,( b g-sharp) e-. a( c a) e'-. a,( c a) |
   e16-. b'( d b) e,-. g-sharp( b g-sharp) a4 r |
   b16-. d( f d) a-. d( f d) g-sharp,-. d'( f d) a-. c( e c) |
-  f-sharp,16-. c'( e c) f-sharp,-. c'( e-flat c) g-natural!-. c( d c) g-. b( d b) |
+  f-sharp,16-. c'( e c) f-sharp,-. c'( e-flat c) g!-. c( d c) g-. b( d b) |
   a16-. c( d c) a-flat-. c( d c) g-. c( d c) f-sharp,-. c'( d c) |
   g16-. b( d b) g'-. b,( d b) g4 r |
 

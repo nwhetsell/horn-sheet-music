@@ -20,7 +20,7 @@
   b8..( c-sharp32) d-sharp16( \< e f-sharp g-sharp) \! |
   a16. b32 c-sharp16. b32 \appoggiatura { d-sharp16 \> e } d-sharp16. c-sharp32 b16. a32 \! |
   g-sharp8..( a32) b16( \< c-sharp d-sharp e) \! |
-  f-sharp16. d-sharp32 b16. a32 g-sharp16. f-sharp32 e16. d-natural!32 |
+  f-sharp16. d-sharp32 b16. a32 g-sharp16. f-sharp32 e16. d!32 |
   \subdivide-beams #1/8 2,2 { c-sharp32-. e-. a-. e-. d-. \cresc f-sharp-. b-. f-sharp-. e-. g-sharp-. c-sharp-. g-sharp-. f-sharp-. a-. d-. a-. } |
   \subdivide-beams #1/8 2,2 { g-sharp32-. b-. e-. b-. e-. b-. e-. b-. } c-sharp16( \> a e c-sharp) |
   a16. \< g-sharp32 f-sharp16. a-sharp32 b16. c-sharp32 d16. f-sharp32 |

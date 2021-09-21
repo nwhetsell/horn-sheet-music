@@ -63,15 +63,15 @@ source-url = "https://imslp.org/wiki/Adagio_and_Allegro%2C_Op.70_(Schumann%2C_Ro
       R1
       r4 b-flat2( \< b4 |
       d-flat4 \> c2.) \! |
-      r4 f,( \< a-flat \> f8 d-natural! \! |
+      r4 f,( \< a-flat \> f8 d! \! |
       e-flat4) r r2 |
       r4 e-flat' \p e-flat8( a,4 b8 |
       c4) r r2 |
       r4 e-flat e-flat8( \< b-flat!4 b8 |
-      c2.) \p \tweak to-barline ##f \< d-natural!4( |
+      c2.) \p \tweak to-barline ##f \< d!4( |
       f4 \! e-flat2 d-flat4) |
       c4( c'2 a-flat8 f |
-      d-natural!2) r2 |
+      d!2) r2 |
       r4 b( c4. \sf g8 |
       a-flat4) a-flat( \< c8 b-flat d, e \! |
       f4) f( a-flat4. \fp g8) |
@@ -150,7 +150,7 @@ source-url = "https://imslp.org/wiki/Adagio_and_Allegro%2C_Op.70_(Schumann%2C_Ro
       \override DynamicLineSpanner.staff-padding = #2
       r4 \p b( \< d-flat4. \> c8) \! |
       c4 r r2 |
-      r4 c-sharp( \< e-flat!4. \> d-natural!8) \! |
+      r4 c-sharp( \< e-flat!4. \> d!8) \! |
       \revert DynamicLineSpanner.staff-padding
       d4 r r2 |
       R1*2
@@ -252,7 +252,7 @@ source-url = "https://imslp.org/wiki/Adagio_and_Allegro%2C_Op.70_(Schumann%2C_Ro
       \override DynamicLineSpanner.staff-padding = #2
       r4 \p b( \< d-flat4. \> c8) \! |
       c4 r r2 |
-      r4 c-sharp( \< e-flat!4. \> d-natural!8) \! |
+      r4 c-sharp( \< e-flat!4. \> d!8) \! |
       \revert DynamicLineSpanner.staff-padding
       d4 r r2 |
       R1*2

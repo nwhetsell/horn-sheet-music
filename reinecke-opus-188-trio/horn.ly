@@ -107,7 +107,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
           e2 r2 |
         } {
           \set Score.currentBarNumber = #71
-          d2. d8. \mf e-natural!16 |
+          d2. d8. \mf e!16 |
         }
       }
       \revert Score.BarNumber.break-visibility
@@ -159,7 +159,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       g-sharp4 f-sharp) d-sharp b |
       d-sharp2( c-sharp) \! |
       R1*2
-      c-natural!4--( \pp b-- c-- b--) | % The articulations in the horn part are staccato (-.), not tenuto.
+      c!4--( \pp b-- c-- b--) | % The articulations in the horn part are staccato (-.), not tenuto.
       d4 \cresc c2 b8. d16 |
       b4 a2 g4 |
       e'4 d2 c8. e16 |
@@ -181,7 +181,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       r4 d-sharp'8. \f \tweak to-barline ##f \> b16 d-sharp4 b8. d-sharp,16 |
       f-sharp2 \! r2 |
       R1
-      \tuplet 3/2 2 { r4 f-sharp \p b a-sharp( g-natural!) a-sharp } |
+      \tuplet 3/2 2 { r4 f-sharp \p b a-sharp( g!) a-sharp } |
       b1~( |
       \once \stemDown b4 a8.) c16 a2~( |
       a4 g) f-sharp c |
@@ -532,7 +532,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       d-flat2-> \> c-> |
       \unset decrescendoText
       \unset decrescendoSpanner
-      b-natural!4->( f8.) b16 c2 |
+      b!4->( f8.) b16 c2 |
       r4 f-sharp,2( g4) |
       g-sharp4( f8.) g-sharp16 a2 |
       b-flat4( e,8.) a16 b-flat2 |
@@ -673,7 +673,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       b2. r4 |
       r4 f-natural'!2_\markup { \italic "dolce" }( f-sharp4) |
       d-sharp2. r4 |
-      r4 f-natural!2( f-sharp4) |
+      r4 f!2( f-sharp4) |
       d-sharp4 f-sharp,( d-sharp') f-sharp,( |
       d-sharp'1~ |
       d-sharp2.) r4 |
@@ -695,8 +695,8 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       f-sharp'4.-> 8 4 f-sharp, |
       b4.-> 8 2~ |
       b2. r4 |
-      r4 b \f g-natural!( f-sharp) |
-      e4 d( c-natural!) b |
+      r4 b \f g!( f-sharp) |
+      e4 d( c!) b |
       a4 e'' c( b) |
       a4 g f-sharp r |
       r4 c'( e-flat) r |
@@ -722,15 +722,15 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       r2 r4 a |
       f-natural'!4.-> 8 4 r |
       r4 f8( \mf a-flat) a-flat4 r |
-      r4 a-flat8 b-natural! b2~( |
+      r4 a-flat8 b! b2~( |
       b1~ \> |
       b2 b-flat2~ |
       b-flat4) r r f( \tweak X-offset #0 #(make-dynamic-script (markup #:dynamic "p" #:normal-text (#:italic "dolce"))) |
       d4 c b-flat) r
-      r2 r4 e-natural!( |
+      r2 r4 e!( |
       c-sharp4 b b-flat) r |
       r2 r4 d-sharp' \pp |
-      b4( a-sharp) g-sharp d-natural! |
+      b4( a-sharp) g-sharp d! |
       g-sharp4( a-sharp) b r |
       R1
       r4 b( d-sharp) r |
@@ -771,7 +771,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       d-sharp4( c-sharp) g-sharp e |
       r4 d8( d-sharp) d-sharp2 |
       r4 d-sharp8( e) e2~( \> |
-      e2 g-natural!) |
+      e2 g!) |
       g-sharp2( f-sharp) \! |
       f1_\markup { \italic "dol. espress." } |
       e-flat2.( g-flat4) |
@@ -818,7 +818,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       r4 b,8( \mf b') b2~ |
       b4 a8( g-sharp) g-sharp4 r |
       r4 b,8( \< c-sharp') c-sharp2~ \> |
-      c-sharp4 b8( a) a4 g-natural! \p |
+      c-sharp4 b8( a) a4 g! \p |
       g-sharp4 b, b'2~ \< |
       b4 a8( g-sharp) g-sharp4 \! r4 |
       r4 b,8( \f c-sharp') c-sharp2~ |
@@ -838,17 +838,17 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       b1~ |
       b2 g-sharp |
       a1~ |
-      a2 g-natural! |
+      a2 g! |
       g-sharp1~ |
       g-sharp2 \! r2 |
       r2 d-> \f |
-      g-natural!1->~ |
+      g!1->~ |
       g2 g |
       c-sharp2 a |
       d2 c-sharp |
       g-sharp'2 g-sharp |
       a1 \ff |
-      r4 a,( b) c-natural! |
+      r4 a,( b) c! |
       c1 \tweak to-barline ##f \> |
       b2( a) |
       g-sharp2. \! r4 |

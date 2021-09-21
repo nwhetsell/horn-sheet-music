@@ -24,7 +24,7 @@
     e-natural'!8-. e-flat-. d-. d-flat-. c-. b-. b-flat-. a a-flat-. g-. g-flat-. f-. |
     f'8-. e-. e-flat-. d-. d-flat-. c-. b-. b-flat-. a a-flat-. g-. g-flat-. |
   }
-  g-natural!8( \tuplet 3/2 { a16 g f-sharp } g8) c-. b8( \tuplet 3/2 { c16 b a-sharp } b8) d-. |
+  g!8( \tuplet 3/2 { a16 g f-sharp } g8) c-. b8( \tuplet 3/2 { c16 b a-sharp } b8) d-. |
   \tuplet 3/2 4 { c8-. e-. g,-. c-. e,-. g-. } c,4-. r |
 
   <> \tweak X-offset #-1 \p \tuplet 3/2 4 { \repeat unfold 2 { b'8( d) g,-. } \repeat unfold 2 { c( d) a-. } } |
@@ -33,8 +33,8 @@
   \tuplet 3/2 4 { f-sharp8( a) g-sharp-. g-. f-sharp-. e-. } d4 \tuplet 3/2 { d8( g) a-. } |
   \tuplet 3/2 4 {
     <> \cresc \repeat unfold 2 { b8-. d( g,) } \repeat unfold 2 { c-. e( g,) } |
-    d'8-. g( f-sharp) e-. d-. c-. b-. a-. g-. f-natural! e-. d-sharp-. |
-    d-natural!8-. e-. f-sharp-. g-. a-. b-. c( b) c-. d-. e-. f-sharp-. |
+    d'8-. g( f-sharp) e-. d-. c-. b-. a-. g-. f! e-. d-sharp-. |
+    d!8-. e-. f-sharp-. g-. a-. b-. c( b) c-. d-. e-. f-sharp-. |
   }
   \tuplet 3/2 4 { g8-. \tweak X-offset #-1 \f d-. b-. g-. d-. b-. } g4 r |
   \tuplet 3/2 4 { f''8-. d-. b-. g-. d-. b-. } g4 r |
@@ -62,6 +62,6 @@
     e-natural'!8-. e-flat-. d-. d-flat-. c-. b-. b-flat-. a a-flat-. g-. g-flat-. f-. |
     f'8-. e-. e-flat-. d-. d-flat-. c-. b-. b-flat-. a a-flat-. g-. g-flat-. |
   }
-  g-natural!8( \tuplet 3/2 { a16 g f-sharp } g8) c-. b8( \tuplet 3/2 { c16 b a-sharp } b8) d-. |
+  g!8( \tuplet 3/2 { a16 g f-sharp } g8) c-. b8( \tuplet 3/2 { c16 b a-sharp } b8) d-. |
   \tuplet 3/2 4 { c8-. e-. g,-. c-. e,-. g-. } c,4 r | \bar "|."
 }

@@ -22,9 +22,9 @@
   e-flat4\fermata \<
   \magnifyMusic \cadenza-magnification {
     d16^\markup { \normalsize \italic "ad lib." }([ e-flat b c f-sharp, \! g a-flat! g e-flat c]) g4\fermata r8 g' d'8.->([ c16]) \!
-    c4->( b-natural!8) r b f'8.->([ e-flat16])
+    c4->( b!8) r b f'8.->([ e-flat16])
     e-flat4->( d8) r8
-    d16->([ e-flat f d]) b-natural!->([ c d b]) f->([ g a-flat! f]) d->([ e-flat f d])
+    d16->([ e-flat f d]) b!->([ c d b]) f->([ g a-flat! f]) d->([ e-flat f d])
     b4\fermata( c16[ d e-flat f g])
     a-flat2\fermata( \< g\fermata) \>
   }
@@ -62,7 +62,7 @@
   \magnifyMusic \cadenza-magnification {
     b16-.^\markup { \normalsize \italic "ad lib." }[ \! d-. #(if (not (string=? bass-clef-name "bass^8")) #{ \clef "treble" #}) g-. b-. d-. g-. #(if (string=? bass-clef-name "bass^8") #{ \clef "treble" #}) b-. d-.] f4\fermata r8 g, f'8.->([ e-flat16])
     e-flat4->( d8) r g, d'8.->([ c16])
-    c4->( b-natural!8) r8 \bar ""
+    c4->( b!8) r8 \bar ""
     f16->([ g a-flat f]) d->([ e-flat f d]) b->([ c d b])
     g4\fermata~ \tuplet 3/2 4 { g8[ f-sharp( g] a-flat[ g e-flat']) }
   }

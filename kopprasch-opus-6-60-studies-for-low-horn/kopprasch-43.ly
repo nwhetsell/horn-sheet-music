@@ -35,7 +35,7 @@
     % These measures are repeated in the 1st edition.
     % \repeat unfold 2 {
       b-flat-. \< c-. c-sharp-. d-. e-flat-. e-. |
-      f-. \> e-flat!-. d-. c-natural!-. b-flat-. a-. \! |
+      f-. \> e-flat!-. d-. c!-. b-flat-. a-. \! |
     % }
 
     b-flat( d) c-. b-flat( d) c-. |

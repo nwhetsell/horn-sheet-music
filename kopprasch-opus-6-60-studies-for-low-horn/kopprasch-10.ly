@@ -36,7 +36,7 @@
     c8( e) d-. c-. b4 r |
     c8( e) d-. c-. b( d) c-. b-. |
     a8( c) b-. a-. g-sharp4 r |
-    a8( c) b-. a-. g-natural!( \> b) a-. g-. |
+    a8( c) b-. a-. g!( \> b) a-. g-. |
     f8( a) g-. f-. e( \p c) d-. e-. |
     f8( \cresc d) e-. f-. g( e) f-. g-. |
     a8( f) g-. a-. b( g) a-. b-. |

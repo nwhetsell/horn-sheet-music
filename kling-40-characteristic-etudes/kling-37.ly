@@ -44,9 +44,9 @@
   \magnifyMusic \cadenza-magnification {
     \override Score.GraceSpacing.spacing-increment = #1.25
     \grace { d16^\markup { \normalsize \italic "ad lib." }[ e-flat a, b-flat f-sharp g d e-flat]) } b-flat4 r8
-    \grace { b-flat'16([ c] } \afterGrace b-flat2\trill { a-natural!16[ b-flat]) }
+    \grace { b-flat'16([ c] } \afterGrace b-flat2\trill { a!16[ b-flat]) }
     \grace { c16([ d] } \afterGrace c2\trill { b16[ c]) } \bar ""
-    \grace { d16([ e-flat] } \afterGrace d2\trill { c-sharp16[ d a-natural! b-flat]) }
+    \grace { d16([ e-flat] } \afterGrace d2\trill { c-sharp16[ d a! b-flat]) }
     \revert Score.GraceSpacing.spacing-increment
     g'8\fermata[ f16-. d-. b-flat-. a-flat-. f-. d-. #(if (string=? bass-clef-name "bass^8") #{ \clef \bass-clef-name #}) b-flat-. a-flat-. f-.] d4\fermata
     #(if (string=? bass-clef-name "bass^8") #{ \clef "treble" #}) c'8.[( b-flat16)] e-flat8.[( d16)] g8.[( f16)] c'8.\fermata[( \> b-flat)] \!

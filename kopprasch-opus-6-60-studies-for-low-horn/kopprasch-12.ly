@@ -29,7 +29,7 @@
     { d2 r | \bar ".|:-||" }
   }
   \repeat volta 2 {
-    d'16( \mf c-sharp) b-natural!-. a-. b( c-sharp) d-. e-. f( e) d-. c-sharp-. d( c) b-flat-. a-. |
+    d'16( \mf c-sharp) b!-. a-. b( c-sharp) d-. e-. f( e) d-. c-sharp-. d( c) b-flat-. a-. |
     b-flat16( a) g-. f-sharp-. g( a) b-flat-. c-. d( c) b-flat!-. a-. b-flat( a) g-. f-sharp-. |
     g16( \< a) b-flat-. c-. a( b-flat) c-. d-. b-flat( c) d-. e-flat-. c( d) e-flat-. f-. |
     e-flat16( \cresc d) c-. b-flat-. a( b-flat) c-. d-. c( b-flat) a-. g-. f-sharp!( g) a-. b-flat-. |

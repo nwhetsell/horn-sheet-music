@@ -27,7 +27,7 @@
   }
   \repeat volta 2 {
     g,8 \f |
-    g'16( e) f-natural!( d) e( c-sharp) d( f) |
+    g'16( e) f!( d) e( c-sharp) d( f) |
     e16( c-sharp) d( e) f( d) e( c) |
     d16( b) c( e) d( b) c( d) |
     e16( c) d( b) c( a) b( c) |

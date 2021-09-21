@@ -18,9 +18,9 @@
   }
   c8) \breathe \tuplet 3/2 8 { c,,16 g' c e g c e d c } |
   \tuplet 3/2 8 { b16 g, a-sharp'( b) g, c-sharp'( d) <g, g,> e'( d) g,, b'( } |
-  c-natural!8) \breathe \tuplet 3/2 8 { c16 g, d-sharp''( e) g, f'( e) g,, c-sharp'( } |
+  c!8) \breathe \tuplet 3/2 8 { c16 g, d-sharp''( e) g, f'( e) g,, c-sharp'( } |
   \tuplet 3/2 8 {
-    d-natural!16) g, e'( f) g,, e''( d) g, c-sharp( d) g,, c'( |
+    d!16) g, e'( f) g,, e''( d) g, c-sharp( d) g,, c'( |
     b16) \> g c( d) g,, c'( b) g, a'( g) g, f'( |
   }
   e8) \mf \breathe \tuplet 3/2 8 { c,16 g' c e g c e g,, \< c } |
@@ -51,7 +51,7 @@
     g'16 g, a-sharp'( b) g, c-sharp'( d) g,, e''( f) g, b( |
   }
 
-  c-natural!8) \breathe \tuplet 3/2 8 { c,,16 \f g' c e g c e d c } |
+  c!8) \breathe \tuplet 3/2 8 { c,,16 \f g' c e g c e d c } |
   \tuplet 3/2 8 { b g, c-sharp'( d) g, c( b) g, a-sharp'( b) g b( } |
   c8) \breathe \tuplet 3/2 8 { c,,16 g' c e g b-flat d c b-flat( } |
   \tuplet 3/2 8 {
@@ -61,7 +61,7 @@
   \tuplet 3/2 { e16) c, r } r8 \tuplet 3/2 8 { f'16 g, a-sharp'( b) g, b'( } |
   \tuplet 3/2 8 {
     c16) g d-sharp'( e) g,, c'( b) g, c-sharp'( d) g, b( |
-    c-natural!16) r e( f) g, d-sharp'( e) g,, c-sharp'( d) g, b( |
+    c!16) r e( f) g, d-sharp'( e) g,, c-sharp'( d) g, b( |
     c16) g, a-sharp'( b) g, a'( g) g, f'( e) g, d'( |
     c16) c, d-sharp'( e) c, f-sharp'( g) c,, d-sharp'( e) c, b''( |
   }

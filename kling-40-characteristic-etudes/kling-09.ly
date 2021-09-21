@@ -39,7 +39,7 @@
   \tuplet 3/2 { d-sharp8->( e c) } g4~ \tuplet 3/2 4 { 8 g( c e g c) } |
   \tuplet 3/2 4 { b8( d b) a( c a) g( b g) f( a f) } |
   \tuplet 3/2 4 { d-sharp8( e b c a' f-sharp } g4) g8. f-sharp16 |
-  \tuplet 3/2 { f-natural!8( d b) } g4~ \tuplet 3/2 4 { 8 b( d f a g) } |
+  \tuplet 3/2 { f!8( d b) } g4~ \tuplet 3/2 4 { 8 b( d f a g) } |
   \tuplet 3/2 { d-sharp8->( e c) } g4~ \tuplet 3/2 4 { 8 g( c e g c) } |
   \tuplet 3/2 4 { a8( f a) g( e g) f( d f) d( b d) } |
   \tuplet 3/2 4 { c8( g' e c g e } c4) g''8. \ff g16 |
@@ -47,7 +47,7 @@
   c2~( \stemDown \tuplet 3/2 4 { 8 g) c-. d( g,) d'-. } \stemNeutral |
   e2. b-flat8. c16 |
   e2~ \tuplet 3/2 4 { 8 b-flat( c e) f-. g-. } |
-  f2~ \tuplet 3/2 4 { 8 e-. d-. c-. b-natural!-. a-. } |
+  f2~ \tuplet 3/2 4 { 8 e-. d-. c-. b!-. a-. } |
   g8 e4-> c-> g-> e8 |
   c2~8 d-> e-> f-> |
   g2-> #(if (string=? bass-clef-name "bass^8") #{ \clef \bass-clef-name #}) b,-> |

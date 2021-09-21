@@ -41,7 +41,7 @@
   \tuplet 6/4 4 { g'16-. c,-. d-. e-. f-. f-sharp-. g-. f-sharp-. g-. a-. b-flat-. c-. } |
   \subdivide-beams #1/8 2,2 { \tuplet 3/2 8 { d16-. c,-. c-. c'-. c,-. c-. b-flat'-. c,-. c-. a'-. c,-. c-. } } |
   \tuplet 6/4 4 {
-    g'16-. f-sharp-. f-. e-. e-flat-. d-. c-. e-flat-. f-natural!-. f-sharp-. g-. g-sharp-. |
+    g'16-. f-sharp-. f-. e-. e-flat-. d-. c-. e-flat-. f!-. f-sharp-. g-. g-sharp-. |
     a16-. f-. g-. a-. b-flat-. b-. c-. a-. b-flat-. c-. d-. e-. |
   }
   \tuplet 6/4 { f16-. c-. d-. e-. f-. g-. } a4 |
@@ -58,7 +58,7 @@
   \subdivide-beams #1/8 2,2 { f32( e) g-. f-. e-. d-. c-. b-flat-. } a4 |
   \subdivide-beams #1/8 2,2 { g32( a) b-. c-. d-. e-. f-. e-. g( f) e-. d-. c-. b-. a-. g-. } |
   \subdivide-beams #1/8 2,2 { c16-. e32-. c-. g( c) e, g } c,8 r |
-  \subdivide-beams #1/8 2,2 { \repeat unfold 2 { b-flat'!32-. c,( b-natural! c) } \repeat unfold 2 { a'32-. c,( b c) } } |
+  \subdivide-beams #1/8 2,2 { \repeat unfold 2 { b-flat'!32-. c,( b! c) } \repeat unfold 2 { a'32-. c,( b c) } } |
   \subdivide-beams #1/8 2,2 { g'32 c,( b c) e( c) e-. g-. } c8( c-sharp) |
   \subdivide-beams #1/8 2,2 {
     d32-. c,( b c) c'-. c,( b c) b-flat'!32-. c,( b c) a'32-. c,( b c) |

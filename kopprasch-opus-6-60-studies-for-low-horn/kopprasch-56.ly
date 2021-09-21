@@ -13,7 +13,7 @@
   \tuplet 3/2 4 { c'8-.\f b'( c) b,-. c-sharp'( d) c,-. d-sharp'( e) e,-. b'( c) } |
   \tuplet 3/2 4 { g8( c) g,-. a'( c) g,-. b'( d) g,,-. } g''4 |
   \tuplet 3/2 4 { c-sharp,8( d) b,-. d-sharp'( e) c,-. e'( f) d,-. c-sharp'!( d) b,-. } |
-  \tuplet 3/2 4 { c-natural!8-. e'( c) g,-. d''( b) c,,-. g''( e) } c4 |
+  \tuplet 3/2 4 { c!8-. e'( c) g,-. d''( b) c,,-. g''( e) } c4 |
   \tuplet 3/2 4 { c8-. e( g) b,-. d( g) c,-. e( g) d-. f( b) } |
   \tuplet 3/2 4 { e,8-. g( c) f-sharp,-. a( d) g,-. b( d) } g,4 |
   \tuplet 3/2 4 { g8-. b( d) f-sharp,-. a( d) g,-. b( d) g,-. b( e) } |
@@ -36,9 +36,9 @@
 
   \tuplet 3/2 4 {
     g,,8-. \mf f-sharp'( g) f-sharp,-. g-sharp'( a) g,-. a-sharp'( b) b,-. f-sharp'( g) |
-    c,8-. e( a-natural!) b,-. g-sharp'( b) c,-. a'( c) d,-. f-sharp( a) |
+    c,8-. e( a!) b,-. g-sharp'( b) c,-. a'( c) d,-. f-sharp( a) |
   }
-  g-natural!8 r \tuplet 3/2 4 { b8( g) g,-. \< d''( b) g,-. e''( c) g,-. \! } |
+  g!8 r \tuplet 3/2 4 { b8( g) g,-. \< d''( b) g,-. e''( c) g,-. \! } |
   \tuplet 3/2 4 { f''8( d) g,,-. d''( \> b) g,-. b'( g) g,-. f'( d) g,-. } \! |
   c,4 \tuplet 3/2 4 { c'8-. b'( c) b,-. c-sharp'( d) c,-. d-sharp'( e) } |
   \tuplet 3/2 4 { g,,8-. e''( f) g,,-. c-sharp'( d) g,,-. a-sharp'( b) } g4 |

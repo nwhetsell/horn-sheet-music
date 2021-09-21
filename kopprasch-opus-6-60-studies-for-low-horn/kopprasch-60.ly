@@ -92,7 +92,7 @@
   % g'8     \tuplet 5/4 { g,32-. a-. b-flat-. a-. g-. }
   % g,4 r |
   %
-  % g8      \tuplet 5/4 { g'32-. a-. b-natural!-. a-. g-. }
+  % g8      \tuplet 5/4 { g'32-. a-. b!-. a-. g-. }
   % f'8     \tuplet 5/4 { g,32-. a-. b-.          a-. g-. }
   % e-flat8 \tuplet 5/4 { c'32-. d-. e-flat-.     d-. c-. }
   % c,8 r |

@@ -37,7 +37,7 @@
   g,,16( \mf c) e-. g-. c8 r c,16( e) g-. c-. e8 r |
   g,,16( \< c) e-. g-. c,( e) g-. c-. e,( g) c-. e-. g,( c) e-. g-. |
   f8 \! r g,16( \mf b) d-. f-. e8 r e,16( g-sharp) b-. d-. |
-  c8 r c,16( e) g-natural!-. b-flat-. a8 r g16( b-flat) c-sharp-. e-. |
+  c8 r c,16( e) g!-. b-flat-. a8 r g16( b-flat) c-sharp-. e-. |
   d8 r f,16( a) d-. f-. g,( b) d-. f-. g,,( g') b-. d-. |
   c,16( e) g-. c-. e( c) g-. e-. c4 r |
 
@@ -49,7 +49,7 @@
   c,,16( e-flat) a-flat-. c-. e-flat8 r c,16( e-flat) f-sharp-. a-. c8 r |
   b,16( d) g-. b-. d( g,) b-. d-. f( d) b-. g-. f( d) b-. g-. |
 
-  c16( e-natural!) g-. c-. e8 r e,16( g) c e g8 r |
+  c16( e!) g-. c-. e8 r e,16( g) c e g8 r |
   f8 r c,16( f) a-. c-. f,( a) c-. f-. a,( c) f-. a-. |
   g8 r g,,16( b) d-. g-. b,( d) g-. b-. d,( g) b-. d-. |
   c8 r c,16( e) g-. c-. e4 r |

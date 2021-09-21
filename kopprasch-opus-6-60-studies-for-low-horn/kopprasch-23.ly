@@ -23,7 +23,7 @@
     c4( e') c a e c |
     b4 \tweak details.accidental-collision #6 ( d-sharp') b a f-sharp d-sharp |
 
-    e4( c') a f-natural! d-natural! c |
+    e4( c') a f! d! c |
     % The 1st edition has:
     % e4( e') b g e2 |
     % f-sharp4( c') a f-sharp d c |
@@ -40,7 +40,7 @@
     c4 \tweak details.accidental-collision #40 ( e-flat') c g e-flat c |
     a-flat4( c') a-flat e-flat c a-flat |
     g4( c') g e-flat c g |
-    f-sharp4( c'') a-natural! f-sharp e-flat c |
+    f-sharp4( c'') a! f-sharp e-flat c |
     b4 r g \tweak details.accidental-collision #11 ( f-natural''!) d b |
     g4 f d b g r\fermata |
 
