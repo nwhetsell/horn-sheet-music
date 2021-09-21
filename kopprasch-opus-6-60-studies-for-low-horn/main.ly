@@ -34,7 +34,6 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
 }
 
 \layout {
-  indent = 0
   \context {
     \Score
     #(if preserve-line-breaks? #{
