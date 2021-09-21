@@ -13,10 +13,10 @@
 
   #(define first-four-measures #{
     \relative {
-      c8 \f \tuplet 5/4 { c'32-. e-. g-. e-. c-. }
-      c'8   \tuplet 5/4 { c,32-. e-. g-. e-. c-. }
-      e'8   \tuplet 5/4 { c,32-. e-. g-. e-. c-. }
-      c'8   \tuplet 5/4 { c,32-. e-. g-. e-. c-. } |
+      c8 \tweak X-offset #-2.5 \tweak Y-offset #-5 \f \tuplet 5/4 { c'32-. e-. g-. e-. c-. }
+      c'8 \tuplet 5/4 { c,32-. e-. g-. e-. c-. }
+      e'8 \tuplet 5/4 { c,32-. e-. g-. e-. c-. }
+      c'8 \tuplet 5/4 { c,32-. e-. g-. e-. c-. } |
 
       g8  \tuplet 5/4 { g'32-. b-. d-. b-. g-. }
       b,8 \tuplet 5/4 { g'32-. b-. d-. b-. g-. }
