@@ -1,7 +1,5 @@
 # horn-sheet-music
 
-[![Actions](https://github.com/nwhetsell/horn-sheet-music/workflows/CI/badge.svg)](https://github.com/nwhetsell/horn-sheet-music/actions?workflow=CI)
-
 This is a collection of LilyPond scores of public-domain music for horn.
 
 If you just want to download the music, ZIP archives of PDF files are in the
