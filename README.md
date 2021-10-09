@@ -10,8 +10,8 @@ If you want to create PDF files yourself, you’ll need:
 * [LilyPond](https://lilypond.org) 2.22.0 or later
   * On Linux, follow the instructions at https://lilypond.org/unix.html
   * On macOS, it may be easier to
-  [use Homebrew](https://github.com/nwhetsell/homebrew-lilypond) than to
-  download an app from https://lilypond.org/macos-x.html
+  [use Homebrew](https://formulae.brew.sh/formula/lilypond) than to download an
+  app from https://lilypond.org/macos-x.html
   * On Windows, it may be easier to
   [use Chocolatey](https://chocolatey.org/packages/lilypond) than to use
   an installer from https://lilypond.org/windows.html
