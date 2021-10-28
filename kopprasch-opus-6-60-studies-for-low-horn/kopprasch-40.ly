@@ -63,13 +63,9 @@
   c,4 \! r8 e( \p g,) g-. |
   d'8( g,) g-. b( g) g-. |
   c8( g) g-. e'( g,) g-. |
-  \set decrescendoText = \markup { \italic "morendo" }
-  \set decrescendoSpanner = #'text
-  g'8( \> g,) g-. g-. g-. g-. |
+  g'8( #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text "morendo") g,) g-. g-. g-. g-. |
   c8( c,) \repeat unfold 10 { c-. } |
   c4 \! r8 r4. | \bar "|."
-  \unset decrescendoText
-  \unset decrescendoSpanner
 
   \revert Hairpin.after-line-breaking
   \revert Hairpin.to-barline

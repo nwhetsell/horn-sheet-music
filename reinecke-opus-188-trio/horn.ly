@@ -527,11 +527,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       e2 c8( d e a) |
       a-flat4( g8.) c16 f,2 |
       g2 e-flat8( f g c) |
-      \set decrescendoText = \markup { \italic "stringendo" }
-      \set decrescendoSpanner = #'text
-      d-flat2-> \> c-> |
-      \unset decrescendoText
-      \unset decrescendoSpanner
+      d-flat2-> #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text "stringendo") c-> |
       b!4->( f8.) b16 c2 |
       r4 f-sharp,2( g4) |
       g-sharp4( f8.) g-sharp16 a2 |

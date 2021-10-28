@@ -66,11 +66,7 @@ source-url = "https://imslp.org/wiki/R%C3%AAverie%2C_Op.24_(Glazunov%2C_Aleksand
       d-flat2.->~( |
       d-flat2 \dim c4) |
       b-flat2( a-flat4) |
-      \set decrescendoText = \markup { \italic "stringendo" }
-      \set decrescendoSpanner = #'text
-      g2.~ \> |
-      \unset decrescendoText
-      \unset decrescendoSpanner
+      g2.~ #(make-music 'DecrescendoEvent 'span-direction START 'span-type 'text 'span-text "stringendo") |
       g4 f2 |
       d-flat2 \cresc b-flat4~ |
       b-flat4 a-flat( g) |
