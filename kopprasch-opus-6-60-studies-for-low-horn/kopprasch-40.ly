@@ -46,7 +46,7 @@
   b8( g) g-. g-. g-. g-. |
   f8( g) g-. d( g) g-. |
   b,8( g') g-. g,( g') g-. |
-  R2.^\fermata
+  R2.\fermata
 
   c,8( \f g') g-. g-. g-. g-. |
   c8( g) g-. g-. g-. g-. |
