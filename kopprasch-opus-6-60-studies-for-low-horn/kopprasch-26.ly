@@ -39,9 +39,9 @@
     \centerNoteColumnOff
     a,8-. \f c-sharp16( e) g8-. e16( c-sharp) |
     a8-. d16( f) a-flat,8-. d16( f) |
-    g,8-. b16( d) f8-. d16( b) |
-    g8-. c16( e) g,8-. b16( d) |
-    f-sharp,8-. a16( c) e-flat8-. c16( a) |
+    g,8-. b16( d) f8-. b,16( d) |
+    g,8-. c16( e) g,8-. b16( d) |
+    f-sharp,8-. a16( d) e-flat8-. c16( a) |
     g8-. b16( d) g8-. d16( b) |
     f-sharp8-. a16( c) e-flat8-. c16( a) |
 
