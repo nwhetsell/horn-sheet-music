@@ -15,11 +15,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
 \paper {
   scoreTitleMarkup = \markup {
     \column {
-      \concat {
-        \override #'(font-name . "Playfair Display Regular")
-        \abs-fontsize #20
-        \fromproperty #'header:piece
-      }
+      \override #'(font-name . "Playfair Display Regular")
+      \abs-fontsize #20
+      \fromproperty #'header:piece
       \vspace #0.375
     }
   }
