@@ -37,7 +37,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       \time 4/4
 
       \once \override Score.MetronomeMark.padding = #3
-      \tempo "Allegro" 4 = 112
+      \tempo "Allegro" 4=112
 
       r2\fermata r4\fermata b-flat'8.^"Solo"_\markup { \dynamic "f" \italic "energico" } d16 |
       f2. \breathe d8. g16 |
@@ -212,7 +212,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       \time 3/8
 
       \once \override Score.MetronomeMark.padding = #3
-      \tempo "Andante" 8 = 69
+      \tempo "Andante" 8=69
 
       R4.*2
       b-flat4.^"Solo"( #(make-dynamic-script (markup #:dynamic "pp" #:normal-text (#:italic "dolce"))) |
@@ -369,7 +369,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       \time 4/4
 
       \once \override Score.MetronomeMark.padding = #3
-      \tempo "Allegro" 4 = 132
+      \tempo "Allegro" 4=132
 
       \partial 4 r4 | \noBreak
       \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
