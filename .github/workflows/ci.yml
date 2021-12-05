@@ -49,6 +49,7 @@ jobs:
       run: |
         lilypond --output='Kopprasch - Op. 6 - 60 Studies for Low Horn' kopprasch-opus-6-60-studies-for-low-horn/main.ly
         lilypond --output='Maxime-Alphonse - 200 New Studies, Vol. 2' maxime-alphonse-200-studies-2/main.ly
+        lilypond --output='Mozart - Horn Concerto No. 1' mozart-k-412-concerto-1/horn.ly
         lilypond --output='Reinecke - Op. 188 - Trio for Piano, Oboe, and Horn' reinecke-opus-188-trio/horn.ly
         lilypond --output='Schumann - Op. 70 - Adagio and Allegro' schumann-opus-70-adagio-and-allegro/horn.ly
         lilypond --output='Strauss, Franz - Op. 7 - Nocturno' strauss-franz-opus-7-nocturno/horn.ly
