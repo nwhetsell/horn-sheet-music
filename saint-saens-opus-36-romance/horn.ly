@@ -29,6 +29,8 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
     \new Voice \relative {
       \language "english"
 
+      \transposition f
+
       \key c \major
       \time 3/4
 

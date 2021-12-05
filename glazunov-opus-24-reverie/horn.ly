@@ -28,6 +28,8 @@ source-url = "https://imslp.org/wiki/R%C3%AAverie%2C_Op.24_(Glazunov%2C_Aleksand
     \new Voice \relative {
       \language "english"
 
+      \transposition f
+
       #(if (not omit-key-signature?) #{
         \key a-flat \major
       #})

@@ -36,6 +36,8 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
     } \relative {
       \language "english"
 
+      \transposition f
+
       \key c \major
       \time 4/4
 
@@ -268,6 +270,8 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
     \new Voice \relative {
       \language "english"
 
+      \transposition f
+
       \key c \major
       \time 6/8
 
@@ -494,6 +498,8 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
     } \relative {
       \language "english"
 
+      \transposition f
+
       \key c \major
       \time 4/4
 
@@ -591,6 +597,8 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       \override Stem.neutral-direction = #'()
     } \relative {
       \language "english"
+
+      \transposition f
 
       \key c \major
       \time 4/4

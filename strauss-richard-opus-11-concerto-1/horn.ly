@@ -33,6 +33,8 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
     \new Voice \relative {
       \language "english"
 
+      \transposition f
+
       \key b-flat \major
       \time 4/4
 

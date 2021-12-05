@@ -32,6 +32,8 @@ source-url = "https://imslp.org/wiki/Adagio_and_Allegro%2C_Op.70_(Schumann%2C_Ro
     \new Voice \relative {
       \language "english"
 
+      \transposition f
+
       \key e-flat \major
       \time 4/4
 
