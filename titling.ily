@@ -13,22 +13,17 @@
     \override #'(baseline-skip . 3.5)
     \column {
       \fill-line {
-        \override #'(font-name . "Playfair Display Regular")
         \abs-fontsize #20
         \fromproperty #'header:title
         \concat {
-          \override #'(font-name . "Playfair Display Medium")
           \abs-fontsize #14
           \fromproperty #'header:composer-first-name
-          \override #'(font-name . "Playfair Display Medium")
           \abs-fontsize #14
           " "
-          \override #'(font-name . "Playfair Display Regular")
           \abs-fontsize #20
           \fromproperty #'header:composer-last-name
         }
       }
-      \override #'(font-name . "Playfair Display Medium")
       \abs-fontsize #10
       \fill-line {
         \fromproperty #'header:instrument
@@ -41,7 +36,6 @@
   scoreTitleMarkup = \markup {
     \column {
       \fill-line {
-        \override #'(font-name . "Playfair Display Regular")
         \abs-fontsize #20
         \fromproperty #'header:piece
       }
@@ -50,7 +44,6 @@
   }
 
   evenHeaderMarkup = \markup {
-    \override #'(font-name . "Playfair Display Medium")
     \abs-fontsize #10
     \column {
       \fill-line {
@@ -74,18 +67,10 @@
 }
 
 colophon = \markup {
-  \override #'(font-name . "Playfair Display Medium")
   \column {
     \fill-line {
       \concat { "Music engraved using LilyPond " #(lilypond-version) }
       \with-url "https://lilypond.org" "https://lilypond.org"
-    }
-
-    \fill-line {
-      "Titles set in Playfair Display"
-      \with-url
-        "https://fonts.google.com/specimen/Playfair+Display"
-        "https://fonts.google.com/specimen/Playfair+Display"
     }
 
     \fill-line {

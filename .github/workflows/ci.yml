@@ -28,23 +28,6 @@ jobs:
         Add-Content $Env:GITHUB_PATH "${Env:ProgramFiles(x86)}\LilyPond\usr\bin" -Encoding utf8
       if: ${{ matrix.os == 'windows-latest' }}
 
-    - name: Install fonts on Linux
-      run: |
-        wget --no-verbose --output-document='Playfair Display.zip' 'https://fonts.google.com/download?family=Playfair%20Display'
-        mkdir -p ~/.fonts
-        unzip -j 'Playfair Display.zip' 'static/*.ttf' -d ~/.fonts
-      if: ${{ matrix.os == 'ubuntu-latest' }}
-    - name: Install fonts on macOS
-      run: brew install homebrew/cask-fonts/font-playfair-display
-      if: ${{ matrix.os == 'macos-latest' }}
-    - name: Install fonts on Windows
-      run: |
-        curl.exe --output 'Playfair Display.zip' --show-error --silent https://fonts.google.com/download?family=Playfair%20Display
-        7z e -o"$([Environment]::GetFolderPath('Fonts'))" 'Playfair Display.zip' static\*.ttf
-        New-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts' 'Playfair Display Medium' -Value PlayfairDisplay-Medium.ttf
-        New-ItemProperty 'HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Fonts' 'Playfair Display Regular' -Value PlayfairDisplay-Regular.ttf
-      if: ${{ matrix.os == 'windows-latest' }}
-
     - name: Create PDFs with ASCII filenames
       run: |
         lilypond --output='Kopprasch - Op. 6 - 60 Studies for Low Horn' kopprasch-opus-6-60-studies-for-low-horn/main.ly

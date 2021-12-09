@@ -15,6 +15,3 @@ If you want to create PDF files yourself, you’ll need:
   * On Windows, it may be easier to
   [use Chocolatey](https://chocolatey.org/packages/lilypond) than to use
   an installer from https://lilypond.org/windows.html
-
-* The font
-[Playfair Display](https://fonts.google.com/specimen/Playfair+Display)

@@ -18,15 +18,12 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
   scoreTitleMarkup = \markup {
     \column {
       \concat {
-        \override #'(font-name . "Playfair Display Regular")
         \abs-fontsize #20
         \fromproperty #'header:piece
         \hspace #1
-        \override #'(font-name . "Playfair Display Medium")
         \fromproperty #'header:transposition
       }
       \vspace #0.125
-      \override #'(font-name . "Playfair Display Medium")
       \justify-field #'header:instruction
       \vspace #0.25
     }
