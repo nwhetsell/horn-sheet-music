@@ -31,7 +31,7 @@
   g8 c g e g e c e c g4. |
   r4. f'8 e c f4.~8 e c |
   b'8 a e d' c a e'4.~8 c e |
-  d8( c) b b( a) g-sharp a( c) b a g f |
+  d8( c) b b( a) g-sharp \stemUp a( c) b \stemNeutral a g f |
   e8 a e c e c a c a e4. |
   r8 e' g-sharp b g-sharp b e b g-sharp e4. |
   r8 e a c a c e c a e4. |
