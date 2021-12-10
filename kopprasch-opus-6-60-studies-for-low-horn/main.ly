@@ -18,13 +18,13 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
   scoreTitleMarkup = \markup {
     \column {
       \concat {
-        \abs-fontsize #20
+        \abs-fontsize #16
         \fromproperty #'header:piece
         \hspace #1
         \fromproperty #'header:transposition
       }
       \vspace #0.125
-      \justify-field #'header:instruction
+      \fromproperty #'header:instruction
       \vspace #0.25
     }
   }
@@ -76,11 +76,13 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
   (57 . "in E and E♭")
   (58 . "in G, E, E♭, D, and D♭")))
 
-#(define instructions '(
-  ( 5 . "Phrasing studies, daily preparatory studies for the trill (lip-trill):
-         The notes uniformly slower at first, then quicker,
-         and all notes open or, after transposition, on
-         No. 1 (in E♭), No. 2 (in E), or No. 3 (in D) valve.")
+#(define instructions `(
+  ( 5 . ,#{ \markup { \justify {
+    Phrasing studies, daily preparatory studies for the trill (lip-trill):
+    The notes uniformly slower at first, then quicker,
+    and all notes open or, after transposition, on
+    "No. 1" "(in E♭)", "No. 2" "(in E)", or "No. 3" "(in D)" valve.
+  } } #})
   (11 . "It is better to practice this study before No. 43.")
   (21 . "Played like No. 13.")))
 
