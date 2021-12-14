@@ -213,7 +213,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     the dotted quavers lightly stressed.
   } } #})
   (29 . ,#{ \markup { \justify {
-    Strict in tempo in firm attack.
+    Strict in tempo and firm attack.
   } } #})
   (30 . ,#{ \markup { \justify {
     Accent every note when starting practice.
