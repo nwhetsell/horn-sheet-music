@@ -5,7 +5,7 @@
 
   \transposition f
 
-  \tempo "Presto" 4.=152
+  \tempo "Presto" 8=152
 
   \key b-flat \major
   \time 3/8
