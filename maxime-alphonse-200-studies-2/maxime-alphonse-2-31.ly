@@ -39,7 +39,7 @@
   d16-> r r8 d16 e |
   f16-> r r8 e16 d |
   e16-> r r8 d16 c-sharp |
-  b-flat16-> r r8 a16 g |
+  b-flat!16-> r r8 a16 g |
   f16 g a f d r |
   d'16-> \f d d e-flat? d c |
   d8-> r c16 \p e-flat |
