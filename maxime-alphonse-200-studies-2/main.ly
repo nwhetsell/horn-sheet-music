@@ -49,7 +49,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
         \magnifyStaff #(magstep -3)
       } {
         <<
-          \new Voice = music \relative { c'4 d8 e f g a b }
+          \new Voice=music \relative { c'4 d8 e f g a b }
           \new Lyrics \with {
             \override VerticalAxisGroup.nonstaff-relatedstaff-spacing = #'((basic-distance . 4))
           } \lyricsto music {
