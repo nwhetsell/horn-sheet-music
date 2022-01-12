@@ -46,7 +46,7 @@
   b8 \< d-sharp f-sharp e \> d-sharp c-sharp b a-sharp \! c-sharp |
   b2. r4. |
 
-  b,4-> \f d-sharp8-. f-sharp4-> b8-. d-sharp4-> b8-. |
+  b,4-> \f d-sharp8-. f-sharp4-> b8-. d-sharp4-> f-sharp8-. |
   \stemDown e4-> d-sharp8-. c-sharp4-> b8-. a-sharp4-> c-sharp8-. \stemNeutral |
   b2.->~8 d-sharp f-sharp |
   b,4. \breathe 8 d-sharp b f-sharp' d-sharp b |
