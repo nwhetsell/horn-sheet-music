@@ -43,7 +43,7 @@
   \mark \markup { \italic "Fine" }
 
   \tempo "Poco più presto" 4.=76
-  \partial 4. { r8 d-flat \f e-flat } |
+  \partial 4. { r8 d-flat \f e-flat } | \noBreak
   f4 8 e-flat d-flat c |
   b-flat4( d-flat8 b-flat4 e-flat8 |
   b-flat4 d-flat8 b-flat4 a8 |
