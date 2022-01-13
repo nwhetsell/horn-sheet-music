@@ -252,7 +252,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   } } #})
   (39 . ,#{ \markup { \justify {
     Strong accent on the first note of each beat when starting practice.
-    By and by, as soon as binding gets easier, dimish the accentuation
+    By and by, as soon as binding gets easier, diminish this accentuation
     and keep only a slight stress on the strong beats.
   } } #})
   (40 . ,#{ \markup { \justify {
