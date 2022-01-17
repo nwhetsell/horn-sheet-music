@@ -10,7 +10,7 @@
   \key b-flat \major
   \time 3/4
 
-  #(define first-four-measures #{
+  #(define measures-one-to-four #{
     \relative {
       d''4 e-flat8 d c b-flat |
       c4-> f,4.-- d'8-. |
@@ -19,17 +19,17 @@
     }
   #})
 
-  #(define first-ten-measures #{
+  #(define measures-one-to-ten #{
     \relative {
-      \first-four-measures
+      \measures-one-to-four
       c''2 \! \breathe b-flat8 c |
-      \first-four-measures
+      \measures-one-to-four
       b-flat2 \!
     }
   #})
 
   \partial 4 { b-flat'8 \p c } |
-  \first-ten-measures \breathe d8 \f 8 |
+  \measures-one-to-ten \breathe d8 \f 8 |
 
   #(define measures-eleven-to-thirteen #{
     \relative {
@@ -46,5 +46,5 @@
   d8.-> b-flat16-. d4.-> g,8-. |
   d'2-> \breathe b-flat8 \p c |
 
-  \first-ten-measures r4 | \bar "|."
+  \measures-one-to-ten r4 | \bar "|."
 }

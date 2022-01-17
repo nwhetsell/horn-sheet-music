@@ -10,7 +10,7 @@
   \key c \major
   \time 6/8
 
-  #(define first-eight-measures #{
+  #(define measures-one-to-eight #{
     \relative {
       c''4-! 8-! 4-! d8-! |
       c8. b16 a8 b4 g8 |
@@ -23,7 +23,7 @@
     }
   #})
 
-  <>_\markup { \dynamic "mf" \italic "staccato" } \first-eight-measures
+  <>_\markup { \dynamic "mf" \italic "staccato" } \measures-one-to-eight
 
   f'8.-> a16 c8 e,4 d8-. |
   f8.-> a16 c8 e,4. |
@@ -53,7 +53,7 @@
   \tempo "Rall." g8.-> a16 g8 g a b \breathe | \bar "||"
 
   \tempo "Tempo"
-  <> \p \first-eight-measures
+  <> \p \measures-one-to-eight
 
   f8. a16 c8 e,4 d8-. |
   f8. a16 c8 e,4. |

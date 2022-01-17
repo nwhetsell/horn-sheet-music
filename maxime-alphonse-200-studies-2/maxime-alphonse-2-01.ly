@@ -10,7 +10,7 @@
   \key c \major
   \time 4/4
 
-  #(define first-nine-measures #{
+  #(define measures-one-to-nine #{
     \relative {
       c'4 \p \< d8 e f g a b |
       c8 e \> d c b a g f |
@@ -24,7 +24,7 @@
     }
   #})
 
-  \first-nine-measures
+  \measures-one-to-nine
   d''4 \> c8 b a g f-sharp a \! |
   g4 b8 d b g d b |
   g2 r |
@@ -50,7 +50,7 @@
   c4-> \f b8 a g f e d |
   c2 r |
 
-  \first-nine-measures
+  \measures-one-to-nine
   d'4 \> c8 b a g f e |
   d4 \< e8 f g a b g |
   c4 \f c,8 e g4 e8 g |

@@ -10,7 +10,7 @@
   \key d \major
   \time 2/2
 
-  #(define first-sixteen-measures #{
+  #(define measures-one-to-sixteen #{
     \relative {
       d''8 \mf c-sharp d f-sharp e d c-sharp e |
       d8 c-sharp d a b g e a |
@@ -32,7 +32,7 @@
     }
   #})
 
-  \first-sixteen-measures
+  \measures-one-to-sixteen
   d''8 c-sharp d f-sharp e d c-sharp e |
   d8 b g-sharp d c-sharp e a c-sharp |
   b8 g-sharp e b' c-sharp a e c-sharp' |
@@ -54,7 +54,7 @@
   g8 b e, g f-sharp a g b |
   \tempo "Rall." a8 \f \> g-sharp a a-sharp b a-sharp b c-sharp \breathe |
 
-  \first-sixteen-measures
+  \measures-one-to-sixteen
   \repeat unfold 2 { d,8 c-sharp d f-sharp e d c-sharp e | }
   d8[ \breathe a b c-sharp] d c-sharp d e |
   f-sharp8 c-sharp d e f-sharp e f-sharp g |

@@ -10,7 +10,7 @@
   \key b-flat \major
   \time 6/4
 
-  #(define first-four-measures #{
+  #(define measures-one-to-four #{
     \relative {
       f'4.-> \mf b-flat8 d4 4.-> c8 b-flat4 |
       b-flat4.-> d8 f4 2 r4 |
@@ -19,7 +19,7 @@
     }
   #})
 
-  \first-four-measures
+  \measures-one-to-four
   e-flat''4-> c4.-^ a8 f4.-> e8 e-flat4 |
   d2 f4-. b-flat,2 r4 |
 
@@ -42,7 +42,7 @@
   c2( \f \> f,4) \! f'4.-> e-flat8 c4 |
   b-flat2. r |
 
-  \first-four-measures
+  \measures-one-to-four
   e-flat4-> c4.-^ a8 f4. e-flat8 c4 |
   b-flat2-> b-flat'4-. b-flat2 r4 | \bar "|."
 }

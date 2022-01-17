@@ -10,7 +10,7 @@
   \key c \major
   \time 3/4
 
-  #(define first-sixteen-measures #{
+  #(define measures-one-to-sixteen #{
     \relative {
       r4 c'' c |
       r4 d d |
@@ -32,7 +32,7 @@
   #})
 
   <<
-    { \first-sixteen-measures }
+    { \measures-one-to-sixteen }
     { s4 <> \mf }
   >>
 
@@ -54,7 +54,7 @@
   g2.-> |
 
   <<
-    { \first-sixteen-measures }
+    { \measures-one-to-sixteen }
     { s4 <> \p }
   >> \bar "|."
 }

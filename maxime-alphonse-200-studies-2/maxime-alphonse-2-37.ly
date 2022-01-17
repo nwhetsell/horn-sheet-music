@@ -10,7 +10,7 @@
   \key a \major
   \time 2/4
 
-  #(define first-two-measures #{
+  #(define measures-one-to-two #{
     \relative {
       \repeat unfold 2 { a'8-^ 16-. c-sharp-. } |
       a8-^ 16-. b-. c-sharp-. a-. b-. g-sharp-. |
@@ -18,7 +18,7 @@
   #})
 
   <> \f
-  \first-two-measures
+  \measures-one-to-two
   \repeat unfold 2 { a'8-^ 16-. c-sharp-. } |
   a8-^ 16-. c-sharp-. b-. a-. b-. g-sharp-. |
   a4-> r |
@@ -80,7 +80,7 @@
 
   \tempo "1º Tempo"
   <> \f
-  \first-two-measures
+  \measures-one-to-two
   \repeat unfold 2 { a8-^ 16-. c-sharp-. } |
   a8-^ 16-. c-sharp-. b-. a-. b-. g-sharp-. |
   a4. r8 |
@@ -91,7 +91,7 @@
   <<
     {
       c-sharp4-> r16 d! \< c-sharp b \! |
-      \first-two-measures
+      \measures-one-to-two
       a8-^ a,16-. c-sharp-. a8-^ 16-. e'-. |
       a,8-^ 16-. a'-. e-. a-. e-. c-sharp-. a2-> \! | \bar "|."
     }

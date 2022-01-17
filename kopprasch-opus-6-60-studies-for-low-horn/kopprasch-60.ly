@@ -11,7 +11,7 @@
   \key c \major
   \time 4/4
 
-  #(define first-four-measures #{
+  #(define measures-one-to-four #{
     \relative {
       c8 \tweak X-offset #-2.5 \tweak Y-offset #-5 \f \tuplet 5/4 { c'32-. e-. g-. e-. c-. }
       c'8 \tuplet 5/4 { c,32-. e-. g-. e-. c-. }
@@ -34,9 +34,9 @@
     }
   #})
 
-  #(define first-eight-measures #{
+  #(define measures-one-to-eight #{
     \relative {
-      \first-four-measures
+      \measures-one-to-four
 
       c'8 \mf \tuplet 5/4 { c'32-. d-. e-. d-. c-. }
       d,8 % The 1st edition has e here.
@@ -62,7 +62,7 @@
 
   % These measures are repeated in the 1st edition.
   % \repeat volta 2 {
-    \first-eight-measures
+    \measures-one-to-eight
 
     e,8 \f  \tuplet 5/4 { c-sharp'32-. d-. e-. d-. c-sharp-. }
     g8      \tuplet 5/4 { c-sharp32-.  d-. e-. d-. c-sharp-. }
@@ -85,8 +85,8 @@
   % The Gumpert edition repeats previous measures; the 1st edition is almost
   % totally different.
 
-  \first-eight-measures
-  \first-four-measures
+  \measures-one-to-eight
+  \measures-one-to-four
 
   % g,,8 \p \tuplet 5/4 { g'32-. a-. b-flat-. a-. g-. }
   % g'8     \tuplet 5/4 { g,32-. a-. b-flat-. a-. g-. }

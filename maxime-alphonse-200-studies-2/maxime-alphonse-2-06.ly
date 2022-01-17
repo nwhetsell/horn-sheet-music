@@ -10,7 +10,7 @@
   \key c \major
   \time 3/8
 
-  #(define first-twenty-measures #{
+  #(define measures-one-to-twenty #{
     \relative {
       c''8-. r c-. |
       e8-. r e-. |
@@ -36,7 +36,7 @@
   #})
 
   \partial 8 { g'8-. \p } |
-  \first-twenty-measures
+  \measures-one-to-twenty
   g'8-. \decresc r g-. |
   f-sharp8-. r f-. |
   f8-. r f-. |
@@ -45,7 +45,7 @@
   d4.-> |
   r4 g,8-. \p |
 
-  \first-twenty-measures
+  \measures-one-to-twenty
   g'8-. r g-. |
   f8-. r f-. |
   d8-. r d-. |

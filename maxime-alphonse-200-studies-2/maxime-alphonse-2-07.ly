@@ -12,7 +12,7 @@
   \key d \major
   \time 2/4
 
-  #(define first-four-measures #{
+  #(define measures-one-to-four #{
     \relative {
       <<
         {
@@ -26,7 +26,7 @@
     }
   #})
 
-  \first-four-measures
+  \measures-one-to-four
   a'4 r16 f-sharp' \> d a |
   a8( \> g) \! r16 e' \> c-sharp g |
   g8( \> f-sharp16) \! r d'8 \mf c-sharp |
@@ -53,7 +53,7 @@
   >>
   a,4. r8 |
 
-  \first-four-measures
+  \measures-one-to-four
   a'4 r16 a \< d f-sharp |
   a,8( \> g) \! r16 g \< c-sharp e |
   g,8( \> f16) \! r d'8 \mf c-sharp |

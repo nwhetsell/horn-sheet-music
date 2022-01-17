@@ -17,7 +17,7 @@
   \key a \major
   \time 4/4
 
-  #(define first-twelve-measures #{
+  #(define measures-one-to-twelve #{
     \relative {
       r8 c-sharp'' \mf 4:8 4:8 8 b |
       r8 a a4:8 4:8 8 b |
@@ -32,11 +32,11 @@
     }
   #})
 
-  \first-twelve-measures
+  \measures-one-to-twelve
   r8 b b4:8 4:8 8 a |
   e'4 r8 e, \< f-sharp g-sharp a b \! |
 
-  \first-twelve-measures
+  \measures-one-to-twelve
   r8 b b4:8 4:8 a8 g-sharp |
   b2( a4) r | \bar "|."
 }

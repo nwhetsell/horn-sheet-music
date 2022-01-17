@@ -12,7 +12,7 @@
   \key a \minor
   \time 2/4
 
-  #(define first-six-measures #{
+  #(define measures-one-to-six #{
     \relative {
       a'8._\markup { \dynamic "mf" \italic "legato" }( c16 a8. e16 |
       a8. c16 a8. e16) |
@@ -23,7 +23,7 @@
     }
   #})
 
-  \first-six-measures
+  \measures-one-to-six
   d''8.( e16 d8. e,16 |
   d'8. e16 d8. g-sharp,16) |
   d'8.( f16 e8. d16) |
@@ -52,7 +52,7 @@
   b8._> a16 f-sharp8. c'16 |
   b8._> g-sharp16 e8) r |
 
-  \first-six-measures
+  \measures-one-to-six
   b'8.( d16 b8. e,16 |
   b'8. d16 b8. e,16) |
   a8.( \decresc c16 a8. e16 |

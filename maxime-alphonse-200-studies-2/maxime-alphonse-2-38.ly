@@ -10,7 +10,7 @@
   \key b-flat \major
   \time 6/8
 
-  #(define first-four-measures #{
+  #(define measures-one-to-four #{
     \relative {
       d''4-> 8 8 c16 b-flat a b-flat |
       c4( \> a8 f) \< b-flat c |
@@ -26,12 +26,12 @@
   % https://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
   \once \override Score.RehearsalMark.outside-staff-priority = #900
   \mark \markup { \musicglyph #"scripts.segno" }
-  \first-four-measures
+  \measures-one-to-four
   e-flat4-> 8 8 d16 c b c |
   d4( \> b8) g \< c b-flat |
   a8 d c b-flat e-flat d |
   c4.( f16) r b-flat,8 \f c |
-  \first-four-measures
+  \measures-one-to-four
   e-flat4-> 8 8 f16 e-flat d c |
   d4( \< f8) \> b-flat, f \mf e-flat |
   d8 \tweak to-barline ##f \> b-flat' g e-flat c' a |

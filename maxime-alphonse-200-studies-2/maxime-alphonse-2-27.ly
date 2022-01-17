@@ -10,7 +10,7 @@
   \key c \major
   \time 12/8
 
-  #(define first-six-measures #{
+  #(define measures-one-to-six #{
     \relative {
       g'8-^ \f e-^ c-^ g4.->~8 a c e g a |
       c4.->( g2.) r4. |
@@ -21,7 +21,7 @@
     }
   #})
 
-  \first-six-measures
+  \measures-one-to-six
   g'8 \f \< c e g4.~ \! 8 e g e c e |
   c8 g e g2. r4. |
 
@@ -67,7 +67,7 @@
 
   \tempo "1º Tempo"
   \time 12/8
-  \first-six-measures
+  \measures-one-to-six
   g8 \< c e g4.~8 \f e c e c g |
   c8 g e c2. r4. | \bar "|."
 }

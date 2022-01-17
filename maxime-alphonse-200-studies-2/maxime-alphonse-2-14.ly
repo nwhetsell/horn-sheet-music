@@ -10,7 +10,7 @@
   \key a \major
   \time 4/4
 
-  #(define first-eight-measures #{
+  #(define measures-one-to-eight #{
     \relative {
       r8 e'-. \p a-. e'-. r e-. a,-. e-. |
       r8 c-sharp-. f-sharp-. c-sharp'-. r c-sharp-. f-sharp,-. c-sharp-. |
@@ -23,7 +23,7 @@
     }
   #})
 
-  \first-eight-measures
+  \measures-one-to-eight
   R1 \bar "||"
 
   \time 2/4
@@ -65,5 +65,5 @@
   e8 \> e4-> e'8-. \! | \bar "||"
 
   \time 4/4
-  \first-eight-measures \bar "|."
+  \measures-one-to-eight \bar "|."
 }

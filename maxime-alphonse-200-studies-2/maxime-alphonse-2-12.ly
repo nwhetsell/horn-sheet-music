@@ -10,7 +10,7 @@
   \key a \minor
   \time 4/4
 
-  #(define first-eight-measures #{
+  #(define measures-one-to-eight #{
     \relative {
       a'8( \p \< g-sharp) a b d( \> c) b a |
       b8.( \> a16) \! b4~2 \breathe |
@@ -23,7 +23,7 @@
     }
   #})
 
-  \first-eight-measures
+  \measures-one-to-eight
 
   f''4~( \f 16 f e f) d4 b8 d |
   f4~( 16 f e f) d2 \breathe |
@@ -34,7 +34,7 @@
   b8->( f-sharp) r b-! a->( g-sharp) r b |
   b16->( a) b a a( g-sharp) 16 f-sharp g-sharp2 \breathe |
 
-  \first-eight-measures
+  \measures-one-to-eight
 
   g'4~( \ff 16 f g f) e4 b8 e |
   g4~( 16 f g f) e2 \breathe |
