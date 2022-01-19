@@ -32,7 +32,7 @@
       c2:8 2:8 |
       g'2( \> f4) r8 c |
       c2:8 \< 2:8 |
-      f2( \> e4) r8 c |
+      f2( \> e4) r8 g, |
       g2:8 \mf 2:8 |
       f'8( e) d-. c-. d( c) b-. a-. |
       b8( a) g-. f-. g( f) e-. d-. |
@@ -85,7 +85,7 @@
     b2:8 2:8 |
     b!8( a-flat) f-. d-. b4. \ppp \breathe b'8 |
     b2:8_"Very slowly" 2:8 |
-    b8( g) f-. d-. b4 r8
+    b8( g) f-. d-. g,4 r8
 
     <>^\markup { \italic "a tempo" }
     \first-thirty-two-measures

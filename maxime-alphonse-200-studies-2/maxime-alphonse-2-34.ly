@@ -30,7 +30,7 @@
   g,4( \p \< b d f) |
   e2~( \f \> 4. d-sharp8 |
   e1) \breathe |
-  g-sharp,4( \p \< b d! f) |
+  g-sharp,!4( \p \< b d! f) |
   e2~( \f \> 4. d8 |
   c-sharp1) \breathe |
 
