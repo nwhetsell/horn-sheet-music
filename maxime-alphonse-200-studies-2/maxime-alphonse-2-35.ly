@@ -21,7 +21,7 @@
   e4->( \! c-sharp8) e4->( c-sharp8) |
   d4->( \! b8) d4->( b8) |
   <<
-    { a4.-> r8 a-. d-. }
+    { a4.-> r8 a-. b-. }
     { s4. s16 s \p \< }
   >> |
   a4->( \! g8) r g-. \< d'-. |
@@ -32,7 +32,7 @@
     { s4. s16 s \mf \< }
   >> |
   a4->( \! d8) r c-sharp-. b-. |
-  c-sharp4->( e8) r d c |
+  c-sharp4->( e8) r d c-sharp |
   e8( d) c-sharp e( d) b |
 
   a4. r8 a( \mf f-sharp') |
