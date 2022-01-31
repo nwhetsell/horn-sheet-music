@@ -139,9 +139,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       g4 f-sharp8. f-sharp16 f2 |
       R1*2
       R1^\markup { \italic "cal." }
-      \override Score.BarNumber.self-alignment-X = #CENTER
       R1*3
-      \revert Score.BarNumber.self-alignment-X
       r2 a,2~_\markup { \dynamic "p" \italic "dolce" } |
       a4 b a b |
       d4( c-sharp8.) e16 c-sharp2~( |
@@ -189,9 +187,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
       a4 g) f-sharp c |
       e2( d-sharp) |
       R1^\markup { \italic "cal." }
-      \override Score.BarNumber.self-alignment-X = #CENTER
       R1*6^"a tempo"
-      \revert Score.BarNumber.self-alignment-X
       d-sharp1~( \p |
       d-sharp2 g-sharp4) r |
       R1*7
@@ -216,7 +212,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         {
           e,1~ \pp |
           e1~ |
-          \override Score.BarNumber.self-alignment-X = #CENTER
           \repeat unfold 3 { e1~ | }
         }
         {
@@ -226,7 +221,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         }
       >>
       e2 r2 |
-      \revert Score.BarNumber.self-alignment-X
       r4 b''( \pp g b,) |
       e1~ |
       e2 r2 | \bar "|."
@@ -335,7 +329,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         {
           f,,2.~ \p \< |
           f2.~ |
-          \override Score.BarNumber.self-alignment-X = #CENTER
           f2.~ |
           f2.~ \f |
         }
@@ -346,7 +339,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         }
       >>
       f4. r |
-      \revert Score.BarNumber.self-alignment-X
       R2.*2
       r4. r8 d''8-. \p d-. |
       d8-. r r r4. |
@@ -431,7 +423,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         {
           f,,2.~ \p \< |
           f2.~ |
-          \override Score.BarNumber.self-alignment-X = #CENTER
           f2.~ |
           f2.~ \f |
           f2. |
@@ -443,7 +434,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         }
       >>
       R2.*2
-      \revert Score.BarNumber.self-alignment-X
       r4. r8 d''8-. d-. |
       d8-. r r r4. |
       R2.*2
@@ -710,7 +700,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         {
           e,1~ \f |
           e1~ |
-          \override Score.BarNumber.self-alignment-X = #CENTER
           \repeat unfold 4 { e1~ | }
         }
         {
@@ -720,7 +709,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
         }
       >>
       e4. r8 r2 |
-      \revert Score.BarNumber.self-alignment-X
       r2 r4 a \f |
       d-sharp4.-> 8 4 r |
       r2 r4 a |
