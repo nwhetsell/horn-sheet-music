@@ -475,7 +475,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       b-flat4. a-flat) |
       a-flat2.~ |
       a-flat4. g4( f8 |
-      e8) r8 r8 r4. |
+      e8) r8 r r4. |
 
       R2.*2
 
