@@ -261,16 +261,6 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
 
 #(define studies-with-alternates '(30 40))
 
-alternates-layout = \layout {
-  #(layout-set-staff-size 14)
-  ragged-last = ##t
-  \context {
-    \Score
-    \omit BarNumber
-    markFormatter = #format-mark-numbers
-  }
-}
-
 \book {
   #(do ((study-number 1 (1+ study-number)))
       ((> study-number 40))
@@ -295,14 +285,22 @@ alternates-layout = \layout {
           (ly:score-set-header! score header)
           (add-score score)
           (if (member study-number studies-with-alternates)
-            (let (
-                (score (scorify-music #{
+            (begin
+              ((ly:parser-lookup 'book-score-handler) (ly:parser-lookup '$current-book) (ly:make-page-permission-marker 'page-break-permission '()))
+              (add-score #{
+                \score {
+                  \layout {
+                    #(layout-set-staff-size 14)
+                    ragged-last = ##t
+                    \context {
+                      \Score
+                      \omit BarNumber
+                      markFormatter = #format-mark-numbers
+                    }
+                  }
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
-                #})))
-              (begin
-                ((ly:parser-lookup 'book-score-handler) (ly:parser-lookup '$current-book) (ly:make-page-permission-marker 'page-break-permission '()))
-                (ly:score-add-output-def! score alternates-layout)
-                (add-score score))))))))
+                }
+              #})))))))
 
   \bookpart {
     \paper {

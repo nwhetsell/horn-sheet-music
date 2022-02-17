@@ -91,16 +91,6 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
 
 #(define studies-with-alternates '(3 4 6 8 10 12 13 17 36 37 39 40))
 
-alternates-layout = \layout {
-  #(layout-set-staff-size 14)
-  ragged-last = ##t
-  \context {
-    \Score
-    \omit BarNumber
-    markFormatter = #format-mark-numbers
-  }
-}
-
 \book {
   #(do ((study-number 1 (1+ study-number)))
       ((> study-number 60))
@@ -137,14 +127,22 @@ alternates-layout = \layout {
           (ly:score-set-header! score header)
           (add-score score)
           (if (member study-number studies-with-alternates)
-            (let (
-                (score (scorify-music #{
+            (begin
+              ((ly:parser-lookup 'book-score-handler) (ly:parser-lookup '$current-book) (ly:make-page-permission-marker 'page-break-permission '()))
+              (add-score #{
+                \score {
+                  \layout {
+                    #(layout-set-staff-size 14)
+                    ragged-last = ##t
+                    \context {
+                      \Score
+                      \omit BarNumber
+                      markFormatter = #format-mark-numbers
+                    }
+                  }
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
-                #})))
-              (begin
-                ((ly:parser-lookup 'book-score-handler) (ly:parser-lookup '$current-book) (ly:make-page-permission-marker 'page-break-permission '()))
-                (ly:score-add-output-def! score alternates-layout)
-                (add-score score))))))))
+                }
+              #})))))))
 
   \bookpart {
     \paper {
