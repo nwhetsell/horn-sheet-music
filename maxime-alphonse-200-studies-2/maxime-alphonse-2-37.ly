@@ -58,7 +58,7 @@
   c-sharp4.->( a8) |
   d4.->( b8) |
   e4.->( c-sharp8) |
-  f-sharp4.( d8) |
+  f-sharp4.->( d8) |
   b4. r8 |
 
   e,4( \p \< e' |
