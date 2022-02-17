@@ -10,7 +10,7 @@
   \key c \major
   \time 4/4
 
-  #(define first-thirty-two-measures #{
+  #(define measures-one-to-thirty-two #{
     \relative {
       \partial 8 g'8 \mf |
       g2:8 2:8 |
@@ -49,7 +49,7 @@
   #})
 
   \repeat volta 2 {
-    \first-thirty-two-measures
+    \measures-one-to-thirty-two
   }
 
   \repeat volta 2 {
@@ -88,6 +88,6 @@
     b8( g) f-. d-. g,4 r8
 
     <>^\markup { \italic "a tempo" }
-    \first-thirty-two-measures
+    \measures-one-to-thirty-two
   }
 }
