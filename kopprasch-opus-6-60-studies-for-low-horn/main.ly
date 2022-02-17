@@ -84,10 +84,10 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
     Phrasing studies, daily preparatory studies for the trill (lip-trill):
     The notes uniformly slower at first, then quicker,
     and all notes open or, after transposition, on
-    "No. 1" (in \concat { \append-flat E ) }, "No. 2" "(in E)", or "No. 3" "(in D)" valve.
+    "No. 1" (in \concat { \append-flat E ) , } "No. 2" \concat { "(in E)" , } or "No. 3" "(in D)" valve.
   } } #})
-  (11 . ,#{ \markup { It is better to practice this study before "No. 43". } #})
-  (21 . ,#{ \markup { Played like "No. 13". } #})))
+  (11 . ,#{ \markup { It is better to practice this study before \concat { "No. 43" . } } #})
+  (21 . ,#{ \markup { Played like \concat { "No. 13" . } } #})))
 
 #(define studies-with-alternates '(3 4 6 8 10 12 13 17 36 37 39 40))
 
