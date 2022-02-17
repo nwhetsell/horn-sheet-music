@@ -27,12 +27,11 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
 }
 
 \score {
-  \new StaffGroup
-  \with {
+  \new StaffGroup \with {
     \remove "System_start_delimiter_engraver"
   }
   <<
-    \new Staff = "main" <<
+    \new Staff="main" <<
       \new Voice \relative {
         \language "english"
 
