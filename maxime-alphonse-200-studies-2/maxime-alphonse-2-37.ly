@@ -30,12 +30,12 @@
   b!8-^ 16-. f-sharp-. b8-^ 16-. d!-. |
   b8-^ 16-. c-sharp-. d-. b-. c-sharp-. a-sharp-. |
   b8-^ 16-. f-sharp-. b8-^ 16-. d-. |
-  b8-^ 16-. c-sharp-. d-. b-. c-sharp-. a-sharp-. |
+  b8-^ 16-. d-. c-sharp-. b-. c-sharp-. a-sharp-. |
   b4-> r16 d \mf b a! |
-  \repeat unfold 2 {
-    g8-^ 16-. d-. g8-^ 16-. b-. |
-    g8-^ 16-. a-. b-. g-. a-. f-sharp-. |
-  }
+  g8-^ 16-. d-. g8-^ 16-. b-. |
+  g8-^ 16-. a-. b-. g-. a-. f-sharp-. |
+  g8-^ 16-. d-. g8-^ 16-. b-. |
+  g8-^ 16-. b-. a-. g-. a-. f-sharp-. |
   g4-> r16 b \p g! f-sharp |
   \repeat unfold 2 { e8-^ 16-. g-. } |
   e8-^ 16-. f-sharp-. g-. e-. f-sharp-. d-sharp-. |
