@@ -33,7 +33,8 @@
   c4.( f16) r b-flat,8 \f c |
   \measures-one-to-four
   e-flat4-> 8 8 f16 e-flat d c |
-  d4( \< f8) \> b-flat, f \mf e-flat |
+  d4( \< \override Hairpin.minimum-length = #5 f8) \> b-flat, f \mf e-flat |
+  \revert Hairpin.minimum-length
   d8 \tweak to-barline ##f \> b-flat' g e-flat c' a |
   \partial 4. { b-flat4. \! } | \bar "|."
 
@@ -45,7 +46,7 @@
   \tempo "Poco più presto" 4.=76
   \partial 4. { r8 d-flat \f e-flat } | \noBreak
   f4 8 e-flat d-flat c |
-  b-flat4( d-flat8 b-flat4 e-flat8 |
+  b-flat4_\markup { \italic "legato" }( d-flat8 b-flat4 e-flat8 |
   b-flat4 d-flat8 b-flat4 a8 |
   b-flat4.) r8 d-flat \p e-flat |
   f4 8 e-flat d-flat c |
@@ -61,7 +62,7 @@
   f8-> d-flat' b-flat f-> c' a |
   f4.-> r8 d-flat' \f e-flat |
   f4 8 e-flat d-flat c |
-  b-flat4_\markup { \italic "legato" }( d-flat8 b-flat4 e-flat8 |
+  b-flat4( d-flat8 b-flat4 e-flat8 |
   b-flat4 d-flat8 b-flat4 a8 |
   b-flat4.) r8 b-flat \f c | \bar "||"
 
