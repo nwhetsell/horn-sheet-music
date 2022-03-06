@@ -32,8 +32,10 @@
   f-sharp8->( a f-sharp c-sharp f-sharp a) f-sharp->( a f-sharp c-sharp e-sharp g-sharp)
   \repeat unfold 2 { e-sharp8->( g-sharp e-sharp c-sharp e-sharp g-sharp) } \breathe | \bar "||"
 
-  <> \mf \repeat unfold 2 { f-sharp8->( a) 8-. c-sharp->( a) 8-. d( a) 8-. c-sharp->( a) 8-. | }
+  \stemUp
+  <> \mf \repeat unfold 2 { f-sharp8->( a) 8-. c-sharp->( a) 8-. d->( a) 8-. c-sharp->( a) 8-. | }
   e-sharp8->( g-sharp) 8-. b->( g-sharp) 8-. c-sharp( g-sharp) 8-. b->( g-sharp) 8-. |
+  \stemNeutral
   e-sharp8->( g-sharp) 8-. b->( g-sharp) 8-. d'( g-sharp,) 8-. b->( g-sharp) 8-. |
   a8->( c-sharp) 8-. f-sharp->( c-sharp) 8-. b( d) 8-. f-sharp->( d) 8-. |
   \stemUp c-sharp8->( a c-sharp a c-sharp a) \stemNeutral g-sharp8->( b g-sharp b g-sharp b) |
