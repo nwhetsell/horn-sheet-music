@@ -47,7 +47,7 @@
   \stemDown
   b8->( d b f-sharp->) b( d b->) d( b f-sharp-> b) d-. |
   b8->( d b e-sharp,->) b'( d b->) d( b e-sharp,-> b') d-. \breathe |
-  b8->( d b e,!->) b'( d b->) d( b e,-> b') e-. \tweak X-offset #0.5 \breathe |
+  b8->( c-sharp b e,!->) b'( d b->) c-sharp( b e,-> b') e-. \tweak X-offset #0.5 \breathe |
   \stemNeutral
 
   a,8-> c-sharp a( c-sharp,->) a'( c-sharp) a->( c-sharp) a( c-sharp,->) a'( c-sharp) |
