@@ -60,14 +60,33 @@
   a-flat,4 \p c8 e-flat |
   <<
     { a-flat8.( b-flat16) }
-    { s8 s_#(turn-with-accidentals (markup #:flat) (markup #:null)) }
+    {
+      s8
+      \textLengthOn
+      \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+      \once \override TextScript.outside-staff-priority = ##f
+      \once \override TextScript.Y-offset = #1
+      s_#(turn-with-accidentals (markup #:flat) (markup #:null))
+      \textLengthOff
+    }
   >> c8 r64 e-flat, \< f g a-flat b-flat c d-flat |
   e-flat16(\f a-flat c, d-flat) d( e-flat f e-flat) |
   \acciaccatura e-flat8 d-flat8.( b-flat32 g) e-flat8 r |
   e-flat4 \p g8 b-flat |
   <<
-    { d-flat8.( \< e-flat16) }
-    { s8 s^#(turn-with-accidentals (markup #:flat) (markup #:null)) }
+    {
+      \shape #'((0 . 0) (0 . 0.1) (0 . 0.1) (0 . 0)) Slur
+      d-flat8.( \< e-flat16)
+    }
+    {
+      s8
+      \textLengthOn
+      \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+      \once \override TextScript.outside-staff-priority = ##f
+      \once \override TextScript.Y-offset = #2
+      s^#(turn-with-accidentals (markup #:flat) (markup #:null))
+      \textLengthOff
+    }
   >> e16( f g f) \! |
   e-flat16( d-flat c b-flat) a-flat( g e-flat' d-flat) |
   b!4( \> c8) \! r |
@@ -88,7 +107,15 @@
   \acciaccatura e,8 f'8. \f c-sharp16 \tuplet 3/2 8 { e16( d a-sharp) c( b f-sharp) } |
   <<
     { g8.( \p a16) }
-    { s8 s^#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
+    {
+      s8
+      \textLengthOn
+      \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+      \once \override TextScript.outside-staff-priority = ##f
+      \once \override TextScript.Y-offset = #0.5
+      s^#(turn-with-accidentals (markup #:null) (markup #:sharp))
+      \textLengthOff
+    }
   >> \tuplet 3/2 8 { b16 \< c d e f f-sharp } |
   \tuplet 3/2 8 {
     g16 \f \> e c b-flat g e c \p d e f g a-flat |

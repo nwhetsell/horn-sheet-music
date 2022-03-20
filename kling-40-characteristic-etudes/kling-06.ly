@@ -18,7 +18,15 @@
   b16( d) c( e) d( f) e( g) f( d) e( c) d( b) c( a) |
   <<
     { g4( b8.) a16 g8 r \afterGrace g4\trill( { f-sharp16 g) } }
-    { s8. s16^#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
+    {
+      s8
+      \textLengthOn
+      \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+      \once \override TextScript.outside-staff-priority = ##f
+      \once \override TextScript.Y-offset = #1.5
+      s^#(turn-with-accidentals (markup #:null) (markup #:sharp))
+      \textLengthOff
+    }
   >> |
   c8 r c8. d16 e4 e8. f16 |
   g2~8 c16( b) a( g) f-. e-. |
@@ -49,7 +57,15 @@
   \partial 2. {
     <<
       { c4( e8.) d16 c8 r }
-      { s8. s16^\turn-markup }
+      {
+        s8
+        \textLengthOn
+        \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+        \once \override TextScript.outside-staff-priority = ##f
+        \once \override TextScript.Y-offset = #1.46
+        s^\turn-markup
+        \textLengthOff
+      }
     >>
   } | \bar "|."
 }

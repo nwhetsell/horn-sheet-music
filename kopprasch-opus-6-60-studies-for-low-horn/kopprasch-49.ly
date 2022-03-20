@@ -36,7 +36,15 @@
   g'2 b4.( d-sharp,8) |
   <<
     { e4.( f-sharp8) }
-    { s4 s^#(turn-with-accidentals (markup #:sharp) (markup #:sharp)) }
+    {
+      s4
+      \textLengthOn
+      \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+      \once \override TextScript.outside-staff-priority = ##f
+      \once \override TextScript.Y-offset = #1
+      s^#(turn-with-accidentals (markup #:sharp) (markup #:sharp))
+      \textLengthOff
+    }
   >> g4 b, |
   c8( e) g-sharp( a) \once \stemUp b-flat4( \grace { c16 b-flat } a8) g |
   g2( \> \grace { f-sharp32 g a g } f-sharp4) \! r |

@@ -44,8 +44,19 @@
   e-flat8.( \> f32 e-flat d4) \! r |
   e-flat4( \p g b,) \breathe |
   <<
-   { c8.( d16) }
-   { s8 s^#(turn-with-accidentals (markup #:natural) (markup #:natural)) }
+   {
+     \shape #'((0 . 0.5) (0 . 1) (0 . 1) (0 . 0.5)) Slur
+     c8.( d16)
+   }
+   {
+     s8
+     \textLengthOn
+     \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+     \once \override TextScript.outside-staff-priority = ##f
+     \once \override TextScript.Y-offset = #2
+     s^#(turn-with-accidentals (markup #:natural) (markup #:natural))
+     \textLengthOff
+   }
   >> e-flat16( b c g) \subdivide-beams #1/8 2,2,2 { a-flat( e) \tuplet 3/2 { f16( a-flat c) } } |
   b-flat16[ \< r32 b-flat e-flat16 g] b-flat8.[ \f \breathe g16] e-flat b-flat g e-flat |
   \subdivide-beams #1/8 2,2,2 { \tuplet 3/2 { d16( f a-flat) } c-flat16->( \< b-flat) c->( b-flat) d32( b-flat d) f-. a-flat8 d, } |

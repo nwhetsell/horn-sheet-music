@@ -65,7 +65,15 @@
   d8. f-sharp,16( c-sharp' b) a(
     <<
       { e16 g8.\fermata f-sharp16) }
-      { s32 s_\markup { \hspace #0.75 \turn-markup } }
+      {
+        s32
+        \textLengthOn
+        \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+        \once \override TextScript.outside-staff-priority = ##f
+        \once \override TextScript.Y-offset = #-1.5
+        s_\turn-markup
+        \textLengthOff
+      }
     >> |
   d8.\( f-sharp16( \> a f-sharp') d4\) \! r8 |
   a16( \p \< b c-sharp d e f-sharp g \> e c-sharp a g e) \! |

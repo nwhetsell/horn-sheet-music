@@ -16,8 +16,19 @@
   \partial 16 e'16_\markup { \dynamic "p" \italic "dolce" }
   a8 e c'16( d32 c) b16 a |
   <<
-    { g-sharp8.( a16) }
-    { s8 s_#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
+    {
+      \shape #'((0 . 0) (0 . -0.2) (0 . -0.2) (0 . 0)) Slur
+      g-sharp8.( a16)
+    }
+    {
+      s8
+      \textLengthOn
+      \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+      \once \override TextScript.outside-staff-priority = ##f
+      \once \override TextScript.Y-offset = #0.5
+      s_#(turn-with-accidentals (markup #:null) (markup #:sharp))
+      \textLengthOff
+    }
   >> b8 r16 e, |
   b'8 e, d'16( e32 d) c16 b |
   a8.[( \grace { b32 a g-sharp a } c16)] e8 r16 e \f |
@@ -64,8 +75,19 @@
   e16^"Coda"_\markup { \dynamic "p" \italic "dolce" }
   a8 e c'16( d32 c) b16 a |
   <<
-    { g-sharp8.( a16) }
-    { s8 s_#(turn-with-accidentals (markup #:null) (markup #:sharp)) }
+    {
+      \shape #'((0 . 0) (0 . -0.2) (0 . -0.2) (0 . 0)) Slur
+      g-sharp8.( a16)
+    }
+    {
+      s8
+      \textLengthOn
+      \once \override TextScript.extra-spacing-width = #'(-0.5 . 0.5)
+      \once \override TextScript.outside-staff-priority = ##f
+      \once \override TextScript.Y-offset = #0.5
+      s_#(turn-with-accidentals (markup #:null) (markup #:sharp))
+      \textLengthOff
+    }
   >> b8 r |
   <<
     { b8.( \< c16) }
