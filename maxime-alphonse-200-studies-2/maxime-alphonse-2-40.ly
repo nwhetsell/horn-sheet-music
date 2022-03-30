@@ -24,15 +24,21 @@
       e8 d e c-sharp a e a c-sharp |
       d8 c-sharp d b g-sharp e d' b |
       c-sharp8 e a, c-sharp b d g-sharp, b |
-      a8[ \tweak Y-offset #3.25 \breathe \tempo "Rall." g-sharp \< a a-sharp] b a-sharp b c-sharp | \bar "||"
+      a8[ \tweak Y-offset #3.25 \breathe g-sharp a a-sharp] b a-sharp b c-sharp | \bar "||"
 
-      \tempo "Tempo"
-      d8 \mf c-sharp d f-sharp e d c-sharp e |
+      d8 c-sharp d f-sharp e d c-sharp e |
       d8 c-sharp d a! b g! e a |
     }
   #})
 
-  \measures-one-to-sixteen
+  <<
+    { \measures-one-to-sixteen }
+    {
+      s1*12 |
+      s8 \tempo "Rall." s \< s4 s2 |
+      \tempo "Tempo" s8 \mf
+    }
+  >>
   d''8 c-sharp d f-sharp e d c-sharp e |
   d8 b g-sharp d c-sharp e a c-sharp |
   b8 g-sharp e b' c-sharp a e c-sharp' |
@@ -47,12 +53,12 @@
   d8 c-sharp d b c-sharp b c-sharp a |
   \repeat unfold 3 { b a } b g-sharp |
   a8 g-sharp a f-sharp g e f-sharp d |
-  e8[ \breathe c-sharp \p \cresc a c-sharp b] d c-sharp e |
+  e8[ \breathe c-sharp \p \cresc a c-sharp] b d c-sharp e |
   d8 f-sharp b, d c-sharp e d f-sharp |
   e8 g c-sharp, e d f-sharp e g |
   f-sharp8 a d, f-sharp e g f-sharp a |
   g8 b e, g f-sharp a g b |
-  \tempo "Rall." a8 \f \> g-sharp a a-sharp b a-sharp b c-sharp \breathe |
+  \tempo "Rall." a8 \f \> g-sharp a a-sharp b a-sharp b c-sharp \tweak X-offset #0.5 \breathe | \bar "||"
 
   \measures-one-to-sixteen
   \repeat unfold 2 { d,8 c-sharp d f-sharp e d c-sharp e | }
