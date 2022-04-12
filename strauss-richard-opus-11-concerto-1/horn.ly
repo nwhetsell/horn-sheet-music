@@ -702,7 +702,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       f4->( d8) f4->( d8) |
       f4-> b-flat8-. f( d) b-flat-. |
       f4 r8 r4. |
-      r4 b-flat,8 \p b-flat( d) f |
+      r4 b-flat,8 \p b-flat( d) f-. | % The staccato on the last 8th note is in the score.
       b-flat2.~ |
       b-flat4 \breathe d,8 d( f) b-flat-. |
       d2.~ \cresc |
