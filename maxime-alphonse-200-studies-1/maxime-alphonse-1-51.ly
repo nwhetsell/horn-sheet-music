@@ -26,7 +26,7 @@
   d8( \mf e-flat d b-flat) c( d c a) |
   b-flat8( c b-flat g) e-flat( c' a f) |
   \override DynamicLineSpanner.staff-padding = #3
-  d8([ \tweak Y-offset #4 \breathe b-flat' g e-flat]) c( \< d) e-flat-. e-. |
+  d8[ \tweak Y-offset #4 \breathe b-flat' g e-flat] c( \< d) e-flat-. e-. |
   f8( a) g-. \! f-. e( \tweak to-barline ##f \> f) g-. a-. |
   \stemUp
   b-flat2 \! r4 f( |
