@@ -47,7 +47,7 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
       a2( b8 a) |
       g2.( \tweak to-barline ##f \> |
       e2) \! r4 |
-      e8-.( \p \< a-. b-. b-. \> a-. e-.) \! |
+      e8-.( \p \< a-. b-. c-. \> a-. e-.) \! |
       g8. (a16 g2) |
       e4 \< a4. c8 |
       e2. |
@@ -122,7 +122,7 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
       a2( b8 a) |
       g2.( \tweak to-barline ##f \> |
       e2) \! r4 |
-      e8-.( \p \< a-. b-. b-. \> a-. e-.) \! |
+      e8-.( \p \< a-. b-. c-. \> a-. e-.) \! |
       g8. (a16 g2) |
       e4 \< a4. c8 |
       e2. \< |
