@@ -52,8 +52,8 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
       e4 \< a4. c8 |
       e2. |
       f4( \f \> a, d) |
-      c2( b8 a) |
-      b2.( \p |
+      c2( b8 a |
+      b2. \p |
       c2.) |
 
       R2.*2
@@ -64,8 +64,8 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
       c2( \> b8 a) \! |
       g2( a8 g) |
       g2.( \pp |
-      c2.)~ |
-      c4 r r |
+      c2.~ |
+      c4) r r |
 
       \tempo \markup {
         \override #'(baseline-skip . 2)
@@ -90,26 +90,26 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
       r8 b-.( \cresc c-. b-. d-. c-.) |
       c2. |
       r8 b-.( \< c-. b-. d-. c-.) |
-      c2 \sf b-flat4~( |
+      c2( \sf b-flat4~ |
       b-flat4 a a-flat |
       g4) g2->( |
       f'4->) \ff \> c-> b-flat8 a-flat |
       g4 \! g2->( \< |
       f'4->) \ff c-> b-flat8 a-flat |
-      g4 g2->^\markup { \italic "stringendo" } |
+      g4^\markup { \italic "stringendo" } g2-> |
       r4 c2-> |
       r4 c-sharp2-> |
       r4 d2->~ |
       d2.~ |
       d4 e8^\markup { \italic "ad lib" }( \> f d b) |
       a8.->( \p b16 a2) |
-      a-flat8.->( \pp b-flat16 a-flat2~) |
-      a-flat2 r4 |
+      a-flat8.->( \pp b-flat16 a-flat2~ |
+      a-flat2) r4 |
       c,2.( |
       b2 c4 |
-      g'2.~) |
+      g'2.~ |
       g2.~ |
-      g8 r r4 r |
+      g8) r r4 r |
 
       r4 r r8 r\fermata |
 
