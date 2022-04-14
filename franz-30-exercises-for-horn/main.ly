@@ -31,7 +31,7 @@ source-url = "https://imslp.org/wiki/Grosse_theoretisch-practische_Waldhorn-Schu
 
 \book {
   #(do ((study-number 18 (1+ study-number)))
-      ((> study-number 18))
+      ((> study-number 19))
     (let ((header (make-module)))
       (module-define! header 'piece (number->string study-number))
       (let* (
