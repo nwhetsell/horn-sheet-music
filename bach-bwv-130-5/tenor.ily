@@ -36,7 +36,7 @@ tenor-measures-one-to-eighty-eight = \relative {
     { \measures-sixteen-to-thirty-one }
     {
       s1*12 |
-      s2. <>( s8 <>)
+      s2. s8( s) |
     }
   >>
   b8 a g a b c d e |
@@ -103,15 +103,7 @@ tenor-measures-one-to-eighty-eight = \relative {
 tenor-measures-eighty-nine-to-one-hundred-twenty-six = \relative {
   R1*3
 
-  <<
-    { \measures-sixteen-to-thirty-one }
-    {
-      s1 |
-      s4 \repeat unfold 2 { <>( s8 <>) s } s4 |
-      s1*7 |
-      s2 <>( s8. <>) s16 s4 |
-    }
-  >>
+  \measures-sixteen-to-thirty-one
   b8 a g a b c b c |
   d4 8( e f-sharp g) a c, |
   b2 r |

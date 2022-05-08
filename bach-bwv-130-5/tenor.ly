@@ -23,7 +23,16 @@ source-url = "https://imslp.org/wiki/Herr_Gott%2C_dich_loben_alle_wir%2C_BWV_130
     \new Voice=voice {
       \clef "tenor"
       \tenor-measures-one-to-eighty-eight
-      \tenor-measures-eighty-nine-to-one-hundred-twenty-six \bar "|."
+      <<
+        { \tenor-measures-eighty-nine-to-one-hundred-twenty-six }
+        {
+          s1*4 |
+          s4 \repeat unfold 2 { s8( s) } s4 |
+          s1*7 |
+          s2 s8.( s16) s4 |
+        }
+      >>
+      \bar "|."
     }
 
     \new Lyrics \lyricsto voice {
