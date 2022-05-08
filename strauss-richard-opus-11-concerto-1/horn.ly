@@ -379,9 +379,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       R1*6
       <<
         {
-          \override MultiMeasureRest.staff-position = #-6
-          R1
-          \revert MultiMeasureRest.staff-position
+          \tweak staff-position #-6 R1
           e,2\rest
         }
         \new CueVoice {
@@ -585,9 +583,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       R2.*14
       <<
         {
-          \override MultiMeasureRest.staff-position = #-4
-          R2.
-          \revert MultiMeasureRest.staff-position
+          \tweak staff-position #-4 R2.
           g4.\rest g8\rest
         }
         \new CueVoice {
