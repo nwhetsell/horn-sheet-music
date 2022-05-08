@@ -78,6 +78,24 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     shall never be extended beyond their value.
     Respect accents and dynamics.
   } } #})
+  ( 4 . ,#{ \markup { \justify {
+    Put some weight on the dotted quavers at the beginning of the bars and keep tempo.
+    Semiquavers very much staccato.
+  } } #})
+  ( 5 . ,#{ \markup { \justify {
+    Ponderously and always stressing the first note in each beat.
+    In the alternate articulations and rhythms respect the given accents
+    and practise alternately forte and piano.
+  } } #})
+  ( 6 . ,#{ \markup { \justify {
+    Strictly in tempo and very staccato;
+    attack all the notes in the same way by pronouncing the syllable “tu”.
+  } } #})
+  ( 7 . ,#{ \markup { \justify {
+    Great attention towards the attack of the first note in each part of the melody.
+    The first bars and the parts B and E very piano, expressive, and sustained.
+    Parts A, C, and D very rhythmical.
+  } } #})
   (38 . ,#{ \markup { \justify {
     Practice separately all the rhythms placed between two letters,
     first slowly, then gradually quicker and alternately forte and piano.
@@ -85,6 +103,8 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   (39 . ,#{ \markup { \justify {
     Very even in tempo.
   } } #})))
+
+#(define studies-with-alternates '(5))
 
 \book {
   #(for-each (lambda (study-number)
@@ -107,8 +127,25 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
         (begin
           (if instruction (module-define! header 'instruction (cdr instruction)))
           (ly:score-set-header! score header)
-          (add-score score)))))
-    '(1 2 3 38 39 40))
+          (add-score score)
+          (if (member study-number studies-with-alternates)
+            (begin
+              ((ly:parser-lookup 'book-score-handler) (ly:parser-lookup '$current-book) (ly:make-page-permission-marker 'page-break-permission '()))
+              (add-score #{
+                \score {
+                  \layout {
+                    #(layout-set-staff-size 14)
+                    ragged-last = ##t
+                    \context {
+                      \Score
+                      \omit BarNumber
+                      markFormatter = #format-mark-numbers
+                    }
+                  }
+                  \include #(format #f "alternates/~a-alternates.ly" base-name)
+                }
+              #})))))))
+    '(1 2 3 4 5 6 7 38 39 40))
 
   \bookpart {
     \paper {
