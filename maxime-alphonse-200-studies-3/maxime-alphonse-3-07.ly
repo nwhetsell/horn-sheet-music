@@ -87,6 +87,7 @@
   >> |
 
   \mark \default
+  \override TupletNumber.Y-offset = #3.4
   \tuplet 3/2 4 {
     r4 f,8 \mf b-flat8. f16 b-flat8 |
     d-flat4 b-flat8 d-flat8. b-flat16 d-flat8 |
@@ -98,6 +99,7 @@
     d-flat4 b-flat8 d-flat8. b-flat16 d-flat8 |
     f4 b-flat,8 d-flat8. b-flat16 d-flat8 |
     f4 d-flat8 f8. d-flat16 f8 |
+    \revert TupletNumber.Y-offset
     b-flat4 d-flat,8 f8. d-flat16 f8 |
     b-flat4 f8 b-flat8. f16 b-flat8 |
     d-flat4 b-flat8 d-flat8. b-flat16 d-flat8 |
