@@ -96,6 +96,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     The first bars and the parts B and E very piano, expressive, and sustained.
     Parts A, C, and D very rhythmical.
   } } #})
+  ( 8 . ,#{ \markup { \justify {
+    Very regular in tempo, lightly and strictly legato.
+  } } #})
   (38 . ,#{ \markup { \justify {
     Practice separately all the rhythms placed between two letters,
     first slowly, then gradually quicker and alternately forte and piano.
@@ -145,7 +148,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
                 }
               #})))))))
-    '(1 2 3 4 5 6 7 38 39 40))
+    '(1 2 3 4 5 6 7 8 38 39 40))
 
   \bookpart {
     \paper {
