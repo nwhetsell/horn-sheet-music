@@ -60,7 +60,7 @@ jobs:
       if: ${{ matrix.os == 'windows-latest' }}
 
     - name: Archive PDFs
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@main
       with:
         name: ${{ runner.os }} artifacts
         path: '*.pdf'
