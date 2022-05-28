@@ -56,7 +56,7 @@
     \transparent "p" % This aligns the baselines of “rit.” and “poco rit.”.
   }
   \clef "treble" g'16( c) e-flat-. g-. \tweak NoteColumn.X-offset #1 a-flat,( g) f-sharp-. g-. c8 f-sharp, |
-  g4 \clef \bass-clef-name g,4\fermata \! r |
+  g4 \clef \bass-clef-name g,4\fermata \! r | \bar "||"
 
   \tempo "a tempo"
   \clef "treble" g'16( \p c) e-. g-. a( g) f-sharp-. g-. e8 r |
