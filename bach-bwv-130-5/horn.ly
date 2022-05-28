@@ -140,11 +140,13 @@ source-url = "https://imslp.org/wiki/Herr_Gott%2C_dich_loben_alle_wir%2C_BWV_130
           s1*3 |
 
           s1*4 |
-          \appoggiatura f-sharp'8
-          s1*3 |
+          \appoggiatura f-sharp'8 s1 |
+          s1*2 |
           s4 \breathe s2. |
-          s1*3 |
-          s2 s \> |
+          s1 \mf \> |
+          s1 \< |
+          s1 |
+          s4 \! s s2 \> |
           s1 |
           s4 \! s2. |
           s1 \> |
@@ -187,7 +189,13 @@ source-url = "https://imslp.org/wiki/Herr_Gott%2C_dich_loben_alle_wir%2C_BWV_130
           s1*3 |
           s1*3 |
           s2. \grace a'8 s4 |
-          \appoggiatura f-sharp'8
+          \appoggiatura f-sharp'8 s1 |
+          s1*2 |
+          s4 \breathe s2. |
+          s1 \mf \> |
+          s1 \< |
+          s1 |
+          s4 \!
         }
       >>
     }
