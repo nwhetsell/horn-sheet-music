@@ -5,7 +5,7 @@
 
   \transposition f
 
-  \tempo "Moderato" 4=80
+  \tempo "Moderato" 4.=80
 
   \key d \major
   \time 12/8
