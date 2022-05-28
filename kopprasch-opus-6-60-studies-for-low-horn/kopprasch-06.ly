@@ -15,7 +15,7 @@
     c16( \< e) d( f) e( g) f( a) |
     g16( \f b) a( c) b( d) c( e) |
     f16( d) e( c) d( b) c( \> a) |
-    b16( d) c( e) d8-. \p \breathe g,,-. |
+    b16( d) c( e) d8-.[ \p \tweak Y-offset #4.25 \breathe g,,-.] |
     c16( \< e) d( f) e( g) f( a) |
     g16( \f b) a( c) b( d) c( e) |
     d16( \> b) c( a) b( g) a( f-sharp) |
