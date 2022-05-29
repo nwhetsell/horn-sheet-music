@@ -55,14 +55,14 @@
      d-flat,! b-flat' d-flat f-flat d-flat b-flat g d-flat' |
      c-flat, \< d-flat! e-flat f! g a-flat b-flat c-flat \! |
    }
-   { s16 \repeat unfold 39 { <>-. s } }
+   { s16 \repeat unfold 39 { s-. } }
   >>
   <<
    {
      r16 e-flat, \< f g a-flat b-flat c-flat d-flat \! |
      c-flat a-flat f d c-flat a-flat c-flat a-flat |
    }
-   { s16 \repeat unfold 15 { <>-. s } }
+   { s16 \repeat unfold 15 { s-. } }
   >>
   e-flat'2 | \bar "||"
 
@@ -74,14 +74,14 @@
      e-flat,! c' e-flat g-flat e-flat c a e-flat' |
      d-flat, e-flat f g! a b-flat c d-flat |
    }
-   { s16 \repeat unfold 39 { <>-. s } }
+   { s16 \repeat unfold 39 { s-. } }
   >>
   <<
    {
      r16 f, g a b-flat c d-flat e-flat |
      d-flat b-flat g e d-flat b-flat d-flat b-flat |
    }
-   { s16 \repeat unfold 15 { <>-. s } }
+   { s16 \repeat unfold 15 { s-. } }
   >>
   f'2 | \bar "||"
 
@@ -93,14 +93,14 @@
      b-flat,! g' b-flat d-flat! b-flat g e b-flat' |
      a-flat, b-flat c d e f g a-flat |
    }
-   { s16 \repeat unfold 39 { <>-. s } }
+   { s16 \repeat unfold 39 { s-. } }
   >>
   <<
    {
      r16 c, d e f g a-flat b-flat |
      a-flat f d b a-flat! f a-flat f |
    }
-   { s16 \repeat unfold 15 { <>-. s } }
+   { s16 \repeat unfold 15 { s-. } }
   >>
   c'2 |
   r8 \tempo "Rall." f a-flat f | \bar "||"

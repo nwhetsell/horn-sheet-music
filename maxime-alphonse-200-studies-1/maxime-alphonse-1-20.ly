@@ -64,7 +64,7 @@
 
   <<
     { \measures-one-to-six }
-    { s4 \p <>-> }
+    { s4 \p s2-> | }
   >>
 
   b-flat'8-. \! r e-flat2-> |

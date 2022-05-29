@@ -44,10 +44,17 @@
     }
   #})
   <<
-    { <> \mf \measures-nineteen-to-twenty-two }
-    { s1*9/8*3 s2. \> s4. \! | }
+    {
+      <> \mf
+      \measures-nineteen-to-twenty-two
+    }
+    {
+      s1*9/8*3 |
+      s2. \> s4. \! |
+    }
   >>
-  <> \p \measures-nineteen-to-twenty-two \bar "||"
+  <> \p
+  \measures-nineteen-to-twenty-two \bar "||"
 
   b-flat8( c d) 8( c b-flat f4.) |
   g8( a b-flat) 8( a g b-flat,4.) \breathe |

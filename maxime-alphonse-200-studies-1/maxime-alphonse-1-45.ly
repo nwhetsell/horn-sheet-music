@@ -44,7 +44,7 @@
   g8( f) r e \mf \tuplet 3/2 { g( f e) } |
   f8 \> g a b-flat~ \tuplet 3/2 { 8 c c-sharp } |
 
-  <>\mf
+  <> \mf
   \measures-one-to-seven
   b-flat8( d,) r g \tuplet 3/2 { f( d c) } |
   c8( b-flat~4) r | \bar "|."

@@ -130,7 +130,8 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
       e-flat2( f4 \< g |
       a-flat2) \> r \! |
       e-flat1^\markup { \combine \italic "rit." \transparent "p" } |
-      <>^\markup { \italic "a tempo" }_\markup { \dynamic "pp" } \repeat unfold 4 {
+      <>^\markup { \italic "a tempo" }_\markup { \dynamic "pp" }
+      \repeat unfold 4 {
         <<
           { a-flat,4.( g8) }
           { s4*2/3 \tweak shorten-pair #'(0 . -0.75) \< s \tweak shorten-pair #'(0.75 . -1.5) \> s \! }

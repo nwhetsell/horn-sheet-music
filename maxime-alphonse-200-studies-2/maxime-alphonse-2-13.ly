@@ -23,7 +23,8 @@
     }
   #})
 
-  <>_\markup { \dynamic "mf" \italic "staccato" } \measures-one-to-eight
+  <>_\markup { \dynamic "mf" \italic "staccato" }
+  \measures-one-to-eight
 
   f'8.-> a16 c8 e,4 d8-. |
   f8.-> a16 c8 e,4. |
@@ -53,7 +54,8 @@
   \tempo "Rall." g8.-> a16 g8 g a b \breathe | \bar "||"
 
   \tempo "Tempo"
-  <> \p \measures-one-to-eight
+  <> \p
+  \measures-one-to-eight
 
   f8. a16 c8 e,4 d8-. |
   f8. a16 c8 e,4. |

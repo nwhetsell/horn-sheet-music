@@ -152,7 +152,7 @@ source-url = "https://imslp.org/wiki/Herr_Gott%2C_dich_loben_alle_wir%2C_BWV_130
           s1 \> |
           s2 \! s |
           s1 |
-          <>\trill s1 |
+          s4\trill s2. |
           s4 \breathe s2. |
           s1*10 |
 

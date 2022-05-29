@@ -20,7 +20,7 @@
           c8( e) 8 8 8 8 |
           e8( g) 8 8 8 e |
         }
-        { \repeat unfold 5 { <>-> s8 \repeat unfold 5 { <>-. s } } }
+        { \repeat unfold 5 { s8-> \repeat unfold 5 { s-. } } } |
       >>
       c2-> r4 |
     }
@@ -38,8 +38,8 @@
       g \> e c g e c |
     }
     {
-      \repeat unfold 3 { <>-> s8 \repeat unfold 5 { <>-. s } }
-      \repeat unfold 2 { \repeat unfold 6 { <>-. s } }
+      \repeat unfold 3 { s8-> \repeat unfold 5 { s-. } } |
+      \repeat unfold 2 { \repeat unfold 6 { s8-. } } |
     }
   >>
   g'2 \! r4 |
@@ -53,8 +53,8 @@
       g e-flat c g e-flat c |
     }
     {
-      \repeat unfold 3 { <>-> s8 \repeat unfold 5 { <>-. s } }
-      \repeat unfold 2 { \repeat unfold 6 { <>-. s } }
+      \repeat unfold 3 { s8-> \repeat unfold 5 { s-. } } |
+      \repeat unfold 2 { \repeat unfold 6 { s8-. } } |
     }
   >>
   g'2 \! r4 |
@@ -68,8 +68,8 @@
       d \> b-flat g d b-flat g |
     }
     {
-      \repeat unfold 3 { <>-> s8 \repeat unfold 5 { <>-. s } }
-      \repeat unfold 2 { \repeat unfold 6 { <>-. s } }
+      \repeat unfold 3 { s8-> \repeat unfold 5 { s-. } } |
+      \repeat unfold 2 { \repeat unfold 6 { s8-. } } |
     }
   >>
   d'2 \! r4 |
@@ -83,8 +83,8 @@
       d \> b g d b g |
     }
     {
-      \repeat unfold 3 { <>-> s8 \repeat unfold 5 { <>-. s } }
-      \repeat unfold 2 { \repeat unfold 6 { <>-. s } }
+      \repeat unfold 3 { s8-> \repeat unfold 5 { s-. } } |
+      \repeat unfold 2 { \repeat unfold 6 { s8-. } } |
     }
   >>
   d'2 \! r4 |
@@ -101,8 +101,8 @@
       d e f g a b |
     }
     {
-      \repeat unfold 4 { <>-> s8 \repeat unfold 5 { <>-. s } }
-      \repeat unfold 6 { <>-. s }
+      \repeat unfold 4 { s8-> \repeat unfold 5 { s-. } } |
+      \repeat unfold 6 { s8-. } |
     }
   >>
   c2-> \! r4 | \bar "|."

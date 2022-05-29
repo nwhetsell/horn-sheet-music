@@ -34,12 +34,12 @@
     }
   #})
 
-  <>_\markup { \dynamic "mf" \italic "staccato" }
   <<
     { \measures-one-to-fifteen }
     {
-      \repeat unfold 16 { <>-! s8 }
-      <>_\markup { \italic "segue" }
+      s8-!_\markup { \dynamic "mf" \italic "staccato" }
+      \repeat unfold 15 { s8-! } |
+      s8_\markup { \italic "segue" }
     }
   >>
   g-sharp'8 b e, b' |

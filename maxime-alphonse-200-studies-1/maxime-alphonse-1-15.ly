@@ -35,7 +35,6 @@
   e8 \< g16 f e8 g16 f e8 \tweak to-barline ##f \> g16 f e8 g16 f |
   e2. \! r4 |
 
-  <> \p
-  \repeat unfold 2 { a8-> 8 8 8 c4->~8 b16 c | }
+  <> \p \repeat unfold 2 { a8-> 8 8 8 c4->~8 b16 c | }
   a8-> 8 8 8 2 | \bar "|."
 }

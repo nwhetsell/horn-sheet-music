@@ -20,7 +20,8 @@
     }
   #})
 
-  <> \p \measures-one-to-five
+  <> \p
+  \measures-one-to-five
   f'8 b-flat c d-flat2.( f4) r8 |
   f,8 b-flat c d-flat2.( g-flat4) r8 |
   f,8 b-flat d-flat f4.( g!4.) \breathe g,4 a-flat8 |
@@ -43,7 +44,8 @@
   e-flat,,4( g8 b-flat4 e-flat8 g4) b-flat8->~8 a-flat g |
   b-flat2.~4. r \breathe |
 
-  <> \pp \measures-one-to-five
+  <> \pp
+  \measures-one-to-five
   c,8 f g a-flat2.( c4) r8 |
   c,8 f g a-flat2.( d-flat4) r8 |
   c,8 e-flat g c4.( e-flat) c4( b-flat8) |

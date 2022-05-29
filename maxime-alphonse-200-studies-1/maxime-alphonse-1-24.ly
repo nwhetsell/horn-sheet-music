@@ -22,7 +22,7 @@
   <<
     { \measures-one-to-four }
     {
-      <> \p \repeat unfold 8 { <>-_ s16 } |
+      s16-_ \p \repeat unfold 7 { s16-_ } |
       s16_\markup { \italic "segue" }
     }
   >>
@@ -31,9 +31,7 @@
 
   <<
     { \measures-one-to-four }
-    {
-      <> \p s16 \tweak Y-offset #3.75 \breathe
-    }
+    { s16 \p \tweak Y-offset #3.75 \breathe }
   >>
   b-flat16 g e-flat g a f d f |
   g16 \< f e-flat d e-flat f g a |

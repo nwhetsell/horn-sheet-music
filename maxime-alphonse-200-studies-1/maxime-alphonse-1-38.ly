@@ -63,9 +63,12 @@
   g8 b a g a g |
   f-sharp8 e f-sharp4 r |
 
-  <> \f
   <<
-    { \measures-eight-to-fourteen }
-    { s2.*3 s2 s4 \ff \tempo "Rall." }
-  >> \bar "|."
+    { \measures-eight-to-fourteen \bar "|." }
+    {
+      s2. \f |
+      s2.*2 |
+      s2 s4 \ff \tempo "Rall." |
+    }
+  >>
 }

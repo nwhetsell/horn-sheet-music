@@ -82,7 +82,5 @@
   \key b-flat \major
 
   <> \mf
-  \measures-nine-to-sixteen
-
-  \bar "|."
+  \measures-nine-to-sixteen \bar "|."
 }

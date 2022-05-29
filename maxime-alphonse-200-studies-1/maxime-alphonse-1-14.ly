@@ -29,7 +29,7 @@
       s2.*3 \breathe |
       s2.*2 \breathe |
       s2. |
-      s4 <>-. s8 <>-. s8
+      s4 s8-. s-.
     }
   >>
 

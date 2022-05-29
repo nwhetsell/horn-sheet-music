@@ -30,7 +30,7 @@
       c'8( e) d c b a |
       a8( g) 8 8 8 8 |
     }
-    { \repeat unfold 16 { s4 \repeat unfold 4 { <>-. s8 } } }
+    { \repeat unfold 16 { s4 \repeat unfold 4 { s8-. } } }
   >>
   g2 \f r4 |
 
@@ -55,8 +55,8 @@
       c8( d) 8 8 8 8 |
       d8( c-sharp) c b a g |
       f-sharp8( e) d c b a |
-      g2. \! | \bar "|."
     }
-    { \repeat unfold 18 { s4 \repeat unfold 4 { <>-. s8 } } }
+    { \repeat unfold 18 { s4 \repeat unfold 4 { s8-. } } }
   >>
+  g2. \! | \bar "|."
 }

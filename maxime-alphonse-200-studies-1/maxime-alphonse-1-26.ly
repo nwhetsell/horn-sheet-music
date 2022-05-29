@@ -27,8 +27,8 @@
   <<
     { \measures-one-to-eight }
     {
-      \repeat unfold 5 { <>-^ s8 <>-> s4 }
-      <>_\markup { \italic "segue" }
+      \repeat unfold 5 { s8-^ s4-> }
+      s8_\markup { \italic "segue" }
     }
   >>
   d''8 4 g-sharp,8 4 |

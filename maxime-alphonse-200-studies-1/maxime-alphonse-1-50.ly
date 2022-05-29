@@ -43,6 +43,6 @@
       e8( c-sharp8.) r16 c-sharp8 |
       c-sharp8( d!8.) r16 r8 | \bar "|."
     }
-    { \repeat unfold 32 { <>-. s8 <>-> s4 s8 } }
+    { \repeat unfold 32 { s8-. s-> s4 } }
   >>
 }

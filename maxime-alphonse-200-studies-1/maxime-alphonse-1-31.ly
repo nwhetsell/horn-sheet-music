@@ -20,10 +20,13 @@
     }
   #})
 
-  <>_\markup { \dynamic "p" \italic "legato" }
   <<
     { \measures-one-to-five }
-    { s2.*4 s2 s8. s16 \< }
+    {
+      s2._\markup { \dynamic "p" \italic "legato" } |
+      s2.*3 |
+      s2 s8. s16 \< |
+    }
   >>
   d-sharp'8.->) c-sharp16( d-sharp8.->) f-sharp16( b8.->) d-sharp16 |
   f-sharp4-^ \f f-sharp,2-> |
@@ -43,10 +46,13 @@
   d'4-^ e,2-> \! |
   R2.
 
-  <> \p
   <<
     { \measures-one-to-five }
-    { s2.*4 s2 s8. s16 \pp \tweak to-barline ##f \> }
+    {
+      s2. \p |
+      s2.*3 |
+      s2 s8. s16 \pp \tweak to-barline ##f \> |
+    }
   >>
   d-sharp8.->) c-sharp16( d-sharp8.->) f-sharp16( d-sharp8.->) g-sharp16( |
   d-sharp8->) \! r8 2-> | \bar "|."

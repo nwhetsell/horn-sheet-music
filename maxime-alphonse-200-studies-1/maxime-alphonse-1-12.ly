@@ -68,6 +68,6 @@
   \time 2/2
   <<
     { \measures-one-to-eight \bar "|." }
-    { s1*7 <>\fermata }
+    { s1*7 s1\fermata }
   >>
 }

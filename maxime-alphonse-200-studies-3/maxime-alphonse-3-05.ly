@@ -31,7 +31,7 @@
       d8 a <f-sharp \tweak font-size #-2 f-sharp'> f-sharp' d <a \tweak font-size #-2 a'> a' f-sharp <d \tweak font-size #-2 d'> d' a <f-sharp \tweak font-size #-2 f-sharp'> |
       f-sharp'8 d a d a f-sharp d a' f-sharp d a <f-sharp \tweak font-size #-2 f-sharp'> |
     }
-    { \repeat unfold 68 { <>-^ s4. } }
+    { \repeat unfold 68 { s8-^ s4 } }
   >>
 
   <d \tweak font-size #-2 d'>2. r | \bar "|."

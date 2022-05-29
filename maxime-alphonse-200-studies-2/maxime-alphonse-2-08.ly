@@ -33,7 +33,7 @@
 
   <<
     { \measures-one-to-sixteen }
-    { s4 <> \mf }
+    { s4 s \mf }
   >>
 
   r4 e'' \f e |
@@ -54,7 +54,7 @@
   g2.-> |
 
   <<
-    { \measures-one-to-sixteen }
-    { s4 <> \p }
-  >> \bar "|."
+    { \measures-one-to-sixteen \bar "|." }
+    { s4 s \p }
+  >>
 }
