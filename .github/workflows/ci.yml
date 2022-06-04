@@ -46,6 +46,7 @@ jobs:
         lilypond --output='Glazunov - Op. 24 - Rêverie' glazunov-opus-24-reverie/horn.ly
         lilypond --output='Kling - 40 Characteristic Études for Horn' kling-40-characteristic-etudes/main.ly
         lilypond --output='Saint-Saëns - Op. 36 - Romance' saint-saens-opus-36-romance/horn.ly
+        lilypond --output='Saint-Saëns - Op. 36 - Romance - Piano' saint-saens-opus-36-romance/piano.ly
         lilypond --output='Saint-Saëns - Op. 94 - Morceau de Concert' saint-saens-opus-94-morceau-de-concert/horn.ly
         lilypond --output='Saint-Saëns - The Swan' saint-saens-swan/horn.ly
       if: ${{ matrix.os != 'windows-latest' }}
