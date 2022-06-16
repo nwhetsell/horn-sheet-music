@@ -2,9 +2,9 @@
 
 #(begin
 
-(define turn-with-accidentals (define-scheme-function
-    (top-markup bottom-markup)
-    ((markup? (markup #:null)) (markup? (markup #:null)))
+(define ornament-with-accidentals (define-scheme-function
+    (glyph-name dir top-markup bottom-markup)
+    (string? real? (markup? (markup #:null)) (markup? (markup #:null)))
 
   (cond
     ((equal? top-markup (markup #:flat))
@@ -26,29 +26,35 @@
     ((equal? top-markup (markup #:null))
       (cond
         ((equal? bottom-markup (markup #:null))
-          (markup #:line (#:musicglyph "scripts.turn")))
+          (markup #:line (#:musicglyph glyph-name)))
         (else
           (markup #:line
             (#:override '(baseline-skip . 1.5)
-              (#:halign 0
+              (#:halign dir
                 (#:center-column (
-                  #:line (#:musicglyph "scripts.turn")
+                  #:line (#:musicglyph glyph-name)
                   bottom-markup))))))))
     ((equal? bottom-markup (markup #:null))
       (markup #:line
         (#:override '(baseline-skip . 1.5)
-          (#:halign 0
+          (#:halign dir
             (#:center-column (
               top-markup
-              #:line (#:musicglyph "scripts.turn")))))))
+              #:line (#:musicglyph glyph-name)))))))
     (else
       (markup #:line
         (#:override '(baseline-skip . 1.5)
-          (#:halign 0
+          (#:halign dir
             (#:center-column (
               top-markup
-              #:line (#:musicglyph "scripts.turn")
+              #:line (#:musicglyph glyph-name)
               bottom-markup)))))))))
+
+(define turn-with-accidentals (define-scheme-function
+    (top-markup bottom-markup)
+    ((markup? (markup #:null)) (markup? (markup #:null)))
+
+  (ornament-with-accidentals "scripts.turn" 0 top-markup bottom-markup)))
 
 (define turn-markup (turn-with-accidentals (markup #:null) (markup #:null)))
 

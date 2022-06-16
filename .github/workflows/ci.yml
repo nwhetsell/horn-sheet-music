@@ -30,6 +30,7 @@ jobs:
 
     - name: Create PDFs with ASCII filenames
       run: |
+        lilypond --output='Bach - Gavotte in G Minor' bach-bwv-808/horn.ly
         lilypond --output='Franz - 30 Exercises for Horn' franz-30-exercises-for-horn/main.ly
         lilypond --output='Kopprasch - Op. 6 - 60 Studies for Low Horn' kopprasch-opus-6-60-studies-for-low-horn/main.ly
         lilypond --output='Maxime-Alphonse - 200 New Studies, Vol. 1' maxime-alphonse-200-studies-1/main.ly
