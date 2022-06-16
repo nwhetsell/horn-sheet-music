@@ -1,4 +1,4 @@
-\version "2.13.13"
+\version "2.22.0"
 
 \include "definitions.ily"
 
@@ -357,4 +357,14 @@
       }
     >>
   >>
+}
+
+\bookpart {
+  \paper {
+    bookTitleMarkup = ##f
+    scoreTitleMarkup = ##f
+    evenHeaderMarkup = ##f
+    oddHeaderMarkup = \evenHeaderMarkup
+  }
+  \colophon
 }

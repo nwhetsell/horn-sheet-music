@@ -6,7 +6,6 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
   composer-first-name = "Camille"
   title = "Romance"
   opus = "Op. 36"
-  instrument = "Horn in F"
 }
 
 \include "../titling.ily"

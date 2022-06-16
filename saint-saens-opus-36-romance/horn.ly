@@ -1,6 +1,9 @@
 \version "2.22.0"
 
 \include "definitions.ily"
+\header {
+  instrument = "Horn in F"
+}
 
 \score {
   \new Staff <<
