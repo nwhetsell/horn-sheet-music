@@ -48,6 +48,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
 #(define-markup-command (append-flat layout props text) (markup?)
   (interpret-markup layout props
     #{ \markup \concat { #text \hspace #0.1 \raise #0.4 \teeny \flat } #}))
+
 #(define transpositions `(
   ( 1 . ,#{ \markup { (Transposition in \concat { \append-flat E ) } } #})
   ( 2 . ,#{ \markup { (in E) } #})
@@ -101,6 +102,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
           (instruction (assoc study-number instructions))
           (base-name (format #f "kopprasch-~2,'0d" study-number))
           (score (scorify-music #{
+            \removeWithTag \removed-tags
             \new Staff <<
               #(if (= study-number 26)
                 #{
