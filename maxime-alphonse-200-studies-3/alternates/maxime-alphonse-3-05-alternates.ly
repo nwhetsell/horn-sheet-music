@@ -6,7 +6,7 @@
   \key d \major
   \time 12/8
 
-  % \override Score.NonMusicalPaperColumn.line-break-permission = ##f
+  \override Score.NonMusicalPaperColumn.line-break-permission = ##f
 
   \bar "" \mark \default
   d'8->( f-sharp) a-! g->( f-sharp) e-! f-sharp->( d) a'-! g->( f-sharp) e-! | | \bar "||"
