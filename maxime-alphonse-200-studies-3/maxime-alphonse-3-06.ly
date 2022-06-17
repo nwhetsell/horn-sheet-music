@@ -28,7 +28,7 @@
   e8( f-sharp,4->) e'8-. 8( d4->) 16-. c-. |
   b8-> g-. c-. g-. b[ \tweak Y-offset #3.5 \breathe g,16 \< b] d g b d \! |
   c8-^ g,16 \< c e-flat g c e-flat \! d8-^ g,,16 \< d' g b d f |
-  e-flat8-> \f c16-. d-. e-flat-. c-. d-. c-. e-flat8-> c16-. d-. e-flat-. c-. d-. c-. |
+  e-flat8-> \f c16-. d-. e-flat-. c-. d-. c-. e-flat8-> c16-. d-. e-flat-. c-. e-flat-. c-. |
   g'2 r4 r16 g,-. \p a-. b-. |
 
   c16-. 16-. g8-. e!16-. 16-. c8-. c'16-. g-. e-. g-. c,4 \breathe |
