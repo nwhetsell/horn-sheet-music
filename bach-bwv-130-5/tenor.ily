@@ -4,33 +4,31 @@
 
 tonic = g
 
-tenor-measures-one-to-eighty-eight = \relative {
+tenor-measures-sixteen-to-thirty-one = {
+  r2 d4 g |
+  f-sharp4 e8 d c b g'4 |
+  f-sharp4 e8 d r2 |
+
+  R1*3
+
+  r2 b8( a) b( g) |
+  d'4 4 4 g |
+  f-sharp4 e8 d r4 4 |
+  g4 b, c8 d16 e c4 |
+  a4 g8 f-sharp g a b c |
+  d4 4 4 g |
+  f-sharp4 e8 d g f-sharp g d |
+  e4 d8 c a'4 c, |
+  b8 a g a b c b c |
+  a8 g f-sharp g a b c a |
+}
+
+tenor-measures-one-to-eighty-eight = {
   \key \tonic \major
   \time 2/2
 
   \partial 2 r2 |
   R1*15
-
-  #(define measures-sixteen-to-thirty-one #{
-    \relative {
-      r2 d'4 g |
-      f-sharp4 e8 d c b g'4 |
-      f-sharp4 e8 d r2 |
-
-      R1*3
-
-      r2 b8( a) b( g) |
-      d'4 4 4 g |
-      f-sharp4 e8 d r4 4 |
-      g4 b, c8 d16 e c4 |
-      a4 g8 f-sharp g a b c |
-      d4 4 4 g |
-      f-sharp4 e8 d g f-sharp g d |
-      e4 d8 c a'4 c, |
-      b8 a g a b c b c |
-      a8 g f-sharp g a b c a |
-    }
-  #})
 
   <<
     { \measures-sixteen-to-thirty-one }
@@ -100,10 +98,10 @@ tenor-measures-one-to-eighty-eight = \relative {
   2 r |
 }
 
-tenor-measures-eighty-nine-to-one-hundred-twenty-six = \relative {
+tenor-measures-eighty-nine-to-one-hundred-twenty-six = {
   R1*3
 
-  \measures-sixteen-to-thirty-one
+  \tenor-measures-sixteen-to-thirty-one
   b8 a g a b c b c |
   d4 8( e f-sharp g) a c, |
   b2 r |

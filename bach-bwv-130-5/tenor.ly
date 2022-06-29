@@ -9,7 +9,7 @@
 
 \score {
   <<
-    \new Voice=voice {
+    \new Voice=voice \relative d' {
       \clef "tenor"
       \tenor-measures-one-to-eighty-eight
       <<
