@@ -31,7 +31,7 @@ tenor-measures-one-to-eighty-eight = {
   R1*15
 
   <<
-    { \measures-sixteen-to-thirty-one }
+    { \tenor-measures-sixteen-to-thirty-one }
     {
       s1*12 |
       s2. s8( s) |
