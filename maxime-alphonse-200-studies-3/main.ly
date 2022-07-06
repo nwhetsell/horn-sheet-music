@@ -106,6 +106,11 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   (10 . ,#{ \markup { \justify {
     Very slow; allow the trills their full value, do not hurry the endings.
   } } #})
+  (11 . ,#{ \markup { \justify {
+    The semiquavers are placed alternately at the downbeat or at the syncop
+    and are therefore to be played forte or piano;
+    but always stress the start of the beat.
+  } } #})
   (38 . ,#{ \markup { \justify {
     Practice separately all the rhythms placed between two letters,
     first slowly, then gradually quicker and alternately forte and piano.
@@ -155,7 +160,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
                 }
               #})))))))
-    '(1 2 3 4 5 6 7 8 9 10 38 39 40))
+    '(1 2 3 4 5 6 7 8 9 10 11 38 39 40))
 
   \bookpart {
     \paper {
