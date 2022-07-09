@@ -44,6 +44,7 @@ jobs:
     - name: Create PDFs with UTF-8 filenames on Linux and macOS
       run: |
         lilypond --output='Bach - Aria (“Lass, o Fürst”)' bach-bwv-130-5/horn.ly
+        lilypond --output='Bonis - Scènes de la Forêt' bonis-opus-123-scenes-de-la-foret/horn.ly
         lilypond --output='Glazunov - Op. 24 - Rêverie' glazunov-opus-24-reverie/horn.ly
         lilypond --output='Kling - 40 Characteristic Études for Horn' kling-40-characteristic-etudes/main.ly
         lilypond --output='Saint-Saëns - Op. 36 - Romance' saint-saens-opus-36-romance/horn.ly
@@ -54,6 +55,7 @@ jobs:
     - name: Create PDFs with UTF-8 filenames on Windows
       run: |
         lilypond bach-bwv-130-5\horn.ly; Rename-Item horn.pdf 'Bach - Aria (“Lass, o Fürst”)'
+        lilypond bonis-opus-123-scenes-de-la-foret\horn.ly; Rename-Item horn.pdf 'Bonis - Scènes de la Forêt.pdf'
         lilypond glazunov-opus-24-reverie\horn.ly; Rename-Item horn.pdf 'Glazunov - Op. 24 - Rêverie.pdf'
         lilypond kling-40-characteristic-etudes\main.ly; Rename-Item main.pdf 'Kling - 40 Characteristic Études for Horn.pdf'
         lilypond saint-saens-opus-36-romance\horn.ly; Rename-Item horn.pdf 'Saint-Saëns - Op. 36 - Romance.pdf'
