@@ -114,6 +114,10 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   (12 . ,#{ \markup { \justify {
     Very slurred and sustained. Breathe very quickly.
   } } #})
+  (13 . ,#{ \markup { \justify {
+    Very neat and light staccato; stress all notes topped by a
+    \raise #0.6 \musicglyph #"scripts.sforzato"
+  } } #})
   (38 . ,#{ \markup { \justify {
     Practice separately all the rhythms placed between two letters,
     first slowly, then gradually quicker and alternately forte and piano.
@@ -163,7 +167,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
                 }
               #})))))))
-    '(1 2 3 4 5 6 7 8 9 10 11 12 38 39 40))
+    '(1 2 3 4 5 6 7 8 9 10 11 12 13 38 39 40))
 
   \bookpart {
     \paper {

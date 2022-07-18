@@ -70,6 +70,6 @@
       e-flat8-> 8 4 e-flat, e-flat'4. r8 | \bar "|."
     }
 
-    { \repeat unfold 45 { s2. \bar "!" \noBreak s2 } }
+    { \repeat unfold 45 { s2. \bar "!" \noBreak s2 | } }
   >>
 }
