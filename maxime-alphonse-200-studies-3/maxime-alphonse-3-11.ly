@@ -19,7 +19,7 @@
       b-flat!8.->) g16( a8.->) f16( g8.->) e16( \> f4) |
       b16->( \! c8.) d16->( c8.) b16->( c8.) d16->( e8) d16( |
       e8.->) f16( e8.->) g16( d8.->) g16( \> c,4) \breathe |
-      d16->( \! e-flat8.) f16->( e-flat8.) d16->( e-flat8.) d16->( e-flat8) d-flat16( |
+      d16->( \! e-flat8.) f16->( e-flat8.) d16->( e-flat8.) f16->( e-flat8) d-flat16( |
       c8.->) b-flat!16( c8.->) a-flat16( b-flat8.->) g16( a-flat4) |
       b16->( c8.) d!16->( c8.) b16->( c8.) d16->( c8) a!16( |
     }
@@ -55,7 +55,7 @@
   b-flat!8.->) g16( a8.->) f16( g8.->) e16( f8.->) a16( |
   <<
     { \repeat unfold 4 { f8.) a16( } }
-    { s8. \> }
+    { s8. s16 \> }
   >> |
   \repeat unfold 2 { f8.) a16( } f2) \! | \bar "|."
 }
