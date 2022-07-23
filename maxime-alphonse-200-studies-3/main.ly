@@ -118,6 +118,12 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     Very neat and light staccato; stress all notes topped by a
     \raise #0.6 \musicglyph #"scripts.sforzato"
   } } #})
+  (15 . ,#{ \markup { \justify {
+    Staccato without slackening the speed;
+    all notes should be attacked similarly and in the same strength;
+    this concerns particularly the semiquavers followed by \raise #0.75 \rest "16"
+    which should not either by overextended.
+  } } #})
   (38 . ,#{ \markup { \justify {
     Practice separately all the rhythms placed between two letters,
     first slowly, then gradually quicker and alternately forte and piano.
@@ -167,7 +173,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
                 }
               #})))))))
-    '(1 2 3 4 5 6 7 8 9 10 11 12 13 14 38 39 40))
+    '(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 38 39 40))
 
   \bookpart {
     \paper {
