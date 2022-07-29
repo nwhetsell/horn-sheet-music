@@ -12,8 +12,10 @@
 
   #(define measures-one-to-seven #{
     \relative {
+      \stemDown
       a'8( b c-sharp) 8( e c-sharp) |
       c-sharp8( b a) b4 8 |
+      \stemNeutral
       a8( b c-sharp) 8( e c-sharp) |
       c-sharp8( b a) e4 8 \breathe |
       \repeat unfold 2 { f-sharp8 8( a) g-sharp4 e8 | }
