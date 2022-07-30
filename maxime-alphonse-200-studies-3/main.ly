@@ -124,6 +124,22 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     this concerns particularly the semiquavers followed by \raise #0.75 \rest "16"
     which should not either by overextended.
   } } #})
+  (16 . ,#{ \markup { \justify {
+    Practice the rhythm
+    \raise #0.3 \score {
+      \new Staff \with {
+        \override StaffSymbol.line-count = 0
+        \override Stem.details.beamed-lengths = #'(2)
+        \remove "Bar_engraver"
+        \remove "Clef_engraver"
+        \remove "Time_signature_engraver"
+        \magnifyStaff #(magstep -3)
+      } {
+        \relative { \time 6/8 \stemUp b'8. 16 8 }
+      }
+    }
+    remembering the explanations for "№ 2."
+  } } #})
   (38 . ,#{ \markup { \justify {
     Practice separately all the rhythms placed between two letters,
     first slowly, then gradually quicker and alternately forte and piano.
@@ -173,7 +189,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
                 }
               #})))))))
-    '(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 38 39 40))
+    '(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 38 39 40))
 
   \bookpart {
     \paper {
