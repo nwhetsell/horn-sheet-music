@@ -122,7 +122,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     Staccato without slackening the speed;
     all notes should be attacked similarly and in the same strength;
     this concerns particularly the semiquavers followed by \raise #0.75 \rest "16"
-    which should not either by overextended.
+    which should not either be overextended.
   } } #})
   (16 . ,#{ \markup { \justify {
     Practice the rhythm
