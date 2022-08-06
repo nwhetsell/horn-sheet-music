@@ -70,7 +70,7 @@
   f2) r |
   R1
 
-  %4
+  % 4
   g,8( \p \< b-flat4 e-flat8) f8( g4 a8) |
   b-flat16( \< c d e-flat) c-flat( b-flat) a b-flat a-flat( \> g-flat) f g-flat f-flat( e-flat) d e-flat |
   b-flat16 \< e-flat g! b-flat e-flat b-flat b-flat e-flat e( \> c-sharp) a e a( e) c-sharp a |
