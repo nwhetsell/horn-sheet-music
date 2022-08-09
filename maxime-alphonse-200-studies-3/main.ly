@@ -143,6 +143,11 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   (17 . ,#{ \markup { \justify {
     Very lightly; respect accents and dynamics.
   } } #})
+  (18 . ,#{ \markup { \justify {
+    Very staccato. Very even in tempo and sound production.
+    All the notes shall be attacked in the same strength
+    except the first in each bar, lightly stressed.
+  } } #})
   (38 . ,#{ \markup { \justify {
     Practice separately all the rhythms placed between two letters,
     first slowly, then gradually quicker and alternately forte and piano.
@@ -192,7 +197,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                   \include #(format #f "alternates/~a-alternates.ly" base-name)
                 }
               #})))))))
-    '(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 38 39 40))
+    '(1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 38 39 40))
 
   \bookpart {
     \paper {
