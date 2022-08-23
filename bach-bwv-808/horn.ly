@@ -10,9 +10,8 @@
 \include "piano.ily"
 
 \score {
-  \new Staff
-    \new Voice <<
-    {
+  \new Staff <<
+    \new Voice {
       \relative g' {
         \transposition f
 
