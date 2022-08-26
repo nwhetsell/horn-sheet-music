@@ -79,7 +79,7 @@
     g8( g') d4-^ |
   }
   \tuplet 3/2 8 {
-    e16( f-sharp e) d( c d) c( b c) a( b a) |
+    e16( f-sharp e) d( e d) c( d c) a( b a) |
     d16( e d) c( d c) b( c b) g( a g) |
   }
   d16-. e-. f-sharp-. g-. a-. b-. c-. d-. |
