@@ -23,8 +23,8 @@ source-url = "https://imslp.org/wiki/Le_carnaval_des_animaux_(Saint-Saëns%2C_Ca
   }
 }
 
+\transposition f
 \transpose \tonic b-flat {
-  \transposition f
   \music
 }
 

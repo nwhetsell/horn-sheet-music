@@ -12,8 +12,8 @@
     \new Voice {
       <<
         {
+          \transposition f
           \transpose \tonic d' \relative d' {
-            \transposition f
             \tenor-measures-one-to-eighty-eight
             \tenor-measures-eighty-nine-to-one-hundred-twenty-six \bar "|."
           }
