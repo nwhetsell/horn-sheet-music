@@ -1,6 +1,12 @@
 \version "2.22.0"
 
 \include "definitions.ily"
+\include "flute-1.ily"
+\include "flute-3.ily"
+\include "horn-1.ily"
+\include "horn-3.ily"
+\include "outline-1.ily"
+\include "outline-3.ily"
 
 \layout {
   indent = 0.5\in
@@ -24,8 +30,8 @@
       \override StaffSymbol #'staff-space = #(magstep -3)
     } {
       <<
-        { \include "flute-1.ily" }
-        { \include "outline-1.ily" }
+        \flute-one
+        \outline-one
       >>
     }
 
@@ -35,17 +41,18 @@
       \override StaffSymbol #'staff-space = #(magstep -3)
     } {
       <<
-        { \include "horn-1.ily" }
-        { \transpose f c { \include "outline-1.ily" } }
+        \horn-one
+        \transpose f c' {
+          \outline-one
+        }
       >>
     }
 
     \new PianoStaff \with {
       instrumentName = "Piano"
+      connectArpeggios = ##t
     }
     <<
-      \set PianoStaff.connectArpeggios = ##t
-
       \new Staff="up" <<
         \new Voice \relative {
           \language "english"
@@ -249,7 +256,7 @@
           R1
         }
 
-        { \include "outline-1.ily" }
+        \outline-one
       >>
 
       \new Dynamics {
@@ -524,12 +531,375 @@
           <e-flat,,,, e-flat'>4 r r2 |
         }
 
-        { \include "outline-1.ily" }
+        \outline-one
+      >>
+    >>
+  >>
+}
+
+\score {
+  \header { piece = "3. Invocation" }
+  <<
+    \new Staff \with {
+      instrumentName = "Flute"
+      fontSize = #-3
+      \override StaffSymbol #'staff-space = #(magstep -3)
+    } {
+      <<
+        \flute-three
+        \outline-three
+      >>
+    }
+
+    \new Staff \with {
+      instrumentName = "Horn in F"
+      fontSize = #-3
+      \override StaffSymbol #'staff-space = #(magstep -3)
+    } {
+      <<
+        \horn-three
+        \transpose f c' {
+          \outline-three
+        }
+      >>
+    }
+
+    \new PianoStaff \with {
+      instrumentName = "Piano"
+      connectArpeggios = ##t
+    }
+    <<
+      \new Staff="up" <<
+        \relative {
+          \clef "treble"
+
+          r4 <f'' d a f> r |
+          r4 <a, f c>( <g d b-flat> |
+          <e c-sharp>) r <e' c-sharp a>-! |
+          <g d b-flat g>4-!\arpeggio <a e c! a>-!\arpeggio <b-flat f d b-flat>-!\arpeggio |
+          <c g e c>4-!\arpeggio <b-flat f d b-flat>-!\arpeggio <c g e c>-!\arpeggio |
+          <d a f d>4-!\arpeggio <f c a f>-!\arpeggio <e c a e>-!\arpeggio |
+          r4 <f, d a f> r |
+          r4 <a e c a>( <g d b-flat g> |
+          <f c a f>4 <e c a>) \ottava #1 <e'' b-flat g e>\arpeggio |
+          <d a f d>4\arpeggio <c g e c>\arpeggio <b-flat f d b-flat>\arpeggio |
+          <a e c a>4\arpeggio <g d b-flat g>\arpeggio <a e c a>\arpeggio |
+          \ottava #0
+          <<
+            { e,,4( d c) }
+            \\
+            { <a' a,>2. }
+          >> |
+          <a' f c a>2 r4 |
+          r4 <d, b-flat f>( <e b-flat g>~ |
+          q4 <f d a> <g e b-flat>) |
+          r4 \ottava #1 <b-flat' f d b-flat>2~\arpeggio |
+          <b-flat f d b-flat>4 \ottava #0 r <b-flat, f d b-flat>\arpeggio |
+          <<
+            {
+              <e,, b-flat g>4( <d b-flat f> <f b-flat, d,> |
+              e8 d c2~ |
+              8 d e g c4) |
+              b-flat4( a g ) |
+            }
+            \\
+            {
+              s2. |
+              <b-flat, g>4 a2 |
+              b-flat2 <e c>4 |
+              <e' e,>2. |
+            }
+          >>
+          <b-flat' e, b-flat>2~( <a e a,>4) |
+
+          % 13
+          <d b-flat f d>2. |
+          <d b-flat f d>4( <c a e c> <e,, c b-flat>) |
+          <<
+            {
+              <f c a>2( <e c>4 |
+              d4 <c a> b-flat |
+              c4. d8 e f |
+              f8 g c a <g f d> <a e> |
+              <b-flat f d b-flat>2) <b-flat e, c>4 |
+            }
+            \\
+            {
+              s2. |
+              f,8 g e4 f |
+              g4 a c |
+              <d' d,>4 <e, c> s |
+            }
+          >>
+          c8( d e f \tuplet 3/2 { e d c) } |
+          <c' c,>8( <d d,> <e e,> <f f,> \tuplet 3/2 { <e e,> <d d,> <c c,>) } |
+          <c f, c>4( <b-flat f b-flat,> <c f, c>) |
+          <<
+            {
+              d4( b-flat f) |
+              s2. |
+            }
+            \\
+            {
+              <f d>2 d4 |
+              s2. |
+            }
+            \\
+            {
+              \tuplet 3/2 4 {
+                \change Staff="down"
+                % Based on https://lilypond.org/doc/Documentation/notation/modifying-shapes#modifying-ties-and-slurs
+                \shape #'((0 . -4.5) (8 . -2) (-8 . -15) (0 . -7)) Slur
+                f,8( e f g f g a g a |
+                \change Staff="up"
+                <d b-flat>8 a b-flat <c a> b-flat c <d g,> c d) |
+              }
+            }
+          >> |
+
+          <<
+            {
+              \tuplet 3/2 4 { r8 c( d e d e f e f } |
+              <g a,>4)
+            }
+            \\
+            {
+              b-flat,2 4 |
+              s4
+            }
+          >>
+          r4 <e' c-sharp a e>\arpeggio |
+
+          <g d b-flat g>4-!\arpeggio <a e c! a>-!\arpeggio <b-flat f d b-flat>-!\arpeggio |
+          <c g e c>4-!\arpeggio <b-flat f d b-flat>-!\arpeggio <c g e c>-!\arpeggio |
+          <d a f d>4-!\arpeggio <f c a f>-!\arpeggio <e c a e>-!\arpeggio |
+
+          % 14
+          r4 <f, d a f>2 |
+          r4 <a e c a>( <g d b-flat g> |
+          <f c a f>4 <e c a e>) \ottava #1 <e'' b-flat g e>\arpeggio |
+          <d a f d>4\arpeggio <c g e c>\arpeggio <b-flat f d b-flat>\arpeggio |
+          <a e c a>4\arpeggio <g d b-flat g>\arpeggio <a e c a>\arpeggio |
+          \ottava #0
+          <<
+            { e,,4( d c) }
+            \\
+            { <a' a,>2. }
+          >> |
+          <a' f c a>2 r4 |
+          r4 <d, b-flat f>( <e b-flat g>~ |
+          q4 <f d a> <g e c b-flat> |
+          <b-flat f d b-flat>4) \ottava #1 <b-flat' f d b-flat>2  |
+          \ottava #0 <d,,, b-flat f>2 <b-flat'' f d b-flat>4 |
+          <b-flat f-sharp e b-flat>4( <a g e a,>) r |
+          r4 <g-sharp f! d b>2->~ |
+          q4 <c a e c>\arpeggio <d b-flat! f d>\arpeggio |
+          <e c g! e>4\arpeggio <f d a f>\arpeggio <g e b-flat g>\arpeggio |
+          <f c a f>2( <e c a e>4~ |
+          q4 <d a f d>2 |
+          <c a f c>2) <a, f c a>4~ |
+          q2. |
+        }
+
+        \outline-three
       >>
 
       \new Dynamics {
-
+        s2. \p |
+        s2.*7 |
+        s2 s4-\markup { \italic "dolcissimo" }
+        s2.*2 |
+        s2. \< |
+        s2. \! |
+        s2. \tweak X-offset #0 #(make-dynamic-script (markup #:normal-text (#:italic "più") #:dynamic "f")) \<
+        s2. |
+        s4 \! s2 \rfz |
+        s2. \> |
+        s2. \! |
+        s2. |
+        s2. \< |
+        s2. \! |
+        s2. \> |
+        s2. \rfz |
+        s2. \> |
+        s2. \mp |
+        s2. |
+        s2. \< |
+        s2. \! |
+        s2. \>
+        s2. \p \cresc |
+        s2. |
+        s2. \! |
+        s2.*2 |
+        s2. \> |
+        s2 \! s4 \mf |
+        s2. |
+        s2. \< |
+        s2. \> |
+        s4 \! s2 \p |
+        s2. |
+        s2 \! s4 \pp |
+        s2.*2 |
+        s2. \p |
+        s2. |
+        s2. \mf \< |
+        s2. |
+        s4 \! s2 \rfz \> |
+        s2 \! s4 \< |
+        s4 \> s \! s |
+        s4 s2 \p \> |
+        s2.*2 \! |
+        s2. \dim |
+        s2.*2 |
+        s2. \! |
       }
+
+      \new Staff="down" <<
+        \relative {
+          \clef "bass"
+
+          r4 <d' a d,> r |
+          r4 <f, c f,> <g d g,> |
+          <a e a,>4 r \clef "treble" <g' e c-sharp a> |
+          <f d b-flat>4\arpeggio <e c!>\arpeggio <a f d>\arpeggio |
+          <g e>4\arpeggio <a f d>\arpeggio <b-flat g e>\arpeggio |
+          <c a f>4\arpeggio <d c a>\arpeggio <c a e>\arpeggio |
+          r4 \clef "bass" <d, a d,> r |
+          r4 <e c> <d b-flat> |
+
+          <<
+            { d4( e) }
+            \\
+            { <c a>2 }
+          >>
+          \clef "treble" <e' b-flat g>4\arpeggio |
+
+          <f d a f>4\arpeggio <c g e>\arpeggio <d b-flat f d>\arpeggio |
+          <c a e c>4\arpeggio <b-flat g f d b-flat>\arpeggio <c a e c>\arpeggio |
+
+          \clef "bass"
+          <<
+            {
+              c,,4( d e) |
+              c'8( d8 a4)
+            }
+            \\
+            {
+              f,2. |
+              f'2
+            }
+          >>
+          f,4 |
+
+          <c' c,>4 <d' b-flat f> <e b-flat g> |
+          <c, c,>4 <f' d a> <g e b-flat> |
+          <c,, c,>4 \clef "treble" <f'' d b-flat f c>2~\arpeggio |
+          q4 \clef "bass" <c,, c,> <f' d>\arpeggio |
+          <<
+            {
+              c,2. |
+              c2 d4 |
+              e4 g a |
+              g4( a b-flat) |
+            }
+            \\
+            {
+              f,2.~ |
+              2. |
+              c'2. |
+              c-sharp2. |
+            }
+          >>
+          \clef "treble" <g'' e c-sharp>2. |
+          <b-flat f d c!>4 \clef "bass" <c,, c,>2 |
+
+          % 13
+          \clef "treble" <b-flat'' f d>4 <a e c> \clef "bass" <c,, c,> |
+          <<
+            { c4 d e }
+            \\
+            { f,2 a4 }
+          >>
+          <b-flat b-flat,>4 <c c,> <d d,> |
+          <e e,> <f f,> <a a,> |
+          <b-flat d, g,>4 <e, a,>4 <b-flat' b-flat,>8 <c c,>8 |
+          <g g,>2 <c, c,>4 |
+          <a' c, f,>2 <a c, f,>4 |
+          <b-flat c, g>2 <b-flat c, g>4 |
+          <<
+            {
+              f2. |
+              s2. |
+              d4 e f~ |
+              4 e d |
+            }
+            \\
+            {
+              a4 g a |
+              b-flat2 r4 |
+              g2.~ |
+              2. |
+            }
+          >>
+          <e' c-sharp>4 <a, a,>2 |
+          \clef "treble" <f'' d b-flat>4\arpeggio <e c!>\arpeggio <a f d>\arpeggio |
+          <g e>4\arpeggio <a f d>\arpeggio <b-flat g e>\arpeggio |
+          <c a f>4\arpeggio <d c a>\arpeggio <c a e>\arpeggio |
+
+          % 14
+          r4 \clef "bass" <d, a d,>2 |
+          r4 <e c> <d b-flat> |
+          <c a>2 \clef "treble" <e' b-flat g>4\arpeggio |
+          <f d a f>4\arpeggio <c g e>\arpeggio <d b-flat f d>\arpeggio |
+          <a e c>4\arpeggio <g f d b-flat>\arpeggio <a e c>\arpeggio |
+
+          \clef "bass"
+          <<
+            {
+              c,,4( d e) |
+              c'8( d8 a4)
+            }
+            \\
+            {
+              f,2. |
+              f'2
+            }
+          >>
+          f,4 |
+
+          <c' c,>4 <d' b-flat f> ( <e b-flat g> ) |
+          <c, c,>4 \clef "treble" <f' d a>4( <g e c b-flat>4) |
+          <g f d>4 <g' f d>2 |
+          \clef "bass" <c,,, c,>2 \clef "treble" <f' d c>4 |
+          <<
+            { f-sharp4( g) }
+            \\
+            { <e c-sharp>2 }
+          >> r4 |
+          r4 <g-sharp f! d b>2->~ |
+          q4 <a f c>\arpeggio <b-flat g d>\arpeggio |
+          <c a e>4\arpeggio <d b-flat f>\arpeggio <e c g>\arpeggio |
+
+          <<
+            {
+              <c a>2.~ |
+              <c a>4 <a f>2~ |
+              q2
+            }
+            \\
+            {
+              f2( e4~ |
+              4 d2 |
+              c2)
+            }
+          >>
+          \clef "bass" <f,, f,>4~ |
+
+          q2. |
+        }
+
+        \outline-three
+      >>
     >>
   >>
 }

@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-\relative {
+flute-one = \relative {
   \language "english"
 
   R1*4

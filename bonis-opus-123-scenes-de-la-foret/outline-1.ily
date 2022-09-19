@@ -1,6 +1,6 @@
 \version "2.22.0"
 
-{
+outline-one = {
   \language "english"
 
   \key e-flat \major
