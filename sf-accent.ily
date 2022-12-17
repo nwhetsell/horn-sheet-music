@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 #(begin
 
@@ -14,7 +14,7 @@
 
 (append! default-script-alist
   (list
-    `("sf-accent"
+    `(sf-accent
       . (
           (stencil . ,ly:text-interface::print)
           (text . ,sf-accent-markup)
@@ -22,6 +22,6 @@
           (padding . 0.3)
           (direction . ,DOWN)))))
 
-(define sf-accent (make-articulation "sf-accent"))
+(define sf-accent (make-articulation 'sf-accent))
 
 )

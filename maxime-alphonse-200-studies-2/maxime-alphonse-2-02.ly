@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \relative {
   \language "english"
@@ -46,9 +46,7 @@
     a8 16( b) \tempo \markup { \normal-text \italic "Sec. Volta" "Rall." } c-sharp8 a16( b) |
     c-sharp16( a b g-sharp a8) r |
   }
-  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \once \override Score.RehearsalMark.font-size = #0
-  \mark \markup { \musicglyph #"scripts.ufermata" }
+  \caesura \once \set Staff.caesuraType = #'((scripts . (fermata)))
 
   \key a \minor
   \time 6/8

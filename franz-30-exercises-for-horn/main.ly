@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Grosse_theoretisch-practische_Waldhorn-Schule_(Franz%2C_Oscar)"
 \header {
@@ -24,8 +24,7 @@ source-url = "https://imslp.org/wiki/Grosse_theoretisch-practische_Waldhorn-Schu
   }
   \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
 

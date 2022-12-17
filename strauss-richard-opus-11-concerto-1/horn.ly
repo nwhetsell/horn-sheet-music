@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Richard)"
 \header {
@@ -15,9 +15,9 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
 \pointAndClickOff
 
 \layout {
-  \set Score.skipBars = ##t
   \context {
     \Score
+    skipBars = ##t
     \override Hairpin.after-line-breaking = ##t
     \override Hairpin.to-barline = ##f
     #(if preserve-line-breaks? #{
@@ -47,7 +47,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       c4 b-flat8. f16 d4 \breathe b-flat8. g'16 |
       f2 f, |
 
-      \mark \markup { "Tutti" }
+      \textMark "Tutti"
       R1*21
 
       <<
@@ -317,7 +317,8 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       g4.~ |
       g8) \! r8 r |
 
-      \mark \markup { "Tutti" }
+      \once \override Score.TextMark.self-alignment-X = #CENTER
+      \textMark "Tutti"
       R4.*8
       <<
         {
@@ -374,8 +375,8 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       \tempo "Allegro" 4=132
 
       \partial 4 r4 | \noBreak
-      \once \override Score.RehearsalMark.self-alignment-X = #RIGHT
-      \mark \markup { "Tutti" }
+      \once \override Score.TextMark.self-alignment-X = #RIGHT
+      \textMark "Tutti"
       R1*6
       <<
         {
@@ -579,7 +580,7 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       g-flat4. \> f |
       e-flat4) \! r8 r4. |
 
-      \mark \markup { "Tutti" }
+      \textMark "Tutti"
       R2.*14
       <<
         {
@@ -611,7 +612,8 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_No.1%2C_Op.11_(Strauss%2C_Ric
       e-flat4 \breathe c8-. f4.->~( |
       f4. b-flat,4) r8 |
 
-      \mark \markup { "Tutti" }
+      \once \override Score.TextMark.self-alignment-X = #CENTER
+      \textMark "Tutti"
       R2.*18
       <<
         {

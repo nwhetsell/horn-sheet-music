@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Ich_steh_mit_einem_Fuß_im_Grabe%2C_BWV_156_(Bach%2C_Johann_Sebastian)"
 \header {

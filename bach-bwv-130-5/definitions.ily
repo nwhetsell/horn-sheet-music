@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Herr_Gott%2C_dich_loben_alle_wir%2C_BWV_130_(Bach%2C_Johann_Sebastian)"
 \header {
@@ -13,5 +13,8 @@ source-url = "https://imslp.org/wiki/Herr_Gott%2C_dich_loben_alle_wir%2C_BWV_130
 \pointAndClickOff
 
 \layout {
-  \set Score.skipBars = ##t
+  \context {
+    \Score
+    skipBars = ##t
+  }
 }

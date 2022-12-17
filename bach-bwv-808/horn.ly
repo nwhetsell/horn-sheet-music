@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "definitions.ily"
 \header {
@@ -23,7 +23,7 @@
         \set Score.currentBarNumber = #2
 
         <<
-          {
+          \repeat segno 2 {
             \gavotte-i-piano-up-measures-one-to-seven
             c4--( \> b-flat) \! r2 |
             R1*8
@@ -37,16 +37,12 @@
                 \gavotte-i-piano-up-measures-thirty-two-to-thirty-six
               }
             }
-
-            \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-            \once \override Score.RehearsalMark.direction = #DOWN
-            \once \override Score.RehearsalMark.font-size = 0
-            \once \override Score.RehearsalMark.self-alignment-X = #right
-            \mark \markup { \italic "Fine" }
+            \fine
 
             <<
               {
-                \tempo "Trio (Musette)"
+                \section
+                \sectionLabel "Trio (Musette)"
                 \gavotte-ii-piano-up-voice-one-measures-one-to-sixteen
                 \partial 2 g,2 |
               }
@@ -55,12 +51,6 @@
                 \repeat volta 2 { s2 s1*11 s2 }
               }
             >>
-
-            \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-            \once \override Score.RehearsalMark.direction = #DOWN
-            \once \override Score.RehearsalMark.font-size = 0
-            \once \override Score.RehearsalMark.self-alignment-X = #right
-            \mark \markup { \italic "D.C. al Fine" }
           }
 
           {

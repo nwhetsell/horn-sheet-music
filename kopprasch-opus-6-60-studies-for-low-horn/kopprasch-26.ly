@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../lilypond-center-note-column/center-note-column.ily"
 

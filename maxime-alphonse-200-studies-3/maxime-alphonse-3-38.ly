@@ -1,7 +1,7 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \relative {
-  \set Score.markFormatter = #format-mark-alphabet
+  \set Score.rehearsalMarkFormatter = #format-mark-alphabet
 
   \language "english"
 
@@ -14,7 +14,7 @@
   \time 4/4
 
   % This must be less than the priority of MetronomeMark objects:
-  % https://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
+  % https://lilypond.org/doc/v2.24/Documentation/notation/default-values-for-outside_002dstaff_002dpriority
   \once \override Score.RehearsalMark.outside-staff-priority = #900
   \mark \default % A
   r8 g'16 16 8 16 16 4:8 4:8 |

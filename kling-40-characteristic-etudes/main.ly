@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
 \header {
@@ -23,8 +23,7 @@ source-url = "https://imslp.org/wiki/40_Studies_for_Horn_(Kling%2C_Henri)"
   }
   \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
 

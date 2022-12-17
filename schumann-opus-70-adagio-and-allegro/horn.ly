@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Adagio_and_Allegro%2C_Op.70_(Schumann%2C_Robert)"
 \header {
@@ -16,10 +16,10 @@ source-url = "https://imslp.org/wiki/Adagio_and_Allegro%2C_Op.70_(Schumann%2C_Ro
 
 \layout {
   \accidentalStyle modern
-  \set Score.markFormatter = #format-mark-alphabet
-  \set Score.skipBars = ##t
   \context {
     \Score
+    rehearsalMarkFormatter = #format-mark-alphabet
+    skipBars = ##t
     \override Hairpin.after-line-breaking = ##t
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f

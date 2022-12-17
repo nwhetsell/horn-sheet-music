@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \relative {
   \language "english"
@@ -45,9 +45,7 @@
   c8 r a8.->( c16) b-flat8 r g8.->( a16) |
   \partial 2. {
     f4 f'16( \f c) a-. c-. f,4 | \bar "||"
-    \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-    \once \override Score.RehearsalMark.font-size = #0
-    \mark \markup { \musicglyph #"scripts.ufermata" }
+    \caesura \once \set Staff.caesuraType = #'((scripts . (fermata)))
   } |
   \partial 4 { c'16_\markup { \dynamic "mf" \italic "legato" }( b d c | }
 

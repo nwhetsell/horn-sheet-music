@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Le_carnaval_des_animaux_(Saint-Saëns%2C_Camille)"
 \header {
@@ -15,11 +15,10 @@ source-url = "https://imslp.org/wiki/Le_carnaval_des_animaux_(Saint-Saëns%2C_Ca
 \pointAndClickOff
 
 \layout {
-  \set Score.markFormatter = #format-mark-box-numbers
+  \set Score.rehearsalMarkFormatter = #format-mark-box-numbers
   \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
 

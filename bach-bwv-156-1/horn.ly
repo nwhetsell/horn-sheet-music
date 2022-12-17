@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "definitions.ily"
 \header {
@@ -9,7 +9,7 @@
 
 \layout {
   \numericTimeSignature
-  \set Score.markFormatter = #format-mark-box-alphabet
+  \set Score.rehearsalMarkFormatter = #format-mark-box-alphabet
   \context {
     \Score
     #(if preserve-line-breaks? #{

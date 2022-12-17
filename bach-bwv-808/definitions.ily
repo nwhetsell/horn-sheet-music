@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/English_Suite_No.3_in_G_minor%2C_BWV_808_(Bach%2C_Johann_Sebastian)"
 \header {
@@ -12,9 +12,9 @@ source-url = "https://imslp.org/wiki/English_Suite_No.3_in_G_minor%2C_BWV_808_(B
 \pointAndClickOff
 
 \layout {
-  \set Score.skipBars = ##t
   \context {
     \Score
+    skipBars = ##t
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f
     #})

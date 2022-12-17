@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
 \header {
@@ -14,9 +14,9 @@ source-url = "https://imslp.org/wiki/Romance,_Op.36_(Saint-Saëns,_Camille)"
 \pointAndClickOff
 
 \layout {
-  \set Score.skipBars = ##t
   \context {
     \Score
+    skipBars = ##t
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f
     #})

@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \relative {
   \language "english"
@@ -25,7 +25,7 @@
   <<
     {
       % This must be less than the priority of MetronomeMark objects:
-      % https://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
+      % https://lilypond.org/doc/v2.24/Documentation/notation/default-values-for-outside_002dstaff_002dpriority
       \once \override Score.RehearsalMark.outside-staff-priority = #900
       \mark \default % A
       b'16->_\markup { \dynamic "f" \italic "staccato" } 16 8 f-sharp b f-sharp b d4 b8 16-> 16 8 d b16 a-sharp b8 r |

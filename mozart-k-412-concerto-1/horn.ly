@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Horn_Concerto_in_D_major,_K.412/386b_(Mozart,_Wolfgang_Amadeus)"
 \header {
@@ -15,10 +15,10 @@ source-url = "https://imslp.org/wiki/Horn_Concerto_in_D_major,_K.412/386b_(Mozar
 \pointAndClickOff
 
 \layout {
-  \set Score.markFormatter = #format-mark-alphabet
-  \set Score.skipBars = ##t
   \context {
     \Score
+    rehearsalMarkFormatter = #format-mark-alphabet
+    skipBars = ##t
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f
     #})

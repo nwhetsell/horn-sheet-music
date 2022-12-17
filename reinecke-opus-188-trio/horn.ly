@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.188_(Reinecke%2C_Carl)"
 \header {
@@ -16,24 +16,25 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
 
 \layout {
   \accidentalStyle modern
-  \set Score.skipBars = ##t
   \context {
     \Score
+    skipBars = ##t
     \override Hairpin.after-line-breaking = ##t
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f
     #})
     \override PercentRepeatCounter.staff-padding = #0.5
   }
+  \context {
+    \Voice
+    \consists Melody_engraver
+  }
 }
 
 \score {
   \header { piece = "I" }
   \new Staff <<
-    \new Voice \with {
-      \consists "Melody_engraver"
-      \override Stem.neutral-direction = #'()
-    } \relative {
+    \new Voice \relative {
       \language "english"
 
       \transposition f
@@ -257,9 +258,6 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
 
 \score {
   \header { piece = "II — Scherzo" }
-  % TODO: This staff should use a Melody_engraver, but it’s impossible to use a
-  % Melody_engraver when a Voice includes a CueVoice; this is a bug in LilyPond:
-  % https://gitlab.com/lilypond/lilypond/-/issues/6093
   \new Staff <<
     \new Voice \relative {
       \language "english"
@@ -482,10 +480,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
 \score {
   \header { piece = "III" }
   \new Staff <<
-    \new Voice \with {
-      \consists "Melody_engraver"
-      \override Stem.neutral-direction = #'()
-    } \relative {
+    \new Voice \relative {
       \language "english"
 
       \transposition f
@@ -583,8 +578,7 @@ source-url = "https://imslp.org/wiki/Trio_for_Piano%2C_Oboe%2C_and_Horn%2C_Op.18
   \header { piece = "IV — Finale" }
   \new Staff <<
     \new Voice \with {
-      \consists "Melody_engraver"
-      \override Stem.neutral-direction = #'()
+      \consists Melody_engraver
     } \relative {
       \language "english"
 

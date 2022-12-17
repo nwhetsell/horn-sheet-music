@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "definitions.ily"
 \include "flute-1.ily"
@@ -27,7 +27,7 @@
     \new Staff \with {
       instrumentName = "Flute"
       fontSize = #-3
-      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol.staff-space = #(magstep -3)
     } {
       <<
         \flute-one
@@ -38,7 +38,7 @@
     \new Staff \with {
       instrumentName = "Horn in F"
       fontSize = #-3
-      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol.staff-space = #(magstep -3)
     } {
       <<
         \horn-one
@@ -198,7 +198,7 @@
             }
 
             \new Staff="up2" \with {
-              \remove "Time_signature_engraver"
+              \remove Time_signature_engraver
               alignAboveContext = "up"
             } {
               \key d-flat \major
@@ -543,7 +543,7 @@
     \new Staff \with {
       instrumentName = "Flute"
       fontSize = #-3
-      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol.staff-space = #(magstep -3)
     } {
       <<
         \flute-three
@@ -554,7 +554,7 @@
     \new Staff \with {
       instrumentName = "Horn in F"
       fontSize = #-3
-      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol.staff-space = #(magstep -3)
     } {
       <<
         \horn-three

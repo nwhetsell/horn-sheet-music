@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Camille)"
 \header {
@@ -15,20 +15,20 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
 \pointAndClickOff
 
 \layout {
-  \set Score.markFormatter = #format-mark-box-barnumbers
-  \set Score.skipBars = ##t
-  \override Score.RehearsalMark.font-size = #0
   \context {
     \Score
+    rehearsalMarkFormatter = #format-mark-box-barnumbers
+    skipBars = ##t
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f
     #})
+    \override RehearsalMark.font-size = #0
   }
 }
 
 \score {
   \new StaffGroup \with {
-    \remove "System_start_delimiter_engraver"
+    \remove System_start_delimiter_engraver
   }
   <<
     \new Staff="main" <<
@@ -130,9 +130,8 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
         g2. |
 
         R2. \bar "||"
-        \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-        \once \override Score.RehearsalMark.font-size = #0
-        \mark \markup {
+        \once \override Score.TextMark.self-alignment-X = #CENTER
+        \textMark \markup {
           \center-column {
             \small \italic "On peut passer au signe"
             \small "(We can go to the sign)"
@@ -172,9 +171,8 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
         g2. |
 
         R2. \bar "||"
-        \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-        \once \override Score.RehearsalMark.font-size = #0
-        \mark \markup { \musicglyph #"scripts.coda" }
+        \once \override Score.TextMark.self-alignment-X = #CENTER
+        \textMark \markup { \musicglyph #"scripts.coda" }
         R2.*10
 
         <<
@@ -305,8 +303,8 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
         b4 f'2-> d4->~ |
         d4 a2-> g4) |
         g2 a4( b8 c) | \bar "||"
-        \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-        \mark \markup {
+        \once \override Score.TextMark.self-alignment-X = #CENTER
+        \textMark \markup {
           \center-column {
             \small \italic "On peut passer au signe"
             \vspace #0.1
@@ -327,7 +325,7 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
           }
 
           \new Staff \with {
-            \remove "Time_signature_engraver"
+            \remove Time_signature_engraver
             alignAboveContext = "main"
             \magnifyStaff #(magstep -3)
           } {
@@ -347,8 +345,8 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
         g'4->( \mf e-> c-> g->) |
         \revert Script.avoid-slur
         b4( a b c) | \bar "||"
-        \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-        \mark \markup { \musicglyph #"scripts.coda" }
+        \once \override Score.TextMark.self-alignment-X = #CENTER
+        \textMark \markup { \musicglyph #"scripts.coda" }
         c2->( g4) r |
         \override Script.avoid-slur = #'inside
         r4 g->( g-> g->) |
@@ -369,8 +367,8 @@ source-url = "https://imslp.org/wiki/Morceau_de_Concert,_Op.94_(Saint-Saëns,_Ca
           }
 
           \new Staff \with {
-            \remove "Clef_engraver"
-            \remove "Time_signature_engraver"
+            \remove Clef_engraver
+            \remove Time_signature_engraver
             alignAboveContext = "main"
             \magnifyStaff #(magstep -3)
           } {

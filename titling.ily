@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \paper {
   #(set-paper-size "letter")
@@ -47,11 +47,11 @@
     \abs-fontsize #10
     \column {
       \fill-line {
-        \on-the-fly #not-part-first-page \fromproperty #'header:title
-        \on-the-fly #not-part-first-page \fromproperty #'header:composer-last-name
-        \on-the-fly #print-page-number-check-first \fromproperty #'page:page-number-string
+        \unless \on-first-page-of-part \fromproperty #'header:title
+        \unless \on-first-page-of-part \fromproperty #'header:composer-last-name
+        \if \should-print-page-number \fromproperty #'page:page-number-string
       }
-      \on-the-fly #not-part-first-page \vspace #1.5
+      \unless \on-first-page-of-part \vspace #1.5
     }
   }
 

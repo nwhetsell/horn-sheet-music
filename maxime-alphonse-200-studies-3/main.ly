@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progressives_pour_cor_(Alphonse,_Maxime)"
 \header {
@@ -33,9 +33,12 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     \override TupletBracket.bracket-visibility = #'if-no-beam
   }
   \context {
+    \StandaloneRhythmVoice
+    \override Stem.details.beamed-lengths = #'(2)
+  }
+  \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
 
@@ -46,35 +49,13 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   ( 2 . ,#{ \markup { \justify {
     Slur flexibly and be careful not to restrain the tempo.
     For the rhythm
-    \raise #0.3 \score {
-      \new Staff \with {
-        \override StaffSymbol.line-count = 0
-        \override Stem.details.beamed-lengths = #'(2)
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
-        \magnifyStaff #(magstep -3)
-      } {
-        \relative { \time 6/8 \stemUp b'8. 16 8 }
-      }
-    }
+    { \override #'(font-size . -3) \rhythm { 8.[ 16 8] } }
     slightly exaggerate the length of the dotted quaver
     and the shortness of the semiquaver, so as to achieve an effect like
-    \raise #0.3 \pad-to-box #'(0 . 0) #'(0 . 3) \score {
-      \new Staff \with {
-        \override StaffSymbol.line-count = 0
-        \override Stem.details.beamed-lengths = #'(2)
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
-        \magnifyStaff #(magstep -3)
-      } {
-        \relative { \time 6/8 \stemUp b'8.. 32 8 }
-      }
-    }
+    { \override #'(font-size . -3) \rhythm { 8..[ 32 8] } }
   } } #})
   ( 3 . ,#{ \markup { \justify {
-    The quavers followed by \raise #0.75 \rest "8" or \raise #0.75 \rest "16"
+    The quavers followed by \raise #0.75 \rest {8} or \raise #0.75 \rest {16}
     shall never be extended beyond their value.
     Respect accents and dynamics.
   } } #})
@@ -121,23 +102,12 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   (15 . ,#{ \markup { \justify {
     Staccato without slackening the speed;
     all notes should be attacked similarly and in the same strength;
-    this concerns particularly the semiquavers followed by \raise #0.75 \rest "16"
+    this concerns particularly the semiquavers followed by \raise #0.75 \rest {16}
     which should not either be overextended.
   } } #})
   (16 . ,#{ \markup { \justify {
     Practice the rhythm
-    \raise #0.3 \score {
-      \new Staff \with {
-        \override StaffSymbol.line-count = 0
-        \override Stem.details.beamed-lengths = #'(2)
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
-        \magnifyStaff #(magstep -3)
-      } {
-        \relative { \time 6/8 \stemUp b'8. 16 8 }
-      }
-    }
+    { \override #'(font-size . -3) \rhythm { 8.[ 16 8] } }
     remembering the explanations for "№ 2."
   } } #})
   (17 . ,#{ \markup { \justify {
@@ -191,7 +161,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                     \context {
                       \Score
                       \omit BarNumber
-                      markFormatter = #format-mark-numbers
+                      rehearsalMarkFormatter = #format-mark-numbers
                     }
                   }
                   \include #(format #f "alternates/~a-alternates.ly" base-name)

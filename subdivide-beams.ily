@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 #(define subdivide-beams (define-music-function (baseMoment beatStructure music) (rational? list? ly:music?)
 #{

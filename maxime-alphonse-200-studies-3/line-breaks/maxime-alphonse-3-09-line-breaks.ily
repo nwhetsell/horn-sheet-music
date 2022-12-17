@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 {
   s4 s2.*8 \break

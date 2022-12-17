@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "../turn-markup.ily"
 \include "settings.ily"
@@ -38,7 +38,7 @@
     {
       s8
       % This must be less than the priority of DynamicLineSpanner objects:
-      % https://lilypond.org/doc/Documentation/learning/outside_002dstaff-objects#the-outside_002dstaff_002dpriority-property
+      % https://lilypond.org/doc/v2.24/Documentation/notation/default-values-for-outside_002dstaff_002dpriority
       \once \override Staff.TextScript.outside-staff-priority = #240
       s_\turn-markup s8 s^\turn-markup
     }

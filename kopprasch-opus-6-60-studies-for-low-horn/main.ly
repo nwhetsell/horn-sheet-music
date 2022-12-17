@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2C_Georg)"
 \header {
@@ -40,8 +40,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
   }
   \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
 
@@ -87,7 +86,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
     and all notes open or, after transposition, on
     "No. 1" (in \concat { \append-flat E ) , } "No. 2" \concat { "(in E)" , } or "No. 3" "(in D)" valve.
   } } #})
-  (11 . ,#{ \markup { It is better to practice this study before \concat { "No. 43" . } } #})
+  (11 . ,#{ \markup { It is better to practice this study before \concat { "No. 43" . } } #})
   (21 . ,#{ \markup { Played like \concat { "No. 13" . } } #})))
 
 #(define studies-with-alternates '(3 4 6 8 10 12 13 17 36 37 39 40))
@@ -107,12 +106,10 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
               #(if (= study-number 26)
                 #{
                   % kopprasch-26.ly uses \centerNoteColumnOn, but using
-                  % Melody_engraver apparently breaks this, so use default stem
-                  % directions.
+                  % Melody_engraver apparently breaks this.
                   \new Voice \with {
-                    \remove "Melody_engraver"
+                    \remove Melody_engraver
                   } {
-                    \override Stem.neutral-direction = #DOWN
                     \include #(format #f "~a.ly" base-name)
                   }
                 #}
@@ -139,7 +136,7 @@ source-url = "https://imslp.org/wiki/60_Etudes_for_Low-Horn%2C_Op.6_(Kopprasch%2
                     \context {
                       \Score
                       \omit BarNumber
-                      markFormatter = #format-mark-numbers
+                      rehearsalMarkFormatter = #format-mark-numbers
                     }
                   }
                   \include #(format #f "alternates/~a-alternates.ly" base-name)

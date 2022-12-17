@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \include "definitions.ily"
 
@@ -20,7 +20,7 @@
     \new Staff \with {
       instrumentName = "Horn in F"
       fontSize = #-3
-      \override StaffSymbol #'staff-space = #(magstep -3)
+      \override StaffSymbol.staff-space = #(magstep -3)
     } {
       \include "horn.ily"
     }

@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
 \header {
@@ -15,9 +15,9 @@ source-url = "https://imslp.org/wiki/Nocturno%2C_Op.7_(Strauss%2C_Franz)"
 \pointAndClickOff
 
 \layout {
-  \set Score.skipBars = ##t
   \context {
     \Score
+    skipBars = ##t
     \override BreathingSign.Y-offset = #3
     #(if preserve-line-breaks? #{
       \override NonMusicalPaperColumn.line-break-permission = ##f

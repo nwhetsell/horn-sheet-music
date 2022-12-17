@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \relative c'' {
   \language "english"
@@ -133,7 +133,7 @@
   % g,8 \tuplet 5/4 { b'32-. d-. f-. d-. b-. }
   % g,8 \tuplet 5/4 { b32-.  d-. f-. d-. b-. } |
   %
-  % R1\fermata |
+  % R1 |
   %
   % c,8 \tuplet 5/4 { c'32-. e-. g-. e-. c-. }
   % c'8 \tuplet 5/4 { c,32-. e-. g-. e-. c-. }

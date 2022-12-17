@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progressives_pour_cor_(Alphonse,_Maxime)"
 \header {
@@ -34,8 +34,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   }
   \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
 
@@ -58,7 +57,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   } } #})
   ( 7 . ,#{ \markup { \justify {
     Respect the values of the quavers
-    and do not extend them on \raise #0.75 \rest "8"
+    and do not extend them on \raise #0.75 \rest {8}
   } } #})
   ( 8 . ,#{ \markup { \justify {
     The first quaver shall be strong but short and the syncops well stressed.
@@ -67,9 +66,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     In sliding passages
     \raise #0.5 \score {
       \new Staff \with {
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
+        \remove Bar_engraver
+        \remove Clef_engraver
+        \remove Time_signature_engraver
         \magnifyStaff #(magstep -3)
       } {
         \relative { \time 4/4 a'8.( c16) b8.( d16) }
@@ -89,9 +88,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     Avoid the effect
     \raise #0.5 \score {
       \new Staff \with {
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
+        \remove Bar_engraver
+        \remove Clef_engraver
+        \remove Time_signature_engraver
         \magnifyStaff #(magstep -3)
       } {
         \relative { \time 3/4 d''8->( c16) r16 8->( b16) r }
@@ -188,9 +187,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     Well slurred. In the rhythm
     \raise #0.5 \score {
       \new Staff \with {
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
+        \remove Bar_engraver
+        \remove Clef_engraver
+        \remove Time_signature_engraver
         \magnifyStaff #(magstep -3)
       } {
         \relative { \time 6/8 d'4( f8) e4( g8) }

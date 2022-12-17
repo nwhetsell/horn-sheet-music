@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progressives_pour_cor_(Alphonse,_Maxime)"
 \header {
@@ -34,8 +34,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
   }
   \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
 
@@ -45,7 +44,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     The notes will all be attacked similarly by pronouncing the syllable “tu”:
     \raise #0.5 \score {
       \new Staff \with {
-        \remove "Bar_engraver"
+        \remove Bar_engraver
         \magnifyStaff #(magstep -3)
       } {
         <<
@@ -77,9 +76,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     in those bars repeating the rhythms of the third and fourth beats:
     \concat { \raise #0.5 \score {
       \new Staff \with {
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
+        \remove Bar_engraver
+        \remove Clef_engraver
+        \remove Time_signature_engraver
         \magnifyStaff #(magstep -3)
       } {
         \relative { \time 3/4 c''4-> f,4.-- d'8-. }
@@ -100,9 +99,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     Do not rush the turns, but keep the first note fairly long:
     \concat { \raise #0.5 \score {
       \new Staff \with {
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
+        \remove Bar_engraver
+        \remove Clef_engraver
+        \remove Time_signature_engraver
         \magnifyStaff #(magstep -3)
       } {
         \relative { \time 2/4 d'8~( 32 e d c d8 f) }
@@ -142,9 +141,9 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
     attack the 3 notes in the same manner, with the same strength;
     avoid the dynamic: \concat { \raise #0.5 \score {
       \new Staff \with {
-        \remove "Bar_engraver"
-        \remove "Clef_engraver"
-        \remove "Time_signature_engraver"
+        \remove Bar_engraver
+        \remove Clef_engraver
+        \remove Time_signature_engraver
         \magnifyStaff #(magstep -3)
       } {
         \relative { r8 e'-. \< a-. e'-. \! r e-. \> a,-. e-. \! }
@@ -295,7 +294,7 @@ source-url = "https://imslp.org/wiki/200_Études_nouvelles_mélodiques_et_progre
                     \context {
                       \Score
                       \omit BarNumber
-                      markFormatter = #format-mark-numbers
+                      rehearsalMarkFormatter = #format-mark-numbers
                     }
                   }
                   \include #(format #f "alternates/~a-alternates.ly" base-name)

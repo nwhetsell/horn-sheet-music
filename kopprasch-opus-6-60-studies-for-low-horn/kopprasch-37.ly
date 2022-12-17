@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \relative {
   \language "english"
@@ -24,9 +24,7 @@
   g8[ \f \breathe e'16( d)] f-sharp,-. a-. e'( d) g,-. b-. e( d) f-sharp,-. a-. e'( d) |
   b16-. d( g) b,-. a-. c( e) a,-. g-. b( d) g,-. f-sharp-. a( d) f-sharp,-. |
   g16( b) d,-. f-sharp-. g( b) d,-. f-sharp-. g4 r | \bar "||"
-  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \once \override Score.RehearsalMark.font-size = #0
-  \mark \markup { \musicglyph #"scripts.ufermata" }
+  \caesura \once \set Staff.caesuraType = #'((scripts . (fermata)))
 
   e16( \p g) b,-. d-sharp-. e( g) b,-. d-sharp-. e( g) b-. g-. e8 r |
   e16( \mf g) c,-. d-sharp-. e( g) c,-. d-sharp-. e( g) c-. g-. e8 r |

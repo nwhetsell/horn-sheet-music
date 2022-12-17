@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 \relative {
   \language "english"
@@ -30,9 +30,7 @@
   f8-. <a'' \tweak font-size #-2 c,>-. f-. f-sharp,,-. |
   g8-. \dim f''-. d-. b,-. |
   c8-. e'-. c-. \bar "||"
-  \once \override Score.RehearsalMark.break-visibility = #begin-of-line-invisible
-  \once \override Score.RehearsalMark.font-size = #0
-  \mark \markup { \musicglyph #"scripts.ufermata" }
+  \caesura \once \set Staff.caesuraType = #'((scripts . (fermata)))
 
   \tempo "Adagio"
   c,8( \p |

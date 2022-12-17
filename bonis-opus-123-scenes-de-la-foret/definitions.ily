@@ -1,4 +1,4 @@
-\version "2.22.0"
+\version "2.24.0"
 
 source-url = "https://imslp.org/wiki/Scènes_de_la_forêt_(Bonis%2C_Mel)"
 \header {
@@ -13,10 +13,10 @@ source-url = "https://imslp.org/wiki/Scènes_de_la_forêt_(Bonis%2C_Mel)"
 \pointAndClickOff
 
 \layout {
-  \set Score.markFormatter = #format-mark-box-numbers
-  \set Score.skipBars = ##t
   \context {
     \Score
+    rehearsalMarkFormatter = #format-mark-box-numbers
+    skipBars = ##t
     \override TextSpanner.style = #'line
     \override TextSpanner.bound-details.left.padding = #0.6
     \override TextSpanner.bound-details.left.stencil-align-dir-y = #CENTER
@@ -24,7 +24,6 @@ source-url = "https://imslp.org/wiki/Scènes_de_la_forêt_(Bonis%2C_Mel)"
   }
   \context {
     \Voice
-    \consists "Melody_engraver"
-    \override Stem.neutral-direction = #'()
+    \consists Melody_engraver
   }
 }
