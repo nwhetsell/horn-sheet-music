@@ -17,7 +17,7 @@
     b4 \f d c2\fermata |
     d4 \f f e g |
     f4 d e c |
-    d4 \> e c a |
+    d4 \> b c a |
     b4 \p a g2\fermata \breathe |
     c,4 \p e d f |
     e4 \cresc g f a |
