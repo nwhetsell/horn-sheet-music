@@ -46,14 +46,14 @@
     c'16( \mf b) a-. g-. f-sharp-. a-. b( a) g-. f-sharp-. e-. g-. |
     a16( g) f-sharp-. e-. d-sharp-. f-sharp-. b,4 r8 |
     c16( \p b) c-. d-. e-. c-. d( c) d-. e-. f-. d-. |
-    e16( \cresc d) e-. f-. g-. e-. f( e) e-. g-. a-. f-. |
+    e16( \cresc d) e-. f-. g-. e-. f( e) f-. g-. a-. f-. |
     g16( f-sharp) g-. a-. b-. g-. a( g) a-. b-. c-. a-. |
     b16( a) b-. a-. d-. b-. c4 r8 |
     e,8( \f e' d) c16( d c) a-. b-. c-. |
     d,8( d' c) b16( c b) g-. a-. b-. |
     c16( b) a-. g-. f-sharp-. a-. d( c) b-. a-. g-. b-. |
     e16( d) c-. b-. a-. c-. f-sharp( e) d-. c-. b-. a-. |
-    g16 r g( \p \< a) b-. a-. a( g) a-. b-. c-. a-. |
+    g16 r g( \p \< a) b-. g-. a( g) a-. b-. c-. a-. |
     b16( a) b-. c-. d-. b-. g4 \! r8 |
     c16( \f b) c-. d-. e-. c-. d( c) d-. e-. f-. d-. |
     e16( d) e-. f-. g-. e-. c-sharp8 a16( b) c-sharp-. a-. |
