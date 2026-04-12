@@ -48,7 +48,7 @@
     c16( \p b) c-. d-. e-. c-. d( c) d-. e-. f-. d-. |
     e16( \cresc d) e-. f-. g-. e-. f( e) f-. g-. a-. f-. |
     g16( f-sharp) g-. a-. b-. g-. a( g) a-. b-. c-. a-. |
-    b16( a) b-. a-. d-. b-. c4 r8 |
+    b16( a) b-. c-. d-. b-. c4 r8 |
     e,8( \f e' d) c16( d c) a-. b-. c-. |
     d,8( d' c) b16( c b) g-. a-. b-. |
     c16( b) a-. g-. f-sharp-. a-. d( c) b-. a-. g-. b-. |
