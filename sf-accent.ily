@@ -13,14 +13,15 @@
 #})
 
 (append! default-script-alist
-  (list
-    `(sf-accent
+  `(
+    (sf-accent
       . (
           (stencil . ,ly:text-interface::print)
           (text . ,sf-accent-markup)
           (avoid-slur . around)
           (padding . 0.3)
-          (direction . ,DOWN)))))
+          (direction . ,DOWN)
+          (side-axis . ,Y)))))
 
 (define sf-accent (make-articulation 'sf-accent))
 
